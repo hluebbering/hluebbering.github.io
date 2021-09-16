@@ -17,8 +17,7 @@ date: "2016-04-27T00:00:00Z"
 [<span style="color:#0c008f; font-family: Babas;">**CLICK HERE**</span>](https://hannahluebbering.shinyapps.io/tidy-tutorial/) 
 for full shiny tutorial
 
-The tidyverse package provides tidy tools and tidy data. Tidy datasets are an organization in R that requires a structured format. The package’s tools save us time and effort in data wrangling and altering, and hence, help tidy up cluttered datasets into tidy datasets. 
-
+The tidyverse package provides tidy data and tools. Tidy datasets are an organization in R that requires a structured format. Making a dataset tidy requires 3 rules: variables are in columns, observations are in rows, and values are in cells. The package’s tools save us time and effort in data wrangling and altering, and hence, help tidy up cluttered datasets into tidy datasets. 
 
 <p>&nbsp;</p>
 
