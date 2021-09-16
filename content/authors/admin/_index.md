@@ -42,6 +42,10 @@ social:
   link: https://www.linkedin.com/in/hannah-luebbering-99609818a/
 - icon: external-link-alt
   icon_pack: fas
+  link: https://hluebbering.github.io/posts/
+- icon: envelope
+  icon_pack: fas
+  link: "mailto:luebhr@gmail.com?"
 
 # {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/luebbering_resume.pdf" "newtab" >}}resume{{< /staticref >}}.
 
