@@ -1,15 +1,10 @@
 @import url("https://use.typekit.net/giu3cqx.css");
 @import url("https://use.typekit.net/dek1tku.css");
 
-.avatar {
-	width: 190px;
-	height: 190px;
-	margin: 0 auto;
-}
 
 .wg-about .avatar {
-    width: 170px;
-    height: 170px;
+    width: 185px;
+    height: 185px;
 }
 
 .navbar {
@@ -35,7 +30,7 @@
 
 .navbar .navbar-nav .nav-link.active {
   font-weight: 700!important;
-  color: #69b0e2!important;
+  color: #0468BF!important;
 }
 
 .navbar-light .navbar-brand {
@@ -45,10 +40,14 @@
 	font-weight: 500;
 }
 
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+  color: #0468BF;
+}
 .featurette .section-subheading {
   font-size: 11pt!important;
   font-family: 'source-sans-pro';
   font-weight: 400;
+  line-height: initial;
 }
 
 .featurette-icon{
@@ -90,18 +89,22 @@ h3 {
 }
 
 .portrait-title h2 {
-	color: midnightblue;
+	/*color: midnightblue;*/
+	color: #012340;
   margin: 10px 20px 5px 20px;
   font-weight: 700;
   font-family: bebas-neue,sans-serif;
   line-height: 28pt;
   font-size: 28pt;
 }
-
+a {
+  color: #0468BF;
+}
 .portrait-title h3 {
 	font-size: 12.4pt;
   letter-spacing: -0.25px;
-  color: rgba(0,0,0,.54);
+  color: #023E73;
+  opacity: 0.9;
   font-family: source-sans-pro,sans-serif;
   font-weight: 500;
   line-height: 20px;
@@ -109,20 +112,24 @@ h3 {
 }
 
 #profile .network-icon {
-  margin-top: 18px;
+  margin-top: 6px;
 }
 
 .big-icon {
-  color: #154C7D;
-  opacity: 0.8;
-  font-size: 1.4rem;
+  color: #3D83BF;
+  opacity: 0.85;
+  font-size: 1.1rem;
   padding: 4px;
   margin-top: -1em;
 }
 
+.fa-li {
+  font-size: 0.85rem;
+}
+
 p {
   opacity: .8;
-  font-size: 13pt!important;
+  font-size: 12pt!important;
   font-family: 'source-sans-pro';
   font-weight: 200;
 }
@@ -150,13 +157,14 @@ ul, ol, dl {
 	font-family: 'source-sans-pro';
 	font-weight: 500;
 	text-transform: none;
-	color: #343a40 !important;
+	color: #023E73 !important;
 }
 
 .exp-company {
   font-size: 10pt!important;
   font-family: 'source-sans-pro';
   font-weight: 400;
+  color: #3D83BF !important;
 }
 
 .exp-meta {
@@ -178,7 +186,7 @@ ul, ol, dl {
 	font-size: 11pt;
   font-family: 'source-sans-pro';
   font-weight: 400;
-  color: #366699!important;
+  color: #0468BF!important; /*#0E4A9E*/
 }
 
 .card .card-text p {
@@ -190,11 +198,11 @@ ul, ol, dl {
 }
 
 ul.ul-edu li .description p.course {
-  color: #366699;
+  color: #30373c; /*#0468BF*/
   opacity: .85;
   font-size: 11pt!important;
   font-family: 'source-sans-pro';
-  font-weight: 200;
+  font-weight: 400;
 }
 
 ul.ul-edu li .description p.institution {
@@ -217,7 +225,14 @@ ul.nav-icons li.nav-item a.nav-link {
 	padding: 0;
 	color: #535556;
 }
+.btn-primary {
+  background: #2C5E8A; /*#3E669E*/
+}
 
+.btn-toolbar .btn.btn-primary.active {
+  background: #2C5E8A;
+  font-weight: bold;
+}
 .btn-toolbar .btn {
 	padding: 10px 14px 9px;
 	border: none;
@@ -235,5 +250,8 @@ h4.card-title.exp-company.text-muted.my-0 {
   color: rgba(52, 58, 64, .84)!important;
 }
 
+.experience .m-2 .border, .experience .col.border-right {
+  border-color: #3D83BF !important;
+}
 
 

@@ -2,6 +2,8 @@
 # Display name
 title: Hannah Luebbering
 
+# Image Quality - themes/github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5/layouts/partials/widgets/about.html
+
 # Role/position
 role: Data Science and Applied Mathematics
 
@@ -27,9 +29,6 @@ education:
   - course: BS, Applied Mathematics
     institution: Wake Forest University
     year: 2021
-  - course: Study Abroad, Real Analysis and Python
-    institution: University of Sydney
-    year: 2019
     
 role: Data Science and Applied Mathematics
 
@@ -47,8 +46,6 @@ social:
   icon_pack: fas
   link: "mailto:luebhr@gmail.com?"
 
-# {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/luebbering_resume.pdf" "newtab" >}}resume{{< /staticref >}}.
-
 ---
 
 ### About 
@@ -56,3 +53,4 @@ social:
 Data Science graduate student at the University of Washington. Excited to apply mathematics and programming skills to solve real-world problems. Motivated to learn, grow, and excel in data science and technology to improve others’ quality of life.
 
 
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/luebbering_resume.pdf" "newtab" >}}resume{{< /staticref >}}.
