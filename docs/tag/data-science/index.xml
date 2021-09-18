@@ -29,7 +29,7 @@
 &lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;https://hannahluebbering.shinyapps.io/tidy-tutorial/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;span style=&#34;color:#0c008f; font-family: Babas;&#34;&gt;&lt;strong&gt;CLICK HERE&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt; 
 for full shiny tutorial&lt;/p&gt;
-&lt;p&gt;The tidyverse package provides tidy tools and tidy data. Tidy datasets are an organization in R that requires a structured format. The package’s tools save us time and effort in data wrangling and altering, and hence, help tidy up cluttered datasets into tidy datasets.&lt;/p&gt;
+&lt;p&gt;The tidyverse package provides tidy data and tools. Tidy datasets are an organization in R that requires a structured format. Making a dataset tidy requires 3 rules: variables are in columns, observations are in rows, and values are in cells. The package’s tools save us time and effort in data wrangling and altering, and hence, help tidy up cluttered datasets into tidy datasets.&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&#34;color: #f2cf4a; font-family: Babas; font-size: 2em;&#34;&gt;Base-List-Data-Frame &lt;/span&gt;&lt;/p&gt;
 &lt;hr&gt;
