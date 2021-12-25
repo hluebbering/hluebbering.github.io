@@ -14,6 +14,9 @@ subtitle:
 
 design:
   columns: '1'
+  
+active: true
+
 ---
 
 {{< gallery album="gallery1" >}}

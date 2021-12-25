@@ -50,7 +50,7 @@ social:
 
 ### About 
 
-Data Science graduate student at the University of Washington. Excited to apply mathematics and programming skills to solve real-world problems. Motivated to learn, grow, and excel in data science and technology to improve others’ quality of life.
+Data Science graduate student at the University of Washington. Excited to apply mathematics and programming skills to solve real-world problems. Motivated to learn, grow, and excel in data science and technology to improve other's quality of life.
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/luebbering_resume.pdf" "newtab" >}}resume{{< /staticref >}}.

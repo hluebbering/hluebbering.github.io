@@ -5,7 +5,7 @@
     <link>https://hluebbering.github.io/</link>
       <atom:link href="https://hluebbering.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Hannah Luebbering</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hluebbering.github.io/media/icon_huffb5be450da715bb590e0ce2d2c5024a_3035_512x512_fill_lanczos_center_3.png</url>
       <title>Hannah Luebbering</title>
@@ -105,6 +105,22 @@ The variance of the distribution is $\sigma^{2}$.
   &lt;summary&gt;What is the parameter $\mu$?&lt;/summary&gt;
   &lt;p&gt;The parameter $\mu$ is the mean or expectation of the distribution.&lt;/p&gt;
 &lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>Multimodal Neurons in Neural Networks</title>
+      <link>https://hluebbering.github.io/project/multimodal-neurons/</link>
+      <pubDate>Sat, 27 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://hluebbering.github.io/project/multimodal-neurons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploratory Visual Analysis</title>
+      <link>https://hluebbering.github.io/project/exploratory-analysis/</link>
+      <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://hluebbering.github.io/project/exploratory-analysis/</guid>
+      <description></description>
     </item>
     
     <item>

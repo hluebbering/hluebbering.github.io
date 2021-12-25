@@ -10,7 +10,7 @@ main:
   - name: Projects
     url: '#projects'
     weight: 20
-  - name: Posts
+  - name: Blog
     url: 'https://hluebbering.github.io/posts/'
     weight: 30
   - name: CV
