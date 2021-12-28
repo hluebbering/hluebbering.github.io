@@ -20,3 +20,5 @@ active: true
 ---
 
 {{< gallery album="gallery1" >}}
+
+

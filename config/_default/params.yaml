@@ -6,9 +6,9 @@
 # Appearance
 
 theme: minimal
-day_night: true
+day_night: false
 font: ''
-font_size: L
+font_size: S
 
 # SEO
 
@@ -20,8 +20,8 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: luebhr@gmail.com
-phone: 913 449 2378
+#email: luebhr@gmail.com
+#phone: 913 449 2378
 # address:
 #   street: 450 Serra Mall
 #   city: Stanford
@@ -35,8 +35,13 @@ phone: 913 449 2378
 contact_links:
   - icon: twitter
     icon_pack: fab
-    name: DM Me
-    link: 'https://twitter.com/Twitter'
+#    name: DM Me
+    link: ''
+  - icon: facebook
+    icon_pack: fab
+#    name: DM Me
+    link: ''
+
 
 
 # Site header
@@ -46,8 +51,8 @@ main_menu:
   align: l
   show_logo: true
   show_language: false
-  show_day_night: true
-  show_search: true
+  show_day_night: false
+  show_search: false
   highlight_active_link: true
 
 # Localization
