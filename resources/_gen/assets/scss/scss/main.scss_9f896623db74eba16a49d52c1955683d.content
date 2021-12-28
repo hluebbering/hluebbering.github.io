@@ -9719,3 +9719,16 @@ h4.card-title.exp-company.text-muted.my-0 {
 
 .experience .m-2 .border, .experience .col.border-right {
   border-color: #3D83BF !important; }
+
+h1.mb-0 {
+  margin: 0 auto 0px auto; }
+
+/*@media (min-width: 99px){
+.col-lg-8 {
+  flex: 0 0 60.666667%;
+  max-width: 60.666667%;
+  }
+}*/
+.isotope.projects-container.js-layout-masonry {
+  margin-right: 20px;
+  overflow: visible; }
