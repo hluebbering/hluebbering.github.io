@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Hannah Luebbering</title>
+    <link>https://hluebbering.github.io/tags/</link>
+    <description>Recent content in Tags on Hannah Luebbering</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Fri, 20 May 2022 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://hluebbering.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data Science</title>
+      <link>https://hluebbering.github.io/tags/data-science/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hluebbering.github.io/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://hluebbering.github.io/tags/r/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hluebbering.github.io/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://hluebbering.github.io/tags/machine-learning/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hluebbering.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mathematics</title>
+      <link>https://hluebbering.github.io/tags/mathematics/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hluebbering.github.io/tags/mathematics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://hluebbering.github.io/tags/python/</link>
+      <pubDate>Mon, 24 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hluebbering.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo</title>
+      <link>https://hluebbering.github.io/tags/demo/</link>
+      <pubDate>Thu, 19 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hluebbering.github.io/tags/demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neuroscience</title>
+      <link>https://hluebbering.github.io/tags/neuroscience/</link>
+      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hluebbering.github.io/tags/neuroscience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Other</title>
+      <link>https://hluebbering.github.io/tags/other/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hluebbering.github.io/tags/other/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

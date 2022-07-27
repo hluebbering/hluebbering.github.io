@@ -1,0 +1,18 @@
+baseurl: 'https://hluebbering.github.io/' # Website URL
+languageCode: en-us
+theme: "academia-hugo-master"
+title: Hannah Luebbering # Website name
+publishDir: "docs"
+permalinks:
+  post: /:year/:month/:day/:slug/
+params:
+  MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
+  MathJaxVersion: 2.7.5
+  description: A website built through Hugo and blogdown.
+  favicon: favicon.ico
+  highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
+  highlightjsLang:
+    - r
+    - yaml
+  highlightjsTheme: github
+  highlightjsVersion: 9.12.0
