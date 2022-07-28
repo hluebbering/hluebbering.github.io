@@ -44,10 +44,6 @@ title = "Projects"
     name = "R"
     tag = "R"
   
-  [[content.filter_button]]
-    name = "Other"
-    tag = "Other"
-  
   
 
 [design]

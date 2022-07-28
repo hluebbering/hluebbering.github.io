@@ -31,21 +31,42 @@ li.nav-item {
 }
 .navbar {
   background: #f8f9fa !important;
+  background-size: cover !important;
+  background-position: 0% 45% !important;
 }
+
+.navbar::after {
+  content: "";
+  background-image: url(https://images.unsplash.com/photo-1517384084767-6bc118943770?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80) !important;
+  background-size: cover !important;
+  background-position: 0% 45% !important;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  filter: drop-shadow(1px 1px 1px black);
+}
+
 .navbar-light .navbar-nav>.nav-item>.nav-link:hover{
   color: #049587 !important;
+  color: #495057 !important;
 }
 .navbar-light .navbar-nav>li.nav-item>a.active, .navbar-light .navbar-nav>li.nav-item>a.active:focus, .navbar-light .navbar-nav>li.nav-item>a.active:hover {
   color: #ea386f !important;
   color: #178265 !important;
   color: #099F90 !important; 
   color: #049587 !important;
-  color: #365947 !important;
+  color: #3d3d3d !important;
   text-shadow: 0.5px 0.5px 0.5px rgb(0 0 0 / 20%);
   padding-right: 2px !important;
   padding-left: 2px !important;
   padding-bottom: 5px !important;
-  border-bottom: 3px dotted #8EBA69;
+  border-bottom: 3px dotted #049587;
+  filter: drop-shadow(0.5px 0.5px 0.15px #404040d9);
+
 
 }
 
@@ -128,10 +149,22 @@ h3 {
   text-shadow: 0.5px 0.5px 0.5px rgb(0 0 0 / 20%);
 }
 
-/* EDUCATION AND INTERESTS LIST  */ 
+/* EDUCATION AND INTERESTS LIST 
 i.fa-li.fas.fa-graduation-cap {
   color: #313131;
   text-shadow: 0.5px 0.5px 0.5px rgb(0 0 0 / 20%);
+} */ 
+ 
+i.fa-li.fas.fa-graduation-cap {
+    color: #313131;
+    background-image: url(https://images.unsplash.com/photo-1604233193955-0785a88e4d9c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80);
+    filter: drop-shadow(.5px .5px .25px rgb(0 0 0/.75));
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: none !important;
+    background-color: transparent;
+    font-size: 15pt;
 }
 
 ul.ul-edu li .description p.course {
@@ -166,24 +199,34 @@ ul, ol, dl {
   text-shadow: 0.5px 0.5px 0.5px rgb(0 0 0 / 20%);
 }
 .section-heading h1::before {
-  background-color: #ea386f;
-  background: #049587!important;
-  background: #8eba69 !important;
-  width: 6px;
-  height: 6px;
-  left: -17px;
-  top: 11px;
-  filter: drop-shadow(0.325px 0.325px 0.35px black);
+    background-color: #ea386f;
+    left: -22px;
+    top: 8px;
+    content: "";
+    display: inline-flex;
+    border-radius: 50%;
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    box-shadow: 0px 0.25px 0.25px 0.2px #605c5b70, 0.5px 0.5px 0.5px #fffbfc inset, 0 0.5px 1.5px rgb(0 0 0 / 12%), 0 0.5px 1px rgb(0 0 0 / 24%);
+    background-image: conic-gradient(#fff, #000, #fff, #000, #fff, #000, #fff, #000), conic-gradient(#fff, #000, #fff, #000, #fff, #000, #fff, #000), radial-gradient(circle at 40% 5%, #2ad0ca, #e1f664, #feb0fe, #abb3fc, #5df7a4, #58c4f6) !important;
+    background-blend-mode: screen, difference, normal !important;
+    filter: drop-shadow(0.25px 0.25px 0.25px rgb(0 0 0 / 50%));
 }
 .section-heading h1::after {
   background-color: #ea386f;
-  background: #049587!important;
-  background: #8eba69 !important;
-  width: 6px;
-  height: 6px;
-  right: -17px;
-  top: 11px;
-  filter: drop-shadow(0.325px 0.325px 0.35px black);
+    right: -22px;
+    top: 8px;
+    content: "";
+    display: inline-flex;
+    border-radius: 50%;
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    box-shadow: 0px 0.25px 0.25px 0.2px #605c5b70, 0.5px 0.5px 0.5px #fffbfc inset, 0 0.5px 1.5px rgb(0 0 0 / 12%), 0 0.5px 1px rgb(0 0 0 / 24%);
+    background-image: conic-gradient(#fff, #000, #fff, #000, #fff, #000, #fff, #000), conic-gradient(#fff, #000, #fff, #000, #fff, #000, #fff, #000), radial-gradient(circle at 40% 5%, #2ad0ca, #e1f664, #feb0fe, #abb3fc, #5df7a4, #58c4f6) !important;
+    background-blend-mode: screen, difference, normal !important;
+    filter: drop-shadow(0.25px 0.25px 0.25px rgb(0 0 0 / 50%));
 }
 
 
@@ -205,6 +248,11 @@ a.btn.btn-primary.btn-lg, .btn-primary {
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
     border: none !important;
+    margin-right: 4pt !important;
+}
+
+li a.btn.btn-primary.btn-lg {
+    padding: 9px 10px!important;
 }
 
 .dark a.btn.btn-primary.btn-lg,
@@ -402,12 +450,13 @@ ul.network-icon li a {
     text-decoration: none;
     transition: .5s;
     text-shadow: 0 1px 1px hsl(0deg 0% 10% / 65%), 0.04em 0.04em 0px hsl(0deg 0% 45% / 50%), -0.25px -0.25px 0.05px hsl(217deg 100% 95% / 85%), 0.25px 0.25px 0.25px hsl(0deg 0% 100% / 95%), 0.35px 0.35px 0.2px hsl(0deg 0% 90% / 85%), 0 -1px 0px hsl(0deg 0% 95% / 25%), 0 1px 0.125px hsl(0deg 0% 5% / 85%);
-    color: #f5f5f5;
+    color: #fcfcfe;
     font-weight: 300;
     box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 1px 2px rgb(0 0 0 / 20%), inset 1px 1px 1px hsl(0deg 0% 80% / 40%), inset -1px -1px 1px rgb(12 13 18 / 6%), -1px -1px 1px 0px rgb(255 255 255 / 60%), -1px -1px 4px 0px rgb(255 255 255 / 60%), -2px -2px 8px 0px rgb(255 255 255 / 60%), 1px 1px 1px 0px rgb(12 13 18 / 6%), 1px 1px 4px 0px rgb(12 13 18 / 6%), 2px 2px 8px 0px rgb(12 13 18 / 6%), inset -1px -1px 1px hsl(0deg 0% 0%);
-    background: hsl(0deg 0% 22% / 98%);
-    border: 0.15px solid hsl(0deg 0% 45%);
-}
+    background: linear-gradient(rgb(17, 24, 39), rgb(75, 85, 99));
+    background: hsl(0deg 0% 22%/98%);
+    border: .15px solid hsl(0deg 0% 45%);
+} 
 
 .dark ul.network-icon li a {
     box-shadow: .875px .875px 1.8px hsl(0deg 0% 0%/30%),inset -.875px -.875px 1.8px hsl(0deg 0% 0%),inset -.5px -.5px 1px hsl(227deg 12% 38%),inset .5px .5px 1px hsl(227deg 12% 45%)!important;
@@ -468,7 +517,8 @@ ul.network-icon li:nth-child(5) a:hover .fas {
     margin-bottom: 2pt;
     margin-top: 2pt;
     filter: drop-shadow(0.25px 0.25px 0.25px white);
-    filter: drop-shadow(.25px .25px .25px #00000040);
+    filter: drop-shadow(0.25px 0.25px 0.25px #333333d9);
+
 }
 
 
