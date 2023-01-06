@@ -336,13 +336,27 @@ i.fa-li.fas.fa-graduation-cap {
     font-size: 15pt;
 }
 
-ul.ul-edu li .description p.course {
-  font-size: 12pt;
-  font-weight: 500;
-  font-family: 'Source Sans Pro';
-  opacity: 0.95 !important;
-  color: white !important;
+.fa-li {
+      line-height: 18px;
+
 }
+
+ul.ul-edu li .description p.course {
+     font-size: 16px;
+    opacity: .95!important;
+    color: #fff!important;
+    font-family: 'kepler-std-semicondensed';
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    letter-spacing: 0.25px;
+}
+
+.fa-ul {
+    margin-left: 30px;
+}
+
 ul.ul-edu li .description p.institution {
   font-size: 11pt;
   opacity: 0.75;
@@ -436,6 +450,11 @@ section#hero .container .row {
 section#hero .myclass1 a {
   display: flex;
   flex-direction: column;
+}
+
+section#hero .myclass1 a {
+  background: rgb(29 32 44 / 85%);
+    backdrop-filter: blur(2px) saturate(1.25) drop-shadow(2px 2px 3px black) opacity(0.95) contrast(1.25);
 }
 
 /* PROJECT SECTION */ 
@@ -600,9 +619,6 @@ a, a:hover, a:focus {
 
 }
 
-.dark .card {
-  color: revert !important;
-}
 
 .card h4 a {
   color: #000;
@@ -610,9 +626,6 @@ a, a:hover, a:focus {
 
 
 
-.dark .card h4 a {
-  color: #e9396f;
-}
 
 .card p:last-child {
     font-size: 16px;
@@ -716,10 +729,6 @@ section#skills {
   margin-bottom: 18pt;
   font-weight: 400;
   font-size: 11pt;
-}
-
-.dark .section-subheading {
-    color: white;
 }
 
 
@@ -847,10 +856,7 @@ ul.network-icon li a {
     border: .15px solid hsl(0deg 0% 45%);
 } 
 
-.dark ul.network-icon li a {
-    box-shadow: .875px .875px 1.8px hsl(0deg 0% 0%/30%),inset -.875px -.875px 1.8px hsl(0deg 0% 0%),inset -.5px -.5px 1px hsl(227deg 12% 38%),inset .5px .5px 1px hsl(227deg 12% 45%)!important;
-    border: none;
-}
+
 
 ul.network-icon li a:hover {
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
@@ -900,9 +906,6 @@ ul.network-icon li:nth-child(5) a:hover .fas {
     box-shadow: 0 1px 3px rgb(0 0 0/12%),0 1px 2px rgb(0 0 0/24%)!important;
 }
 
-.dark .bg-white {
-  background: #272935!important;
-}
 
 .navbar-brand img {
     max-height: 48px;
@@ -927,3 +930,77 @@ ul.network-icon li:nth-child(5) a:hover .fas {
 
 
 
+@media (max-width: 530px) {
+  section#about .row .row::before {
+    width: 100%;
+    height: 55%;
+    bottom: 0% !important;
+}
+
+a.btn.btn-primary.btn-lg {
+   
+        margin-top: 38% !important;
+    width: 38%;
+}
+.portrait-title h3 {
+    font-size: 16px;
+}
+
+section#hero .container .row {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr 2fr;
+    align-items: stretch;
+    justify-items: center;
+}
+
+
+section#hero h2 {
+    font-size: 15px;
+    display: flex;
+}
+
+.fa-ul {
+    margin-left: 16px !important;
+}
+
+
+
+i.fa-li.fas.fa-graduation-cap {
+  font-size: 14px;
+}
+
+section#hero .myclass1 a {
+    margin-bottom: 25px !important;
+    
+}
+section#hero {
+    padding-bottom: 0 !important;
+}
+
+.project-card.project-item.isotope-item {
+    width: 20% !important;
+    min-width: 160px !important;
+    max-height: 200px !important;
+}
+
+.card h4 a {
+    font-size: 18px;
+    line-height: 15px !important;
+}
+img.img-fluid {
+    transform: scale(0.85) translate(2%, 4%) !important;
+}
+.portrait-title h2 {
+    font-size: 40px;
+    line-height: 45px;
+}
+
+ul.network-icon.bg-white.mx-2.py-2.text-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 55% !important;
+    height: auto;
+}
+}
