@@ -6,6 +6,7 @@
 
 {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
 {{ $js_tag_classes := delimit (apply (apply $item.Params.tags "replace" "." " " "-") "printf" "js-id-%s" ".") " " }}
+{{ $js_tags_card := delimit (apply (apply $item.Params.tags "replace" "." " " " ") "printf" "%s" ".") ", " }}
 
 <div class="project-card project-item isotope-item {{ $js_tag_classes | safeHTMLAttr }}">
   <div class="card rounded-0 shadow-sm">
@@ -17,6 +18,20 @@
     {{ end }}
     <div class="card-body">
       <h4><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h4>
+      
+      <div class="card-tagss">
+        {{ with $item.Params.tags }}
+        <ul>
+          {{range .}}
+          <li>
+            <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+            </li>
+        {{end}}
+    </ul>
+    {{ end }}
+    </div>
+    
+      
       <div class="card-desription">
         {{ with $item.Params.summary }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
       </div>
