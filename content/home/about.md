@@ -6,6 +6,6 @@ active = true
 weight = 20
 # Username of a profile in your `content/authors/` folder.
 author = "admin"
-avatar_image= "user3.svg"
+avatar_image= "user7.jpg"
 
 +++

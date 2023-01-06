@@ -1,7 +1,7 @@
 ---
 # Display name
 name: Hannah Luebbering
-avatar_image: "user3.svg"
+avatar_image: "user7.jpg"
 
 # Username (this should match the folder name)
 authors:
@@ -70,11 +70,11 @@ social:
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
 
+# Data Science graduate student at the University of Washington. Excited to apply mathematics and programming skills to solve real-world problems. Motivated to learn, grow, and excel in data science and technology to make a positive impact on society.
 
   
 ---
 
-Data Science graduate student at the University of Washington. Excited to apply mathematics and programming skills to solve real-world problems. Motivated to learn, grow, and excel in data science and technology to make a positive impact on society.
 
 
 

@@ -8,7 +8,7 @@ microsoft_clarity = ""
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`, `strawberry`.
 color_theme = "default"
 # Enable users to switch between day and night mode?
-day_night = true
+day_night = false
 
 # Font style.
 #   Choose from `default`, `classic`, or `playfair`.
@@ -25,7 +25,6 @@ twitter = ""
 
 # Diplay a logo in navigation bar rather than title (optional).
 logo = "name4.svg"
-
 
 
 # Enable global source code highlighting? true/false
@@ -101,7 +100,7 @@ zoom = 15
 # Load CSS and JS plugins
 #   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_css = ["custom"]
+plugins_css = ["custom", "fonts"]
 plugins_js  = []
 
 ############################

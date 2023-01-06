@@ -3,9 +3,10 @@ title: Spotify Data Analysis
 subtitle: Spotify API data connection and analysis
 summary: Applied statistical methods to Spotify API data to explore factors influencing a song's popularity. 
 tags:
-- Data Science
-- Machine Learning
-- R
+- Spotify API
+- Statistics
+- Backwards AIC
+# - Audio Features
 date: "2022-02-18T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
