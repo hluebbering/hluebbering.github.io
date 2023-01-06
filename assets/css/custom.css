@@ -489,13 +489,13 @@ section#posts .row .col-12, section#posts .row .col-12 .col-lg-8 {
 }
 
 
-/*section#posts {
+section#posts {
     background: url(/img/hero1.jpeg) !important;
     background-size: cover !important;
     background-position: 50% 50% !important;
 }
 
-.col-lg-8.project-item.isotope-item {
+/*.col-lg-8.project-item.isotope-item {
     background: magenta;
 }
 
