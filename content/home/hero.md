@@ -39,5 +39,4 @@ hero_description = "Data Science graduate student at the University of Washingto
 
 
 
-
-
+[![Spotify](https://spotify-readme-hluebbering.vercel.app/api?rainbow=true&spin=true&theme=dark)](https://spotify-readme-hluebbering.vercel.app/api?rainbow=true?spin=true)
