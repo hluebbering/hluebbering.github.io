@@ -31,11 +31,11 @@ hero_description = "Data Science graduate student at the University of Washingto
 
 
 
-<div markdown="1">
 
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=hannahluebbering&cover_image=true&theme=novatorem&show_offline=false&bar_color=d528e2&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=hannahluebbering&redirect=true)
+<!--- [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=hannahluebbering&cover_image=true&theme=novatorem&show_offline=false&bar_color=d528e2&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=hannahluebbering&redirect=true) --->
 
-</div>
+
+
 
 
 

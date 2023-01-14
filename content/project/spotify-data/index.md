@@ -11,5 +11,10 @@ date: "2022-02-18T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: https://hluebbering.github.io/spotify-data-analysis/
-
+# featured.png files
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: true
+  
 ---
