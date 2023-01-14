@@ -13,11 +13,11 @@
     
     
     <item>
-      <title>Data Science</title>
-      <link>https://hluebbering.github.io/tags/data-science/</link>
+      <title>Big Data</title>
+      <link>https://hluebbering.github.io/tags/big-data/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://hluebbering.github.io/tags/data-science/</guid>
+      <guid>https://hluebbering.github.io/tags/big-data/</guid>
       <description></description>
     </item>
     
@@ -27,6 +27,15 @@
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hluebbering.github.io/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>https://hluebbering.github.io/tags/data-science/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hluebbering.github.io/tags/data-science/</guid>
       <description></description>
     </item>
     

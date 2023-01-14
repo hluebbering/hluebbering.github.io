@@ -59,7 +59,7 @@ social:
   link: https://www.linkedin.com/in/hannah-luebbering-99609818a/
 - icon: external-link-alt
   icon_pack: fas
-  link: https://hluebbering.github.io/posts/
+  link: https://codepen.io/hluebbering
   
   
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
