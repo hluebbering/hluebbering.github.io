@@ -472,6 +472,7 @@ ul {
 }
 section#hero {
   background-image: url(/img/hero2.jpg) !important;
+  background-image: url(/img/banner3.jpg) !important;
   background-size: cover !important;
   background-position: 50% 50% !important;
   filter: drop-shadow(2px 4px 6px #000);
