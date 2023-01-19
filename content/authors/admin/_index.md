@@ -31,7 +31,7 @@ interests:
 - Software Engineering
 - Quantum Technology
 - Space Exploration
-
+# - UX/UI Web Design
 # - Energy & Sustainability
 # - Science & Technology
 # - Environmental Science
@@ -39,12 +39,13 @@ interests:
 
 education:
   courses:
-  - course: MS in Data Science
+  - course: MS - Data Science
     institution: University of Washington
     year: 2023
-  - course: BS in Applied Mathematics
+  - course: BS - Applied Mathematics
     institution: Wake Forest University
     year: 2021
+    extra: Association for Women in Mathematics, Executive
 
 # Social/academia Networking
 social:

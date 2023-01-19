@@ -3,12 +3,11 @@
 {{ $bg := $page.Params.design.background }}
 
 {{ if $page.Params.hero_media }}
-<div class="row">
-  <div class="myclass1">
+<div class="row content-text">
 {{ end }}
 
     {{ with $page.Content }}
-    <div>{{ . }}</div>
+      {{ . }}
     {{ end }}
 
     {{/* Call-to-action link */}}
@@ -46,10 +45,7 @@
 
   {{/* Hero image */}}
   {{ if $page.Params.hero_media }}
-  </div>
-  <div class="myclass2">
-    <h2 class="hero-img img-fluid" src="{{ printf "img/%s" $page.Params.hero_media | relURL }}" alt="">{{ $page.Params.hero_description | markdownify | emojify | safeHTML }}</h2>
-  </div>
+  
 </div>
 {{ end }}
 

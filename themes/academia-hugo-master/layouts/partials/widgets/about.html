@@ -107,10 +107,14 @@
         <ul class="ul-edu fa-ul">
           {{ range .courses }}
           <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
+            
+            <!-- <i class="fa-li fas fa-graduation-cap"></i> -->
             <div class="description">
-              <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
+              <p class="course">{{ .course }}{{ with .year }}, <span class = "yearr">{{ . }}</span>{{ end }}</p>
               <p class="institution">{{ .institution }}</p>
+              {{ if .extra }}
+              <p class="edu-more">{{ .extra }}</p>
+              {{ end }}
             </div>
           </li>
           {{ end }}
