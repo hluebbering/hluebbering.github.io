@@ -1,0 +1,405 @@
+# Sections content configuration file
+##
+### use navigation.yml file to re-order, delete or add section of each card
+### here you can find all content in all pre-build sections
+
+### Testimonials [ testimonials ]
+testimonials:
+  title: "About Me"
+  aboutico: "images/bgs/info-001.png"
+  leftimg: "images/new/final/abstractLines1.png"
+  rightimg: "images/new/final/brush1.png"
+  #rightimg2: "images/new/final/collage1.png"
+  text: "
+        Data science master's student
+        with an applied mathematics degree, 
+        particularly interested in the 
+        intersection of 
+        applied mathematics,
+        programming, 
+        and user interface design.
+        "
+  subtitle1: "Education"
+  items:
+    - label: "2021 - 2023"
+      degree: "MS, Data Science"
+      school: "University of Washington"
+      loc: "Seattle WA"
+      edu_icon: "images/icons and logos/hearticon1.png"
+    - label: "2017 - 2021"
+      degree: "BS, Applied Mathematics"
+      school: "Wake Forest University"
+      loc: "Winston-Salem NC"
+      edu_icon: "images/icons and logos/modern_heart2.png"
+      extra: "Association for Women in Mathematics, Executive"
+  subtitle2: "Interests"
+  list:
+    - label: "Mathematics & Physics"
+      list_icon: "images/icons and logos/calculator1.png"
+    - label: "Artificial Intelligence"
+      list_icon: "images/icons and logos/ml2A.png"
+    - label: "Quantum Technology"
+      list_icon: "images/icons and logos/physics1.png"
+    - label: "Space Exploration"
+      list_icon: "images/icons and logos/rocketship1.png"
+
+
+### Testimonials [ testimonials ]
+gallery:
+  title: "Gallery"
+  items:
+    - image: "images/gallery/icon-00.jpg"
+    - image: "images/gallery/icon-01.jpg"
+    - image: "images/gallery/icon-02.jpg"
+    - image: "images/gallery/icon-03.jpg"
+    - image: "images/gallery/icon-04.jpg"
+    - image: "images/gallery/icon-05.jpg"
+    - image: "images/gallery/icon-06.jpg"
+    - image: "images/gallery/icon-07.jpg"
+    - image: "images/gallery/icon-08.jpg"
+    - image: "images/gallery/icon-09.jpg"
+    - image: "images/gallery/icon-10.jpg"
+    - image: "images/gallery/icon-11.jpg"
+    - image: "images/gallery/icon-12.jpg"
+    - image: "images/gallery/icon-14.jpg"
+    - image: "images/gallery/icon-15.jpg"
+    - image: "images/gallery/icon-16.jpg"
+    - image: "images/gallery/icon-17.jpg"
+    - image: "images/gallery/icon-18.jpg"
+    - image: "images/gallery/icon-19.jpg"
+    - image: "images/gallery/icon-20.jpg"
+    - image: "images/gallery/icon-21.jpg"
+    - image: "images/gallery/icon-22.jpg"
+    
+    
+    
+
+
+      
+### About [ about ]
+about:
+  title: "About Me"
+  aboutbg: "images/new/final/brush1.png"
+  aboutico: "images/bgs/info-001.png"
+  aboutblob1: "images/new/final/abstractLines1.png"
+  text: "
+        <p>
+        Data science master's student
+        with an applied mathematics degree, 
+        particularly interested in the 
+        intersection of 
+        <a class='underlineit2' href='#' target='_blank'>
+        applied mathematics,</a>
+        programming, 
+        and user interface design.
+        </p>
+        "
+  list:
+    - label: "2021 - 2023"
+      valueDegree: "MS, Data Science"
+      valueSchool: "University of Washington"
+      valueLoc: "Seattle WA"
+    - label: "2017 - 2021"
+      valueDegree: "BS, Applied Mathematics"
+      valueSchool: "Wake Forest University"
+      valueLoc: "Winston-Salem NC"
+      valueEx: "Association for Women in Mathematics, Executive"
+
+
+### Banner [ banner ]
+banner:
+  external_link: "images/luebbering_resume.pdf"
+  bannerimg: "images/new/final/019.webp"
+  imgbtn: "images/new/final/brush6.png"
+  items:
+    - imgcon: "images/new/final/collage1.png"
+    
+    
+    
+### Iconcase [ iconcase ]
+iconcase:
+  title: "About Me"
+  external_link: "Hello! I’m Hannah Luebbering."
+  leftimg: "images/new/final/abstractLines1.png"
+  text: "
+        Data science master's student
+        with an applied mathematics degree, 
+        particularly interested in the 
+        intersection of
+        "
+  items:
+    - imgcon: "images/new/final/collage1.png"
+    - imgcon: "images/icons and logos/retro_heart4.png"
+    - imgcon: "images/icons and logos/rocketship1.png"
+    - imgcon: "images/icons and logos/retro_heart5.png"
+    - imgcon: "images/icons and logos/radio1.png"
+    - imgcon: "images/icons and logos/planet2.png"
+
+### Services [ services ]
+services:
+  title: "My Services"
+  servicesblob1: "images/new/final/dots1.png" # flower1.png
+  servicesblob3: "images/new/final/VintageRose_26.png"
+#  about: "
+#          Data science master's with a degree in applied mathematics and 3+ years of 
+#          experience working in a variety of project-based environments.
+#         "
+  items:
+    - icon: "ion-code"
+      name: "Mathematical Modeling"
+      text: "Built interactive models exploiting contextual information & complex scientific phenomena."
+      # personalized and interactive models exploiting contextual information, historical interactions.
+      service_icon: "images/icons and logos/calculator1.png"
+      col1: "#c7e3e9"
+      col2: "#ecf4ec"
+
+    - icon: "ion-music-note"
+      name: "Web Development"
+      text: "Combined creative & technical skills to develop beautiful, highly functional websites."
+      service_icon: "images/icons and logos/ml1B.png"
+      col1: "#e57066"
+      col2: "#e57066"
+      
+    - icon: "ion-speakerphone"
+      name: "Music Analysis"
+      # deep learning, time series modeling, reinforcement learning, approximate inference, graphical models, causal inference, and meta-model learning.
+      text: "Applied machine learning to personalize playlists through collaborative filtering & natural language processing."
+      service_icon: "images/icons and logos/headphones5.png"
+      col1: "#414141"
+      col2: "#000000"
+
+    - icon: "ion-ios-game-controller-b"
+      name: "A/B Testing"
+      text: "Conducted experimentation & evaluation tests on interactive web applications via randomized controlled trials."
+      service_icon: "images/icons and logos/youtube1.png"
+      col1: "#fcba7c"
+      col2: "#ffef9b"
+
+
+
+### Facts [ facts ]
+facts:
+  title: "My Code"
+  codeico: "images/bgs/new-002.png"
+  items:
+    - icon: "ion-disc"
+      name: "XWBjBob"
+    - icon: "ion-trophy"
+      name: "PoaWLrw"
+    - icon: "ion-coffee"
+      name: "xxjJRzj"
+    - icon: "ion-flag"
+      name: "vYrajqq"
+    - icon: "ion-flag"
+      name: "YzeJbRB"
+    - icon: "ion-flag"
+      name: "abKMdBM"
+    - icon: "ion-flag"
+      name: "vYpQpQO"
+    - icon: "ion-flag"
+      name: "KKRKbVK" 
+      
+
+### Clients [ clients ]
+clients:
+  title: "My Spotify"
+  bgimg: "images/new/final/ribbons.jpg"
+  logoimg: "images/bgs/music-002.png"
+  items:
+    - url: "https://www.google.com"
+      image: "images/spotify/playlist1.png"
+      title: "But My Feet In Bottega"
+      about: "Hip Hop"
+      ntracks: "140"
+      nfollowers: "13,078"
+
+    - url: "https://www.google.com"
+      image: "images/spotify/playlist2.png"
+      title: "See You In My Dreams"
+      about: "Pop"
+      ntracks: "126"
+      nfollowers: "3,755"
+
+    - url: "https://www.google.com"
+      image: "images/spotify/playlist3.png"
+      title: "Pardon Me While I Elevate"
+      about: "Electropop"
+      ntracks: "130"
+      nfollowers: "1,469"
+
+    - url: "https://www.google.com"
+      image: "images/spotify/playlist4.png"
+      title: "Chasin Paper"
+      about: "Hip Hop"
+      ntracks: "124"
+      nfollowers: "653"
+      
+
+
+
+
+
+### Resume [ resume ]
+resume:
+  title: "Resume"
+  experience:
+    title: "Experience"
+    icon: "ion-briefcase"
+    items:
+      - year: "May 2021 - Feb 2022"
+        role: "Visualization Developer and Data Analytics Intern"
+        company: "Empower Retirement"
+        location: "Greenwood Village, Colorado"
+        text: "Analyzed cloud platform data and created Tableau dashboards to expose visibility into cloud resource expenses."
+        text2: "Built interactive data-driven infographics to provide relatable knowledge of capacity, cost, labor, and project management."
+        active: 0
+        h_line: 1
+      
+      - year: "Jan 2020 - May 2021"
+        role: "Data Science Pedagogy Research"
+        company: "Wake Forest University"
+        location: "Winston Salem"
+        text: "Assisted Dr. McGowan’s Data Science Lab on examining best practices in teaching R."
+        text2: "Built and published interactive tutorials on using Tidyverse for data analysis."
+        text3: "Created randomized trials using Shiny and Learnr software tools."
+        link: "https://dmds.lucymcgowan.com/people/"
+        active: 0
+        h_line: 1
+        
+      - year: "Aug 2019 - Jan 2020"
+        role: "Health Data Analytics Intern"
+        company: "Westmead Institute for Medical Research"
+        location: "Sydney, New South Wales, Australia"
+        text: "Researched data analysis methods to evaluate biomedical risk factors and make decisions in the personalized treatment of chronic diseases."
+        text2: "Analyzed electronic health record data for common chronic diseases and drafted patient similarity models to generate dynamic treatment insights."
+        active: 0
+        h_line: 1
+      
+      - year: "Oct 2018 - Sep 2019"
+        role: "Nanotechnology in Solar Cells Research"
+        company: "Wake Forest University"
+        location: "Winston Salem"
+        text: "Worked with Dr. Ghadiri's Laboratory for Nano-Photo-Chemistry. Acquired photoluminescence imaging, spectroscopy, and ultrafast pump-probe microscopy data of solar cell devices." 
+        text2: "Analyzed data to identify photophysical processes and device performance of nanostructured films."
+        link: "https://ghadirilab.chemistry.wfu.edu/"
+        active: 0
+        h_line: 1
+        
+      - year: "Aug 2018 - Nov 2018"
+        role: "Concussion Research Assistant"
+        company: "Wake Forest Innovations"
+        location: "Winston Salem"
+        text: "Collected and analyzed kinematic data from instrumented mouthguard sensors to study the injury biomechanics of head impacts and concussions in youth sports."
+        active: 0
+        h_line: 1
+
+  education:
+    title: "Education"
+    icon: "ion-university"
+    items:
+      - year: "2021 - 2023"
+        institution: "University of Washington"
+        city: "Seattle"
+        text: "MS, Data Science"
+        h_line: 1
+
+      - year: "2017 - 2021"
+        institution: "Wake Forest University"
+        city: "Paris"
+        text: "BS, Applied Mathematics"
+        h_line: 1
+      
+      - year: "2019"
+        institution: "University of Sydney"
+        city: "Sydney, Australia"
+        text: "Study Abroad, Mathematics and Computer Science"
+        h_line: 1
+
+
+### Skills [ skills ]
+skills:
+  title: ""
+  skillsblob3: "images/new/final/VintageRose_26.png"
+  skillsblob4: "images/new/final/brush8.png" # Artistic/shapes (12).png
+  
+  columns:
+    - type: "default" 
+      title: "Skills"
+      skillsico: "images/icons and logos/find1.png"
+      icon: "ion-easel"
+      items:
+        - label: "Mathematical Modeling"
+          value: "90"
+          tooltip: "Supervised ML, Unsupervised ML, Deep learning"
+        - label: "Machine Learning"
+          value: "65"
+          tooltip: "Supervised ML, Unsupervised ML, Deep learning"
+        - label: "Data Analytics & Visualizations"
+          value: "75"
+          tooltip: "Supervised ML, Unsupervised ML, Deep learning"
+        - label: "Statistical Analysis"
+          value: "85"
+          tooltip: "Supervised ML, Unsupervised ML, Deep learning"
+        - label: "UX/UI Web Design"
+          value: "80"
+          tooltip: "Supervised ML, Unsupervised ML, Deep learning"
+
+#    - type: "dotted"
+#      title: "Languages"
+#      icon: "ion-flag"
+#      items:
+#        - label: "English"
+#          value: "90"
+#        - label: "German"
+#          value: "60"
+
+    - type: "circles"
+      title: "Programming"
+      skillsico: "images/icons and logos/arrow1.png"
+      icon: "ion-code"
+      items:
+        - label: "Python"
+          value: "75"
+        - label: "R"
+          value: "85"
+        - label: "SQL"
+          value: "65"
+        - label: "HTML5/CSS"
+          value: "70"
+        - label: "JavaScript"
+          value: "50"
+        - label: "Matlab"
+          value: "60"
+        
+
+#    - type: "list" #skills progress type - default, dotted, circles, list
+#      title: "Knowledge"
+#      icon: "ion-android-list"
+#      items:
+#        - label: "Website hosting"
+#          value: ""
+
+
+
+### Portfolio [ portfolio ]
+portfolio:
+  title: "Projects"
+  projectico: "images/bgs/live-001.png"
+
+### Blog [ blog ]
+blog:
+  title: "Recent Posts"
+  blogico: "images/bgs/live-001.png"
+  blogblob1: "images/new/final/brush2.png"
+
+
+
+### Contact Form [ contacts-form ]
+contacts:
+  title: "Contact Form"
+  contactico: "images/bgs/live-001.png"
+  rightimg: "images/bgs/live-001.png"
+  contactblob1: "images/new/final/myclip1.png"
+  contactblob2: "images/new/final/abstractBlack1.png"
+  
+  

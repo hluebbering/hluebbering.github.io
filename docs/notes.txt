@@ -1,0 +1,105 @@
+- [xxxx] vcardblob2: "images/new/Artistic/shapes (10).png"
+- [x] vcardblob2: "images/new/Artistic/shapes (15).png"
+- [xx] vcardblob2: "images/new/Artistic/shapes (22).png"
+- [x] vcardblob2: "images/new/Acrylic/acr (1).png"
+- [] vcardblob2: "images/new/Acrylic/acr (8).png"
+- [] vcardblob2: "images/new/Acrylic/acr (9).png"
+- [xxxx] vcardblob2: "images/new/Acrylic/acr (19).png"
+- [xxxx] vcardblob2: "images/new/Acrylic/acr (26).png"
+- [x] vcardblob2: "images/new/Acrylic/acr (49).png"
+- [x] vcardblob2: "images/new/Acrylic/acr (50).png"
+- [x] images/new/Extravagant/ex (28).png
+- [x] images/new/Extravagant/ex (14).png
+- [xxxx] images/new/Extravagant/ex (43).png
+- [xx] images/new/Extravagant/ex (46).png
+- [xxx] vcardblob2: "images/new/Acrylic/RosePeach_46.png"
+b/47/51/91/95/98/99/102/106/107/115/117/118/120/121/125/126/127/128/132/134
+
+
+background: #FBCCD2;
+    background: #FDEFED;
+    
+    #E82A2A
+    
+    
+    #FCD4D2 #F65454
+    
+    #FB6B00, #F4E9F1
+    
+    #FEE7B5 #FD6A00
+    
+    
+    
+    #E82A2A
+    
+    
+    #F3585A #F7B7B7
+    
+    
+    #F5555B #F4E9F1
+    
+    #E82A2A #F9B7B9
+    
+    #302E2F #EBC3C3 #53151E
+    
+    #222222 #EDEDED
+    
+    #FD6A00
+    
+    
+        --color-storm: #a4c9d8;
+    --color-tangerine: #ff4935;
+    --color-citric: #cdf567;
+    --color-sunflower: #ffbc4b;
+    --color-pink: #ffd0d5;
+    --color-salmon: #fb7ea8;
+    --color-factory-yellow: #ffe818;
+    
+    
+ 
+- "images/new/brush/bstroke (6).png"   
+- "images/new/brush/bstroke (13).png"   
+- "images/new/brush/bstroke (15).png"   
+- "images/new/brush/bstroke (17).png"   
+- "images/new/brush/bstroke (22).png"   
+- "images/new/brush/bstroke (28).png"   
+- "images/new/brush/bstroke (31-35).png"   
+- "images/new/brush/bstroke (43).png"   
+- "images/new/brush/bstroke (54).png"   
+- "images/new/brush/bstroke (80).png"   
+- "images/new/brush/bstroke (87).png"   
+- "images/new/brush/bstroke (90-93).png"   
+- "images/new/brush/bstroke (96).png"   
+- "images/new/brush/bstroke (100).png"   
+- "images/new/brush/bstroke (105).png"   
+- "images/new/brush/bstroke (108).png"   
+- "images/new/brush/bstroke (112-115).png"   
+- "images/new/brush/bstroke (122).png"   
+- "images/new/brush/bstroke (125).png"   
+- "images/new/brush/bstroke (128).png"   
+- "images/new/brush/bstroke (131).png"   
+- "images/new/brush/bstroke (134-138).png"   
+- "images/new/brush/bstroke (143).png"   
+- "images/new/brush/bstroke (146).png"   
+content: url(http://localhost:4321/images/new/brush/bstroke 
+(114)(138)(18)(46)(93)(22).png);
+    
+    
+
+
+
+- [x] vcardblob2: "images/new/Artistic/shapes (36).png"
+- [x] rightimg: "images/new/Acrylic/acr (21).png"
+- [xxx] rightimg: "images/new/Artistic/shapes (10).png"
+- [] rightimg: "images/new/Gouache/g (18).png"
+- [x] rightimg: "images/new/Gouache/g (25).png"
+- [] rightimg: "images/new/Extravagant/ex (46).png"
+- [] rightimg: "images/new/Cutouts/cut (8).png"
+- [] rightimg: "images/new/Cutouts/cut (9).png"
+- [] rightimg: "images/new/Cutouts/cut (10).png"
+- [] rightimg: "images/new/Cutouts/cut (12).png"
+- [] rightimg: "images/new/Cutouts/cut (20).png"
+- [] rightimg: "images/new/Cutouts/cut (33).png"
+- [] rightimg: "images/new/Cutouts/cut (37).png"
+- [] rightimg: "images/new/Cutouts/cut (65).png"
+- [] rightimg: "images/new/Cutouts/cut (66).png"

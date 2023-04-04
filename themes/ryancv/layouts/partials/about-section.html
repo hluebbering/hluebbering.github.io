@@ -1,0 +1,77 @@
+{{ with .Site.Data.home.about }}
+
+{{ "<!-- About -->" | safeHTML }}
+<div class="content about" style = "background-image: url({{ .aboutbg | absURL }});">
+  
+  
+
+
+	{{ if .title }}
+	<div class="title">
+	  <div class = "about-logo" style="content: url({{ .aboutico | absURL }});"></div>
+	  
+	  <a class = "underlineit">
+	  {{ .title }}
+	  </a>
+	  </div>
+	{{ end }}
+	
+	
+
+	<div class="row">
+	  
+	  
+	  <div class = "blob-about1">
+	    <div class = "obj-about1" style="content: url({{ .aboutblob1 | absURL }});"></div>
+	    </div>
+	  
+	    
+		<div class="col col-d-6 col-t-6 border-line-v one">
+		  <!--
+		  <div class = "top-btn">
+				{{ .btn | safeHTML }}
+			</div>
+			-->
+			<div class="text-box">
+				{{ .text | safeHTML }}
+			</div>
+		</div>
+		
+		<div class="col col-d-6 col-t-6 border-line-v one">
+		  
+		  
+		  <!--<div class="skill-title border-line-h">
+					<div class="icon"><i class="ion ion-code"></i></div>
+					<div class="name">Education</div>
+				</div>-->
+				
+				
+				
+			<div class="info-list">
+				<ul>
+					{{ range .list }}
+					
+					<li>
+					  <strong>{{ .label }}</strong> 
+					  <!--{{ .value }}-->
+					  <div class="degree">{{ .valueDegree }}</div>
+					  <div class="school">{{ .valueSchool }}</div>
+					  <div class="location">{{.valueLoc }}</div>
+					  {{ if .valueEx }}
+					  <div class="extracir">{{ .valueEx }}</div>
+					  {{ end }}
+					  
+					</li>
+					
+					
+
+					{{ end }}
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+</div>
+
+{{ end }}

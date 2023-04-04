@@ -1,0 +1,45 @@
+{{ $bg := .Site.Params.background }}
+
+{{ "<!-- Background -->" | safeHTML }}
+
+{{ if eq $bg.type "default" }}
+<div class="background gradient">
+	<ul class="bg-bubbles">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</div>
+{{ end }}
+
+{{ if eq $bg.type "blured" }}
+<div class="blured-background">
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+</div>
+{{ end }}

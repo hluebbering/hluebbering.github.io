@@ -1,0 +1,87 @@
+{{ with .Site.Data.home.services }}
+
+<!-- Services -->
+
+<!--<div class="content services">-->
+<div class="cases js-cases">
+  <div class="cases__center center">
+    <div class="blob-skills1" style="z-index: -2; right: 1.92%; top: -8%; bottom: auto; transform: rotate(12deg)">
+      <div class="obj-skills1" style="content: url({{ .servicesblob1 | absURL }}); width: 250px;"></div>
+    </div>
+
+    <svg id="Layer_1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1227.5 1227.6" width="1227.5" height="1227.6" xml:space="preserve" data-initial-rotation="216" class="round-text footer-round-text" data-v-b0e3b366="" data-v-1dcd8e80="" style="position: absolute; bottom: 10%; left: 8%; width: 120px; height: 120px; overflow: visible; transform: rotate(300deg); z-index: 0; background: #272822; border-radius: 50%">
+      <defs data-v-b0e3b366="">
+        <path id="round-text-svg" d="M783.7,444.7c101.7,102.2,101.3,267.5-0.9,369.2S515.3,915.2,413.6,813 s-101.3-267.5,0.9-369.2S682,342.5,783.7,444.7z" class="st0" data-v-b0e3b366=""></path>
+      </defs>
+      <text width="500" data-v-b0e3b366="" style="animation: none; baseline-shift: super">
+        <textPath xlink:href="#round-text-svg" fill="#f9f9f9" class="text-path" style="font-size: 140px; letter-spacing: -10px" data-v-b0e3b366="">
+          <tspan style="opacity: 1"></tspan>
+          <tspan style="opacity: 1"></tspan>
+          <tspan style="opacity: 1"></tspan>
+          <tspan style="opacity: 1"></tspan>
+          <tspan style="opacity: 1"></tspan>
+          <tspan style="opacity: 1">S</tspan>
+          <tspan style="opacity: 1">k</tspan>
+          <tspan style="opacity: 1">i</tspan>
+          <tspan style="opacity: 1">l</tspan>
+          <tspan style="opacity: 1">l</tspan>
+          <tspan style="opacity: 1">s</tspan>
+          <tspan style="opacity: 1"> </tspan>
+          <tspan style="opacity: 1">&amp;</tspan>
+          <tspan style="opacity: 1"> </tspan>
+          <tspan style="opacity: 1">I</tspan>
+          <tspan style="opacity: 1">n</tspan>
+          <tspan style="opacity: 1">t</tspan>
+          <tspan style="opacity: 1">e</tspan>
+          <tspan style="opacity: 1">r</tspan>
+          <tspan style="opacity: 1">e</tspan>
+          <tspan style="opacity: 1">t</tspan>
+          <tspan style="opacity: 1">s</tspan>
+          
+        </textPath>
+      </text>
+    </svg>
+
+    <!-- Title and Intro Description -->
+    <div class="cases__head head">
+      <div class="head__box">
+        {{ if .title }}
+        <h2 class="head__title title" data-aos="animation-scale-y" data-aos-delay="200">{{ .title }}</h2>
+
+        <!--<div class = "rotateh2">
+                  <h2 class="rotate">Writing</h2>
+                  <h2 class = "rotate2">Mode</h2>
+                  </div>-->
+
+        {{ end }} {{ if .about }}
+        <div class="head__text" data-aos="animation-scale-y" data-aos-delay="400">{{ .about }}</div>
+        {{ end }}
+      </div>
+    </div>
+
+    <!-- Services Row -->
+    <div class="cases__container row service-items border-line-v">
+      {{ range .items }}
+      <div class="cases__inner">
+        <div class="cases__slider js-cases-slider">
+          <!-- Case Item 1 -->
+          <div class="cases__item" data-aos="animation-translate-up">
+            <div class="cases__preview" style="background-image: linear-gradient(53deg, {{ .col1 }}, {{ .col2 }}); width: 130px; height: 130px; padding: 35px; margin: auto; display: inline-flex; flex-wrap: wrap; align-content: center;">
+              <img class="cases__pic" src="{{ .service_icon | absURL }}" style="display: inline-flex !important; height: auto; width: 100%" alt="" />
+            </div>
+
+            <h4 class="cases__title h4">{{ .name }}</h4>
+            <div class="cases__text" class="ion {{ .icon }}">
+              <p>{{ .text | safeHTML }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {{ end }}
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+
+{{ end }}

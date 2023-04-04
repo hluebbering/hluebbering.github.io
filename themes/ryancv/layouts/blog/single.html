@@ -1,0 +1,125 @@
+{{ define "main" }}
+{{ $dateFormat := .Site.Params.dateFormat }}
+
+{{ "<!-- Blog Post -->" | safeHTML }}
+<div class="card-inner blog blog-post animated" id="blog-card">
+	<div class="card-wrap">
+
+		<div class="content blog-single">
+
+			<div class="title">{{ i18n "blogPost" }}</div>
+
+			<div class="row border-line-v">
+				<div class="col col-m-12 col-t-12 col-d-12">
+					<div class="post-box">
+
+						<h1>{{ .Title }}</h1>
+						<div class="blog-detail">
+							<span class="date">{{ .PublishDate.Format $dateFormat }}</span>
+							{{ if .Params.categories }}
+							<span class="cat-links">
+		            {{ range (.GetTerms "categories") }}
+		            <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+		            {{ end }}
+							</span>
+							{{ end }}
+							<span class="byline"> {{ i18n "by" }} <span class="author">{{ .Site.Params.authorName }}</span></span>
+						</div>
+
+						{{ with .Params.fullImage }}
+						<div class="blog-image">
+							<img src="{{ . | absURL }}" alt="{{ .Title }}" />
+						</div>
+						{{ else }}
+						<div class="blog-image">
+							<img src="{{ .Params.featureImage | absURL }}" alt="{{ .Title }}" />
+						</div>
+						{{ end }}
+
+						<div class="blog-content">
+							{{ .Content }}
+						</div>
+
+						<div class="post-text-bottom">
+							<div class="social-share" data-title="{{ .Title }}" data-url="{{ .Permalink | absURL }}">
+								<span>{{ i18n "share" }}:</span>
+								<a class="share-btn share-btn-facebook share-btn-1" title="{{ i18n "shareOn" }} Facebook">
+									<i class="ion ion-social-facebook"></i>
+								</a>
+								<a class="share-btn share-btn-twitter share-btn-2" title="{{ i18n "shareOn" }} Twitter">
+									<i class="ion ion-social-twitter"></i>
+								</a>
+								<a class="share-btn share-btn-linkedin share-btn-3" title="{{ i18n "shareOn" }} Linkedin">
+									<i class="ion ion-social-linkedin"></i>
+								</a>
+								<a class="share-btn share-btn-reddit share-btn-4" title="{{ i18n "shareOn" }} Reddit">
+									<i class="ion ion-social-reddit"></i>
+								</a>
+								<a class="share-btn share-btn-pinterest share-btn-5" title="{{ i18n "shareOn" }} Pinterest">
+									<i class="ion ion-social-pinterest"></i>
+								</a>
+							</div>
+							{{ if .Params.tags }}
+							<div class="tags-links">
+								{{ i18n "tags" }}:
+								{{ range (.GetTerms "tags") }}
+								<a href="{{ .Permalink }}" rel="tag">{{ .LinkTitle }}</a>
+								{{ end }}
+							</div>
+							{{ end }}
+						</div>
+
+						{{ if or .NextInSection .PrevInSection }}
+						<div class="post-navigation" role="navigation">
+							{{ if .PrevInSection }}
+							<div class="nav-previous">
+								<a href="{{ .PrevInSection.Permalink }}" rel="prev" title="{{ .PrevInSection.Title }}">
+									<span class="post-nav-next post-nav-text">{{ i18n "prev" }}</span>
+								</a>
+							</div>
+							{{ end }}
+							{{ if .NextInSection }}
+							<div class="nav-next">
+								<a href="{{ .NextInSection.Permalink }}" rel="next" title="{{ .NextInSection.Title }}">
+									<span class="post-nav-prev post-nav-text">{{ i18n "next" }}</span>
+								</a>
+							</div>
+							{{ end }}
+						</div>
+						{{ end }}
+					</div>
+				</div>
+			</div>
+
+			{{ if .Site.Params.disqusComments }}
+			<div class="title">{{ i18n "comments" }}</div>
+
+			<div class="row border-line-v">
+				<div class="col col-m-12 col-t-12 col-d-12">
+					<div class="post-box">
+						<div class="col-md-12">
+							<div id="disqus_thread"></div>
+							<script>
+								var disqus_config = function () {
+									this.page.url = "{{ .Permalink | absURL }}";  /* Replace PAGE_URL with your page's canonical URL variable */
+									this.page.identifier = "{{ .File.UniqueID }}"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+								};
+								(function() { /* DON'T EDIT BELOW THIS LINE */
+									var d = document, s = d.createElement('script');
+									s.src = 'https://{{ .Site.Params.disqusComments }}.disqus.com/embed.js';
+									s.setAttribute('data-timestamp', +new Date());
+									(d.head || d.body).appendChild(s);
+								})();
+							</script>
+							<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+						</div>
+					</div>
+				</div>
+			</div>
+			{{ end }}
+		</div>
+
+	</div>
+</div>
+
+{{ end }}

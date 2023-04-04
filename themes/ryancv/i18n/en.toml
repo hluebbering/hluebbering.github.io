@@ -1,0 +1,71 @@
+[all]
+other = "All"
+
+[menu]
+other = "Menu"
+
+[archive]
+other = "Archive"
+
+[blogPost]
+other = "Blog Post"
+
+[by]
+other = "By"
+
+[share]
+other = "Share"
+
+[shareOn]
+other = "Share on"
+
+[tags]
+other = "Tags"
+
+[prev]
+other = "Prev"
+
+[next]
+other = "Next"
+
+[comments]
+other = "Comments"
+
+[fullName]
+other = "Full Name"
+
+[emailAddress]
+other = "Email Address"
+
+[yourMessage]
+other = "Your Message"
+
+[sendMessage]
+other = "Send Message"
+
+[viewProject]
+other = "View Project"
+
+[new]
+other = "new"
+
+[search]
+other = "Search ..."
+
+[latestPosts]
+other = "Latest Posts"
+
+[categories]
+other = "Categories"
+
+[successMessage]
+other = "Thanks, your message is sent successfully."
+
+[errorNum]
+other = "404"
+
+[errorTitle]
+other = "Whoops!"
+
+[errorText]
+other = "The page you’re looking for doesn’t exist or has been moved."

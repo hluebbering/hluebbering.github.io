@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+{{ "<!-- Card Page -->" | safeHTML }}
+<div class="card-inner blog blog-post animated" id="blog-page">
+	<div class="card-wrap">
+
+		<div class="content blog-single">
+
+			<div class="title">{{ .Title }}</div>
+
+			<div class="row border-line-v">
+				<div class="col col-m-12 col-t-12 col-d-12">
+					<div class="post-box">
+						{{ .Content }}
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</div>
+
+{{ end }}

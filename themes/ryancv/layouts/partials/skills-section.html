@@ -1,0 +1,108 @@
+{{ with .Site.Data.home.skills }} 
+{{ "<!-- Skills -->" | safeHTML }}
+
+<div class="content skills">
+  <div class="skills__center">
+    <!-- Title and Intro Description -->
+
+    {{ if .title }}
+    <div class="title">
+      <div class="skills-logo" style="content: url({{ .skillsico | absURL }});"></div>
+      <h2 class="advantages__title title" data-aos="animation-scale-y" data-aos-delay="200">{{ .title }}</h2>
+    </div>
+    {{ end }}
+
+    <!-- Education Items -->
+    <div class="skills__box row">
+      {{ range .columns }}
+      <div class="col col-d-6 col-t-6 border-line-v advantages__inner">
+        <div class="advantages__list skills-list{{ if .type }} {{ .type }}{{ end }}">
+          <div class="skill-title border-line-h">
+            <div class="icon" style="background-image: url({{ .skillsico | absURL }}"></div>
+            <h2 class="title sub name">{{ .title }}</h2>
+          </div>
+
+          <ul>
+            {{ if eq .type "default" }} {{ range .items }}
+
+            <!--
+					<div class="education__item" data-aos="animation-scale-y" style = "margin-bottom: 1%;">
+					<li class="border-line-h">
+						<div class="skill-bar">
+						  <span class= "bar">{{ .label }}</span>
+						  <div class="skill-spec" style="width:{{ .value  }}%;">
+						  </div>
+						  <span class="tooltiptext">{{ .tooltip }}</span>
+						  </div>
+					</li>
+					</div>
+					-->
+
+            <div class="skill" data-aos="animation-scale-y">
+              <h3 class="skill__type">{{ .label }}</h3>
+              <div class="skill__outer-bar">
+                <div class="skill__inner-bar skill__inner-bar--{{ .value  }}"></div>
+              </div>
+              <span class="tooltiptext">{{ .tooltip }}</span>
+            </div>
+
+            {{ end }} {{ end }} {{ if eq .type "dotted" }} {{ range .items }}
+            <div class="education__item" data-aos="animation-scale-y" style="margin-bottom: 1%">
+              <li class="border-line-h">
+                <div class="name">{{ .label }}</div>
+                <div class="progress">
+                  <div class="percentage" style="width:{{ .value  }}%;"></div>
+                </div>
+              </li>
+            </div>
+            {{ end }} {{ end }} {{ if eq .type "circles" }} {{ range .items }}
+            <li>
+              <!--
+					  <div class="education__item" style = "margin-bottom: 1%;">
+						<div class="name">{{ .label }}</div>
+						<div class="progress p{{ .value }}">
+							<span>{{ .value }}%</span>
+						</div>
+						</div>
+						-->
+
+              <div class="eb-progress-bar-wrapper">
+                <div class="eb-progress-bar {{ .label }}" style="--value: {{ .value }}; --col: #272822">
+                  <progress id="{{ .label }}" min="0" max="100" value="{{ .value }}"></progress>
+                </div>
+                <label for="{{ .label }}" class="eb-progress-bar-title">
+                  <h2>{{ .label }}</h2>
+                </label>
+              </div>
+            </li>
+
+            {{ end }} {{ end }} {{ if eq .type "list" }} {{ range .items }}
+            <div class="education__item" data-aos="animation-scale-y" style="margin-bottom: 1%">
+              <li>
+                <div class="name">{{ .label }}</div>
+              </li>
+            </div>
+            {{ end }} {{ end }}
+          </ul>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    <!-- Background Wrap Object -->
+
+    <div class="blob-skills2" style="position: absolute; left: -5.92%; top: -15%; z-index: -20">
+      <div
+        class="obj-skills2"
+        style="content: url({{ .skillsblob3 | absURL }});width: 30%;opacity: 1 !important;"></div>
+    </div>
+
+    <div class="blob-skills1" style="position: absolute; left: auto; right: -4.92%; top: auto; bottom: -30%">
+      <div
+        class="obj-skills1"
+        style="content: url({{ .skillsblob4 | absURL }});transform: scaleX(-1);width: 500px;"></div>
+    </div>
+  </div>
+</div>
+
+{{ end }}

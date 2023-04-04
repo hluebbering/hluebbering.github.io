@@ -1,0 +1,97 @@
+{{ "<!-- Card - Started -->" | safeHTML }}
+
+{{ with .Site.Data.vcard.main }}
+
+<div class="card-started" id="home-card">
+  
+  
+<!-- Side Abstract Object 
+            <div class="talent__figure" style = "position: absolute; bottom: -45px !important; right: -35px; width: 340px; font-size: 0; z-index: 0; top: auto;">
+                <img class="talent__pic js-parallax" data-scale="1.15" data-orientation="right" src="{{ .vcardblob3 | absURL }}" alt="">
+            </div>
+            -->
+            
+            
+      
+	    
+	    
+	    
+  {{ "<!-- Profile-->" | safeHTML }}
+  <div class="profile{{ if not .photo }} no-photo{{ end }}">
+
+
+	    
+	    
+	    <div class = "blob-vcard1" style = "position: absolute; right: 0.08%; bottom: -15%; z-index: 2; left: auto; top: auto;">
+	    <div class = "obj-vcard1" style="content: url({{ .vcardblob1 | absURL }}); width: 430px;"></div>
+	    </div>
+	    
+	    
+	    
+	    <div class = "blob-vcard2" style = "transform: scaleX(1.8) scaleY(1.4) rotate(180deg); left: 8%; top: 6%; filter: saturate(1.2);">
+	    <div class = "obj-vcard2" style="content: url({{ .vcardblob2 | absURL }}); width: 200px;"></div>
+	    </div>
+	    
+	    
+	    
+	    
+    {{ "<!-- profile image -->" | safeHTML }}
+    <div class="slidee" style="background-image: url({{ .bgimage | absURL }});"></div>
+
+    {{ "<!-- profile photo -->" | safeHTML }}
+    {{ if .photo }}
+    <div class = "ava">
+    <div class = "avatar-img" style="background-image: url({{ .bgimage | absURL }});"></div>
+    <div class="avatar-frame" style = "background-image: url({{ .photo | absURL }}) !important;"></div>
+    
+    {{ "<!-- profile buttons -->" | safeHTML }}
+    <div class="lnks">
+      {{ range .buttons }}
+      <!-- top-btn-->
+      <a href="{{ .url }}" target="_blank" class="lnk top-btn">
+        <span class="text">{{ .title }}</span>
+        {{ if .icon }}
+        <span class="ion {{ .icon }}"></span>
+        {{ end }}
+      </a>
+      {{ end }}
+    </div>
+    
+    </div>
+    {{ end }}
+
+    {{ "<!-- profile titles -->" | safeHTML }}
+    <div class="subtitle">{{ .about }}</div>
+    <div class="title">{{ .name }}</div>
+
+<!--
+    <div class="subtitle subtitle-typed">
+      <div class="typing-title">
+        {{ range .typed }}
+        <p>{{ .text | safeHTML }}</p>
+        {{ end }}
+      </div>
+    </div>
+-->
+
+    {{ "<!-- profile socials -->" | safeHTML }}
+    <div class="social">
+      {{ range .social }}
+      <a target="_blank" href="{{ .url }}" title="{{ .title }}"><span class="{{ .icon }}"></span></a>
+      {{ end }}
+    </div>
+
+    
+
+  </div>
+  
+  
+  
+  
+	    
+	    
+	    
+
+</div>
+
+{{ end }}

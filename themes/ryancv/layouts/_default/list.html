@@ -1,0 +1,43 @@
+{{ define "main" }}
+{{ $dateFormat := .Site.Params.dateFormat }}
+
+{{ "<!-- Card - Blog -->" | safeHTML }}
+<div class="card-inner blog blog-archive animated" id="blog-archive-card">
+	<div class="card-wrap">
+
+		<div class="content blog">
+
+			<div class="title">{{ .Title }}</div>
+
+			<div class="row border-line-v post-items">
+				{{ range .Paginator.Pages }}
+				<div class="col col-d-6 col-t-6 col-m-12 post-item">
+					<div class="box-item">
+						<div class="image">
+							<a href="{{ .Permalink }}">
+								<img src="{{ .Params.featureImage | absURL }}" alt="{{ .Title }}" />
+								<span class="info">
+									<span class="ion ion-document-text"></span>
+								</span>
+							</a>
+						</div>
+						<div class="desc">
+							<a href="{{ .Permalink }}"><span class="date">{{ .PublishDate.Format $dateFormat }}</span></a>
+							<a href="{{ .Permalink }}" class="name">{{ .Title }}</a>
+							<div class="category">{{ with .Params.categories }}{{ delimit . ", "}}{{ end }}</div>
+						</div>
+					</div>
+				</div>
+				{{ end }}
+
+				<div class="clear"></div>
+			</div>
+
+      {{ partial "pagination" . }}
+
+		</div>
+
+	</div>
+</div>
+
+{{ end }}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning on Hannah Luebbering</title>
+    <link>https://hluebbering.github.io/categories/machine-learning/</link>
+    <description>Recent content in Machine Learning on Hannah Luebbering</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Dec 2021 12:49:27 +0600</lastBuildDate><atom:link href="https://hluebbering.github.io/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multimodal Neurons in Neural Networks</title>
+      <link>https://hluebbering.github.io/blog/multimodal-neurons/</link>
+      <pubDate>Sun, 12 Dec 2021 12:49:27 +0600</pubDate>
+      
+      <guid>https://hluebbering.github.io/blog/multimodal-neurons/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

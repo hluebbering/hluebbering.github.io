@@ -1,0 +1,58 @@
+{{ with .Site.Data.home.clients }}
+
+{{ "<!-- Clients -->" | safeHTML }}
+<div class="content clients" style="background-image: url({{ .bgimg | absURL }});">
+  
+	{{ if .title }}
+	<div class="title">
+	  <div class = "music-logo" style="content: url({{ .logoimg | absURL }});"></div>
+	  
+	  <a class="underlineit" href="#" target="_blank">
+	    {{ .title }}
+	    </a>
+	  
+	  </div>
+	{{ end }}
+
+	<div class="row client-items">
+		{{ range .items }}
+		<div class="col col-d-3 col-t-3 border-line-v">
+			
+	
+			<div class="client-item">
+			  
+<a class="image" target="_blank" style="content: url({{ .image | absURL }});" title="{{ .title }}"></a>
+
+
+				  
+				  
+				  <div class = "info">
+				    <h1> {{ .title }} </h1>
+				    <p>
+				    <span class="total-tracks"><b>{{ .ntracks }}</b> tracks | </span>
+				    <span class="total-followers"><i class="fas fa-heart" style="margin-left: 3px;"></i> {{ .nfollowers }} </span>
+				    </p>
+				    <!--Top Genre: {{ .about }}-->
+				    
+				    
+				  </div>
+				 
+				
+			</div>
+			
+			
+		</div>
+		{{ end }}
+		
+		<div class="seemore">
+    See More
+        </div>
+        
+        
+
+		<div class="clear"></div>
+	</div>
+
+</div>
+
+{{ end }}

@@ -1,0 +1,7 @@
+{{ $dateFormat := .Site.Params.dateFormat }}
+
+{{- $.Scratch.Add "index" slice -}}
+{{- range where .Site.RegularPages "Type" "not in"  (slice "page" "json") -}}
+    {{- $.Scratch.Add "index" (dict "title" .Title "tags" .Params.tags "categories" .Params.categories "summary" .Plain "permalink" .Permalink "section" .Section "date" ( .PublishDate.Format $dateFormat ) ) -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}

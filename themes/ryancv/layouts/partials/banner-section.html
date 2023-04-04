@@ -1,0 +1,68 @@
+{{ with .Site.Data.home.banner }}
+
+
+{{ "<!-- Banner -->" | safeHTML }}
+
+<div class="talent talent_case" style = "margin-bottom: 30px;">
+    <div class="talent__center center">
+        <div class="talent__container" style = "background-image: url({{ .bannerimg | absURL }}); background-size: cover; background-position: 50% 50%; height: 420px;">
+          
+          
+          
+           <div class="talent__btn" style = "background-image: url({{ .imgbtn | absURL }});">
+              <a href="{{ .external_link }}" target="_blank">
+                <button class="btn btn_white">Download Resume</button>
+              </a>
+          </div>
+          
+            
+            <div class="talent__bg" data-aos>
+                {{ range .items }}
+                
+                <!--
+                <div class="talent__preview">
+                    <img class="banner__pic" src="{{ .imgcon | absURL }}" alt="">
+                </div>
+                -->
+                
+                {{ end }}
+              <div class="clear"></div>
+              
+        </div>
+            
+            
+            
+            <!-- Title and Intro Description -->
+            <div class="talent__wrap">
+                
+                {{ if .title }}
+                <h2 class="talent__title h2" data-aos="animation-scale-y" data-aos-offset="200">{{ .title }}</h2>
+                {{ end }}
+                
+                
+                {{ if .text }}
+                <div class="advantages__info" data-aos="animation-scale-y" data-aos-delay="400">
+                {{ .text | safeHTML }}
+                </div>
+                {{ end }}
+          
+          
+                
+                
+            </div>
+            
+            
+            
+            
+          </div>
+          
+          
+          
+        </div>
+        
+        
+        
+      </div>
+
+
+{{ end }}

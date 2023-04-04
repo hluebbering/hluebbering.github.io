@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+{{ "<!-- Card 404 Page -->" | safeHTML }}
+<div class="card-inner blog blog-post animated" id="blog-page">
+	<div class="card-wrap">
+
+		<div class="content blog-single">
+
+			<div class="title">{{ i18n "errorNum" }} {{ i18n "errorTitle" }}</div>
+
+			<div class="row border-line-v">
+				<div class="col col-m-12 col-t-12 col-d-12">
+					<div class="post-box">
+						{{ i18n "errorText" }}
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</div>
+
+{{ end }}

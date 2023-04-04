@@ -1,0 +1,12 @@
+name = "ryancv"
+license = "GPL"
+licenselink = "https://themeforest.net/licenses/terms/regular"
+description = "RyanCV is a simple, minimal and responsive CV/Resume and vCard Hugo Theme."
+homepage = "https://bslthemes.com/"
+tags = ["clean", "minimal", "blog", "responsive", "personal", "google analytics", "bootstrap", "portfolio", "resume", "modern", "cv", "contact form", "creative"]
+features = ['responsive design', 'blog', 'responsive', 'minimal', 'resume', 'cv', 'hugo-theme', 'portfolio', 'creative', 'contact-form']
+min_version = "0.41"
+
+[author]
+  name = "bslthemes Team"
+  homepage = "https://bslthemes.com/"

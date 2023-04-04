@@ -1,0 +1,174 @@
+# General Settings
+title = "Hannah Luebbering"
+baseURL = "https://hluebbering.github.io/" #YOUR SITE URL
+languageCode = "en-us"
+theme = "ryancv"
+resourceDir = "resources"
+publishDir = "docs"
+paginate = 4
+summaryLength = 20
+DefaultContentLanguage = "en"
+
+# Menu Settings
+##
+### to add or remove card (or menu item)
+### param "name" - Menu item name
+### param "pre" - Menu item icon class, all icons class you can see here https://ionicons.com/v4/
+### param "identifier" - Menu item url slug
+### param "url" - Menu item url
+### param "sections" - list of sections what will be show of each card, all prebuild sections name see in documentations
+[menu]
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  pre = "fa-duotone fa-user"
+  url = "#about-card"
+  weight = 1
+  [menu.main.params]
+    builder = [
+    "testimonials"
+    ]
+    
+[[menu.main]]
+  identifier = "banner"
+  name = "Banner"
+  pre = "fa-duotone fa-paper-plane"
+  url = "#contacts-card"
+  weight = 2
+  [menu.main.params]
+    builder = [
+      "banner"
+    ]
+    
+[[menu.main]]
+  identifier = "about3"
+  name = "About"
+  pre = "fa-duotone fa-user"
+  url = "#about-card"
+  weight = 3
+  [menu.main.params]
+    builder = [
+     "services"
+    ]
+[[menu.main]]
+  identifier = "about2"
+  name = "About"
+  pre = "fa-duotone fa-user"
+  url = "#about-card"
+  weight = 4
+  [menu.main.params]
+    builder = [
+      "skills"
+#      "facts",
+    ]
+[[menu.main]]
+  identifier = "works"
+  name = "Projects"
+  pre = "fa-duotone fa-window"
+  url = "#works-card"
+  weight = 5
+  [menu.main.params]
+    builder = [
+      "portfolio"
+    ]
+[[menu.main]]
+  identifier = "blog"
+  name = "Posts"
+  pre = "fa-duotone fa-pencil"
+  url = "#blog-card"
+  weight = 6
+  [menu.main.params]
+    builder = [
+      "blog"
+    ]
+[[menu.main]]
+  identifier = "contacts"
+  name = "Contact"
+  pre = "fa-duotone fa-paper-plane"
+  url = "#contacts-card"
+  weight = 7
+  [menu.main.params]
+    builder = [
+      "contact-form"
+    ]
+
+
+# [[menu.main]]
+#  identifier = "gallery"
+#  name = "Gallery"
+#  pre = "fa-duotone fa-paper-plane"
+#  url = "#gallery-card"
+#  weight = 8
+#  [menu.main.params]
+#    builder = [
+#      "gallery"
+#    ]
+
+    
+# Main Settings
+[params]
+skinColor = "" #TEMPLATE SKIN COLOR: [ blue, green, orange, pink, purple, red ]. If empty colors taken from thenes/ryan/assets/scss/_settings.scss
+skinDark = 0 #TEMPLATE UI: [ 1 - yes, 0 - no ]
+rtl = 0 #TEMPLATE RTL MODE: [ 1 - yes, 0 - no ]
+skinMinimal = 0 #TEMPLATE MINIMAL SKIN: [ 1 - yes, 0 - no ]
+dateFormat = "January 2, 2006"
+authorName = "Hannah Luebbering"
+disqusComments = "your_disqus_shortname" #YOUR DISQUS COMMENTS SHORTNAME
+formspreeURL = "https://formspree.io/f/your_api_key" #YOUR FORMSPREE URL
+googleAnalytics = "" #YOUR GOOGLE ANALYTICS CODE
+
+
+# Background
+[params.background]
+type = "default" #BACKGROUND TYPE: [ default, blured ]
+
+# Google MAPS
+[params.googleMaps]
+key = "your_api_key" #YOUR GOOGLE MAPS API KEY: leave empty if you want to hide Google Maps
+lat = "40.773328" #YOUR GOOGLE MAPS LATITUDE
+long = "-73.960088" #YOUR GOOGLE MAPS LONGITUDE
+zoom = "14" #YOUR GOOGLE MAPS ZOOM VALUE
+
+# Sidebar
+[params.sidebar]
+enable = 1 #SIDEBAR SHOW: [ 1 - yes, 0 - no ]
+search = 0 #SIDEBAR SEARCH WIDGET: [ 1 - yes, 0 - no ]
+latestPosts = 0 #SIDEBAR LATEST POSTS WIDGET: [ 1 - yes, 0 - no ]
+categories = 0 #SIDEBAR CATEGORIES TAXONOMY WIDGET: [ 1 - yes, 0 - no ]
+tags = 0 #SIDEBAR TAG TAXONOMY WIDGET: [ 1 - yes, 0 - no ]
+menuWidget = 0 #SIDEBAR MENU WIDGET: [ 1 - yes, 0 - no ]
+
+# Animation Settings
+[params.animation]
+in = "fadeInLeft" #ANIMATION IN: [ rotateInUpLeft, rollIn, jackInTheBox, fadeIn, fadeInUp, fadeInLeft ]
+out = "fadeOutLeft" #ANIMATION OUT: [ rotateOutUpLeft, rollOut, jackOutTheBox, fadeOut, fadeOutUp, fadeOutLeft ]
+
+# Portfolio Settings
+[params.portfolio]
+homeNumOfItems = 12
+[[params.portfolio.filters]]
+name = "Web Development"
+slug = "web_development"
+[[params.portfolio.filters]]
+name = "Data Science"
+slug = "data_science"
+[[params.portfolio.filters]]
+name = "Machine Learning"
+slug = "machine_learning"
+[[params.portfolio.filters]]
+name = "Mathematics"
+slug = "mathematics"
+
+# Sitemap Settings
+[sitemap]
+changefreq = "monthly"
+priority = 0.5
+filename = "sitemap.xml"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

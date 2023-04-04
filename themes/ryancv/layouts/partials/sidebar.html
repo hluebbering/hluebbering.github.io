@@ -1,0 +1,81 @@
+{{ $sidebar := .Site.Params.sidebar }}
+
+<div class="s_overlay"></div>
+<div class="content-sidebar">
+	<div class="sidebar-wrap">
+		<aside id="secondary" class="widget-area">
+
+      {{ if $sidebar.search }}
+			<div id="search" class="widget widget_search">
+				<form class="search-form" action="{{ "search" | absURL }}">
+					<label>
+						<input type="search" id="searchInput" class="search-field" placeholder="{{ i18n "search" }}" value="">
+					</label>
+					<input type="submit" class="search-submit" value="">
+          <ul id="searchResults"></ul>
+				</form>
+			</div>
+      {{ end }}
+
+			{{ if $sidebar.menuWidget }}
+			<section class="widget widget_menu">
+				<h2 class="widget-title">{{ i18n "menu" }}</h2>
+				<ul>
+					{{ $currentPage := . }}
+					{{ range $index, $item := .Site.Menus.sidebar }}
+					{{ $menuURL := .URL | absLangURL }}
+					{{ $pageURL:= $currentPage.Permalink | absLangURL }}
+					{{ $active := eq $menuURL $pageURL }}
+					<li{{ if not $index }} class="active"{{ end }}>
+						<a href="{{ $.Site.BaseURL }}{{ .URL }}">{{ .Name }}</a>
+					</li>
+					{{ end }}
+				</ul>
+			</section>
+      {{ end }}
+
+			{{ if $sidebar.latestPosts }}
+			<section class="widget widget_recent_entries">
+				<h2 class="widget-title">{{ i18n "latestPosts" }}</h2>
+				<ul>
+					{{ range first 4 (where .Site.RegularPages "Section" "blog") }}
+					<li>
+						<a href="{{ .Permalink }}">{{ .Title }}</a>
+					</li>
+					{{ end }}
+				</ul>
+			</section>
+			{{ end }}
+
+			{{ if $sidebar.categories }}
+			<section class="widget widget_categories">
+				<h2 class="widget-title">{{ i18n "categories" }}</h2>
+				<ul>
+            {{ range .Site.Taxonomies.categories }}
+  				  <li>
+              <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+              <small>( {{ .Count }} )</small>
+            </li>
+            {{ end }}
+				</ul>
+			</section>
+			{{ end }}
+
+			{{ if $sidebar.tags }}
+			<section class="widget widget_tags">
+				<h2 class="widget-title">{{ i18n "tags" }}</h2>
+				<ul>
+           {{ range .Site.Taxonomies.tags }}
+           <li>
+             <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+             <small>( {{ .Count }} )</small>
+           </li>
+           {{ end }}
+				</ul>
+			</section>
+			{{ end }}
+
+		</aside>
+	</div>
+	<span class="close"></span>
+</div>

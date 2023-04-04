@@ -1,0 +1,39 @@
+{{ with .Site.Data.home.facts }}
+
+{{ "<!-- Fun Fact -->" | safeHTML }}
+<div class="content fuct">
+
+	{{ if .title }}
+	<div class="title">
+	  <div class = "skills-logo" style="content: url({{ .codeico | absURL }});"></div>
+	  {{ .title }}
+	  </div>
+	{{ end }}
+
+	<div class="row fuct-items">
+		{{ range .items }}
+		<div class="col border-line-v">
+			<div class="fuct-item">
+			  
+				
+				<!-- <div class="name">{{ .name }}</div> -->
+				
+				<p class="codepen" data-height="159.393798828125" data-theme-id="43838" data-default-tab="result" data-slug-hash="{{ .name }}" data-user="hluebbering" style="height: 159.393798828125px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+</p>
+				
+				
+			</div>
+		</div>
+		{{ end }}
+		</div>
+
+		<div class="clear"></div>
+	
+
+</div>
+
+
+
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+{{ end }}

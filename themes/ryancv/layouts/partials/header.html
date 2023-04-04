@@ -1,0 +1,32 @@
+{{ $minimal := .Site.Params.skinMinimal }}
+
+{{ "<!-- Header -->" | safeHTML }}
+<header class="header">
+
+	<!--<a href="#" class="logo-btn"><span></span></a>-->
+
+  {{ "<!-- menu -->" | safeHTML }}
+	<div class="top-menu{{ if $minimal }} menu-minimal{{ end }}">
+	  <div class = "navicon">
+	  <a href="#" class="logo-btn"><span></span></a>
+	  </div>
+	  
+		<ul>
+      {{ $currentPage := . }}
+      {{ range $index, $item := .Site.Menus.main }}
+      {{ $menuURL := .URL | absLangURL }}
+      {{ $pageURL:= $currentPage.Permalink | absLangURL }}
+      {{ $active := eq $menuURL $pageURL }}
+			<li{{ if not $index }} class="active {{ .Identifier }}" 
+			    {{ else }} class="{{ .Identifier }}" {{ end }}>
+				<a href="{{ $.Site.BaseURL }}{{ .URL }}">
+					<!--<span class="icon {{ .Pre }}"></span>-->
+					<i class="icon {{ .Pre }}"></i>
+					<span class="link">{{ .Name }}</span>
+				</a>
+			</li>
+			{{ end }}
+		</ul>
+	</div>
+
+</header>

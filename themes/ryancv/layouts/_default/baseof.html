@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+{{ partial "head.html" . }}
+
+<body class="{{ if .IsHome }}home{{ end }}{{ if .IsPage }}{{ if or ( eq .Type "blog" ) ( eq .Type "page" ) }} blog{{ end }}{{ end }}">
+  <div class="page new-skin">
+
+    {{ partial "preloader.html" . }}
+
+    {{ partial "background.html" . }}
+
+    {{ partial "sidebar.html" . }}
+
+    {{ $animation := .Site.Params.animation }}
+    {{ $minimal := .Site.Params.skinMinimal }}
+    {{ "<!-- Container -->" | safeHTML }}
+    <div class="container opened{{ if $minimal }} layout-rounded-style minimal-icons-style{{ end }}" data-animation-in="{{ $animation.in }}" data-animation-out="{{ $animation.out }}">
+
+      {{ partial "header.html" . }}
+
+      {{ partial "vcard.html" . }}
+
+      {{ block "main" . }}{{ end }}
+    </div>
+    
+    {{ partial "footer.html" . }}
+  </div>
+
+  {{ "<!-- Scripts -->" | safeHTML }}
+  {{ partial "scripts.html" . }}
+</body>
+
+</html>

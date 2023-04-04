@@ -1,0 +1,55 @@
+{{ with .Site.Data.home.iconcase }}
+
+
+{{ "<!-- Iconcase -->" | safeHTML }}
+
+<div class="talent talent_case">
+    <div class="talent__center center">
+        <div class="talent__container">
+            
+            <div class="talent__bg" data-aos>
+                {{ range .items }}
+                
+                <div class="talent__preview">
+                    <img class="talent__pic" src="{{ .imgcon | absURL }}" alt="">
+                </div>
+                
+                
+                {{ end }}
+              <div class="clear"></div>
+              
+        </div>
+            
+            
+            
+            <!-- Title and Intro Description -->
+            <div class="talent__wrap">
+                
+                {{ if .title }}
+                <h2 class="talent__title h2" data-aos="animation-scale-y" data-aos-offset="200">{{ .title }}</h2>
+                {{ end }}
+                
+                
+                {{ if .text }}
+                <div class="advantages__info" data-aos="animation-scale-y" data-aos-delay="400">
+                {{ .text | safeHTML }}
+                </div>
+                {{ end }}
+          
+          
+                
+                <div class="talent__btn" data-aos="animation-scale-y" data-aos-offset="400">
+                    <a href="{{ .external_link }}" target="_blank"><button class="btn btn_white">Download Now</button></a>
+                </div>
+            </div>
+            
+            
+            <!-- Side Abstract Object -->
+            
+            
+          </div>
+        </div>
+      </div>
+
+
+{{ end }}

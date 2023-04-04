@@ -1,0 +1,71 @@
+{{ $dateFormat := .Site.Params.dateFormat }}
+
+{{ "<!-- Blog -->" | safeHTML }}
+<div class="content blog">
+
+	{{ with .Site.Data.home.blog }}
+	
+	
+	
+	
+	
+	    
+	    
+	    <div class = "blob-skills2">
+	    <div class = "obj-skills2" style="content: url({{ .blogblob1 | absURL }});"></div>
+	    </div>
+	    
+
+	{{ if .title }}
+	<div class="title">
+	  <div class = "blog-logo" style="content: url({{ .blogico | absURL }});"></div>
+	  <h2 class="advantages__title title" data-aos="animation-scale-y"  data-aos-delay="50">{{ .title }}</h2>
+	  </div>
+	{{ end }}
+
+	{{ end }}
+	
+
+	    
+	    
+	{{ $paginator := .Paginate (where .Site.RegularPages "Section" "blog") }}
+
+	<div class="blog-flex skills__box" data-page="{{ $paginator.PageNumber }}" data-total="{{ $paginator.TotalPages }}">
+
+		{{ range $paginator.Pages }}
+		<div class="col col-d-6 col-t-6 post-item">
+			<div class="box-item blog">
+			  
+				
+				
+				<div class="desc">
+					
+					<div class="category">{{ with .Params.categories }}{{ delimit . ", "}}{{ end }}</div>
+					
+					<a href="{{ .Params.externalLink }}" class="name" target="_blank">{{ .Title }}</a>
+					<a href="{{ .Params.externalLink }}" target="_blank"><span class="category">{{ .PublishDate.Format $dateFormat }}</span></a>
+					
+					<p class="blog-summary">{{ .Params.blogAbout }}</p>
+					
+					<a href="{{ .Params.externalLink }}" target="_blank"><span class="date">Read More</span></a>
+					
+					
+				</div>
+			</div>
+		</div>
+		
+		
+	
+	    
+		
+		
+		{{ end }}
+
+		<div class="clear"></div>
+	</div>
+	
+	
+	
+	
+
+</div>

@@ -1,0 +1,123 @@
+<head>
+  <title>{{ .Title }}</title>
+
+  {{ "<!-- Meta -->" | safeHTML }}
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="author" content="bslthemes" />
+
+
+  {{ "<!-- Google Fonts -->" | safeHTML }}
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com" rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+
+  <link rel="preload" as="style" onload="this.rel = 'stylesheet'" href='https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lora:wght@400;600&family=Poppins:wght@300;400;600&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@300;400;600;700&display=swap'>
+  <noscript><link rel="stylesheet" href='https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lora:wght@400;600&family=Poppins:wght@300;400;600&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@300;400;600;700&display=swap'></noscript>
+
+
+  
+  {{ "<!-- Adobe Fonts -->" | safeHTML }}
+  <link rel="preload" as="style" onload="this.rel = 'stylesheet'" href='https://use.typekit.net/ita3jpl.css'>
+  <noscript><link rel="stylesheet" href='https://use.typekit.net/ita3jpl.css'></noscript>
+  
+  
+  {{ "<!-- Preload Fonts -->" | safeHTML }}
+  <link rel="preload" href="{{ "fonts/PPHatton-Regular.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ "fonts/VeryVogue/VeryVogueDisplay.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ "fonts/IntegralCF/IntegralCF-Regular.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>
+
+  
+  <link rel="preload" as="style" onload="this.rel = 'stylesheet'" href="{{ "fonts/fonts.css" | absURL }}">
+  <noscript><link rel="stylesheet" href="{{ "fonts/fonts.css" | absURL }}"></noscript>
+  
+  
+  
+  {{ "<!-- Icons -->" | safeHTML }}
+  <link rel="preload" as="style" onload="this.rel = 'stylesheet'" href='https://use.fontawesome.com/releases/v5.8.0/css/all.css'>
+  <noscript><link rel="stylesheet" href='https://use.fontawesome.com/releases/v5.8.0/css/all.css'></noscript>
+
+
+
+  {{ "<!-- Main Stylesheets -->" | safeHTML }}
+  {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" />
+  
+  {{ "<!-- CSS Stylesheets (static) -->" | safeHTML }}
+  {{ $style2 := resources.Get "css/custom2.css" | resources.Minify }}
+  <link rel="stylesheet" href="{{ $style2.Permalink }}" />
+ 
+
+  <script>
+      var viewportmeta = document.querySelector('meta[name="viewport"]');
+      if (viewportmeta)
+      {
+        if (screen.width < 375)
+        {
+          var newScale = screen.width / 375;
+          viewportmeta.content = 'width=375, minimum-scale=' + newScale + ', maximum-scale=1.0, user-scalable=no, initial-scale=' + newScale + '';
+        }
+        else
+        {
+          viewportmeta.content = 'width=device-width, maximum-scale=1.0, initial-scale=1.0';
+        }
+      }
+    </script>
+    
+
+    
+  
+  
+  
+  {{ "<!-- Plugins Stylesheets -->" | safeHTML }}
+  
+  <link rel="stylesheet" href="{{ "plugins/owl-carousel/owl.carousel.css" | absURL }}" />
+  <link rel="preload" as="style" onload="this.rel = 'stylesheet'" href="{{ "plugins/animate/animate.css" | absURL }}">
+  <noscript><link rel="stylesheet" href="{{ "plugins/animate/animate.css" | absURL }}"></noscript>
+  <!--
+  <link rel="stylesheet" href="{{ "plugins/magnific-popup/magnific-popup.css" | absURL }}" />
+  <link rel="preload" as="style" onload="this.rel = 'stylesheet'" href="{{ "plugins/ionicons/ionicons.css" | absURL }}">
+  <noscript><link rel="stylesheet" href="{{ "plugins/ionicons/ionicons.css" | absURL }}"></noscript>-->
+  
+  
+
+
+  {{ with .Site.Params.rtl }}
+  {{ "<!-- Template RTL -->" | safeHTML }}
+  <link rel="stylesheet" href="{{ "plugins/template-rtl/rtl.css" | absURL }}" />
+  {{ end }}
+
+  {{ with .Site.Params.skinColor }}
+  {{ "<!-- Template Colors -->" | safeHTML }}
+  <link rel="stylesheet" href="{{ "plugins/template-colors/" | absURL }}{{ . }}.css" />
+  {{ end }}
+
+  {{ with .Site.Params.skinDark }}
+  {{ "<!-- Template Dark -->" | safeHTML }}
+  <link rel="stylesheet" href="{{ "plugins/template-dark/dark.css" | absURL }}" />
+  {{ end }}
+
+  {{ with .Site.Params.skinMinimal }}
+  {{ "<!-- Template RTL -->" | safeHTML }}
+  <link rel="stylesheet" href="{{ "plugins/template-minimal/minimal-skin.css" | absURL }}" />
+  {{ end }}
+
+
+
+  {{ "<!-- Favicon -->" | safeHTML }}
+  <link rel="shortcut icon" href="{{ "images/favicon/favicon.ico" | absURL }}" type="image/x-icon" />
+  <link rel="icon" href="{{ "images/favicon/favicon.ico" | absURL }}" type="image/x-icon" />
+  
+
+  <script defer src="https://kit.fontawesome.com/a2b3fc39a2.js" crossorigin="anonymous"></script>
+  
+
+
+
+  {{ range .AlternativeOutputFormats -}}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+</head>

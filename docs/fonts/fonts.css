@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Integral CF';
+    src: url('IntegralCF/IntegralCF-Regular.eot');
+    src: url('IntegralCF/IntegralCF-Regular.eot?#iefix') format('embedded-opentype'),
+        url('IntegralCF/IntegralCF-Regular.woff2') format('woff2'),
+        url('IntegralCF/IntegralCF-Regular.woff') format('woff'),
+        url('IntegralCF/IntegralCF-Regular.ttf') format('truetype'),
+        url('IntegralCF/IntegralCF-Regular.svg#IntegralCF-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+@font-face {
+  font-family: 'PPHatton';
+    src: url('PPHatton-Regular.eot'); /* IE9 Compat Modes */
+    src: url('PPHatton-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('PPHatton-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('PPHatton-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+        url('PPHatton-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('PPHatton-Regular.svg#PPHatton-Regular') format('svg'); /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'PPHatton';
+    src: url('PPHatton-Light.eot'); /* IE9 Compat Modes */
+    src: url('PPHatton-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('PPHatton-Light.woff2') format('woff2'), /* Super Modern Browsers */
+        url('PPHatton-Light.woff') format('woff'), /* Pretty Modern Browsers */
+        url('PPHatton-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('PPHatton-Light.svg#PPHatton-Light') format('svg'); /* Legacy iOS */
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Very Vogue Display';
+    src: url('VeryVogue/VeryVogueDisplay.eot'); /* IE9 Compat Modes */
+    src: url('VeryVogue/VeryVogueDisplay.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('VeryVogue/VeryVogueDisplay.woff2') format('woff2'), /* Super Modern Browsers */
+        url('VeryVogue/VeryVogueDisplay.woff') format('woff'), /* Pretty Modern Browsers */
+        url('VeryVogue/VeryVogueDisplay.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('VeryVogue/VeryVogueDisplay.svg#VeryVogueDisplay') format('svg'); /* Legacy iOS */
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}

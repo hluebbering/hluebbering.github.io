@@ -1,0 +1,401 @@
+/**
+*   RyanCV - Resume/CV/vCard Theme (Hugo)
+*   Version: 1.0
+*   Author: bslthemes
+*   Website: https://bslthemes.com/
+*   Author URL: https://themeforest.net/user/bslthemes
+*   Copyright © RyanCV by bslthemes. All Rights Reserved.
+**/
+
+
+/* TABLE OF CONTENTS
+	1. Blog Post
+*/
+
+
+/*
+	1. Blog Post
+*/
+.post-box {
+	&:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+
+	.blog-detail {
+		margin: 0 0 25px 0;
+		font-size: $small-size;
+		color: $extra-color;
+	}
+	.blog-detail > span:first-child {
+		padding-right: 0;
+	}
+	.blog-detail span:first-child:before {
+		display: none;
+	}
+	.blog-detail > span {
+		text-transform: uppercase;
+		font-size: 12px;
+		font-weight: 500;
+		padding-right: 4px;
+	}
+	.blog-detail > span:before {
+	    content: '';
+	    content: "\02022";
+	    font-family: serif;
+	    padding: 0 6px 0 6px;
+	}
+	.blog-image {
+		margin: 0 0 25px 0;
+		font-size: 0;
+
+		img {
+			width: 100%;
+		}
+	}
+	.blog-content {
+		blockquote {
+			margin: 25px 0;
+		    padding: 0 20px;
+		    color: $default-color;
+		    font-style: italic;
+		    font-weight: 300;
+		    border-left: 2px solid $active-color;
+		}
+		ul {
+			list-style: none;
+			margin: 25px 0;
+
+			& > li {
+				margin: 8px 0;
+				padding: 0 0 0 18px;
+				position: relative;
+				font-weight: 400;
+
+				&:before {
+					content: '';
+					position: absolute;
+					left: 0;
+					top: 11px;
+					width: 4px;
+					height: 4px;
+					background: $active-color;
+					@include border-radius(4px);
+				}
+			}
+		}
+		ol {
+			& > li {
+				margin: 8px 0;
+				position: relative;
+				font-weight: 400;
+				padding: 0;
+
+				& > &:before {
+					display: none;
+				}
+			}
+		}
+		.post-lightbox {
+			margin: 25px 0;
+
+			img {
+				display: block;
+				width: 100%;
+				margin-bottom: 20px;
+			}
+		}
+		a {
+			color: $active-color;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+		img {
+			max-width: 100%;
+		}
+	}
+	.post-navigation {
+		margin: 10px 0 10px 0;
+
+		&:after {
+			content: '';
+			position: relative;
+			clear: both;
+			display: block;
+		}
+
+		a {
+			position: relative;
+			font-size: 14px;
+			font-weight: 400;
+			text-transform: uppercase;
+			color: #aca3a3;
+			line-height: 20px;
+			position: relative;
+			margin: 0;
+			padding: 5px 10px;
+			display: inline-block;
+			-webkit-transition: all 0.2s ease-out 0s;
+			transition: all 0.2s ease-out 0s;
+
+			&:hover {
+				color: $default-color;
+			}
+		}
+		.nav-previous, .nav-next {
+			a {
+				&:before {
+					margin-top: -10px;
+					position: absolute;
+					content: '';
+					left: 0;
+					top: 50%;
+					display: block;
+					width: 11px;
+					height: 20px;
+					background: url(../images/pag.png) no-repeat center center;
+					-webkit-transform: scaleX(-1);
+					transform: scaleX(-1);
+					-webkit-transition: all 0.3s ease 0s;
+					transition: all 0.3s ease 0s;
+				}
+
+				&:hover {
+					&:before {
+						left: -4px;
+					}
+				}
+			}
+		}
+		.nav-previous {
+			a {
+				float: left;
+				padding-left: 25px;
+			}
+		}
+		.nav-next {
+			a {
+				float: right;
+				padding-right: 25px;
+
+				&:before {
+					left: auto;
+					right: 0;
+					-webkit-transform: scaleX(1);
+					transform: scaleX(1);
+				}
+
+				&:hover {
+					&:before {
+						left: auto;
+						right: -4px;
+					}
+				}
+			}
+		}
+	}
+	.post-comments {
+		margin: 0 0 40px 0;
+		li {
+			margin: 0 0 20px -20px;
+			padding: 0 0 20px 20px;
+			position: relative;
+			display: block;
+			list-style: none;
+			&:last-child {
+				&:before {
+					display: none;
+				}
+			}
+			&:before {
+				content: '';
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				height: 1px;
+				background: -moz-radial-gradient(left, ellipse cover, rgba(197,202,213,0.7) 0%, rgba(255,255,255,0) 70%);
+				background: -webkit-radial-gradient(left, ellipse cover, rgba(197,202,213,0.7) 0%,rgba(255,255,255,0) 70%);
+				background: radial-gradient(ellipse at left, rgba(197,202,213,0.7) 0%,rgba(255,255,255,0) 70%);
+			}
+			&:after {
+				content: '';
+				position: relative;
+				clear: both;
+				display: block;
+			}
+			img {
+				width: 54px;
+				float: left;
+				@include border-radius(100%);
+			}
+			.comment-info {
+				margin: 0 0 0 66px;
+				padding: 5px 0 0 0;
+				.name {
+					margin: 0 0 10px 0;
+					position: relative;
+					font-size: $small-size;
+					color: $dark-color;
+					font-weight: 500;
+					a {
+						position: absolute;
+						top: 0;
+						right: 0;
+						font-size: $extra-small-size;
+						color: $dark-color;
+						text-transform: uppercase;
+					}
+					h6 {
+						margin: 0;
+						font-size: $default-size;
+						line-height: $default-size;
+						color: $active-color;
+						span {
+							margin: 0 0 0 10px;
+							padding: 0 0 0 10px;
+							display: inline-block;
+							font-size: $extra-small-size;
+							line-height: $extra-small-size;
+							color: $extra-color;
+							font-weight: 400;
+							text-transform: none;
+							border-left: 1px solid $light-color;
+						}
+					}
+				}
+				p {
+					margin: 0;
+				}
+			}
+		}
+	}
+}
+
+.post-text-bottom {
+	margin: 0;
+
+	.tags-links {
+		margin-right: 30px;
+		display: inline-block;
+		vertical-align: top;
+		color: #999;
+
+		span {
+			color: #999;
+			margin-bottom: 0;
+
+			&:first-child {
+				margin-right: 10px;
+			}
+		}
+		a {
+			margin: 0 10px 10px 0;
+			display: inline-block;
+			padding: 0 5px;
+			line-height: 18px;
+			font-weight: 400;
+			font-size: 13px;
+			color: $active-color;
+			border: 1px solid $active-color;
+			text-decoration: none;
+
+			&:first-child {
+				margin-left: 10px;
+			}
+		}
+	}
+	.social-share {
+		margin-right: 30px;
+		margin-bottom: 20px;
+		display: inline-block;
+		vertical-align: top;
+
+		span {
+			color: #999;
+			margin-bottom: 0;
+		}
+		.share-btn {
+			position: relative;
+			display: inline-block;
+			top: 1px;
+			margin-left: 7px;
+			margin-right: 7px;
+			font-size: 16px;
+		}
+	}
+}
+
+.nav-links,
+.page-links,
+.pager {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.pager .nav-links {
+  margin: 30px 0 0;
+  padding: 13px;
+  background: #fafafa;
+  border-radius: 4px;
+}
+.nav-links a,
+.page-links a,
+.page-numbers {
+  position: relative;
+  margin: 0 7px;
+  display: inline-block;
+  vertical-align: top;
+  color: $extra-color;
+}
+.page-numbers.current,
+a.page-numbers:hover {
+	color: $active-color;
+}
+a.prev.page-numbers,
+a.next.page-numbers {
+  color: $extra-color;
+}
+a.prev.page-numbers {
+  padding: 0 0 0 15px;
+}
+a.next.page-numbers {
+  padding: 0 15px 0 0;
+}
+.next.page-numbers:before,
+.prev.page-numbers:before {
+	content: '';
+	margin-top: -6px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  display: block;
+  width: 11px;
+  height: 12px;
+  background: url(../images/pag.png) center center/contain no-repeat;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.next.page-numbers:before {
+	left: auto;
+  right: 0;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+a.next.page-numbers:hover,
+a.prev.page-numbers:hover {
+	color: #646464;
+}
+.next.page-numbers:hover:before {
+	right: -4px;
+}
+.prev.page-numbers:hover:before {
+	left: -4px;
+}

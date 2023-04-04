@@ -1,0 +1,86 @@
+{{ with .Site.Data.home.services }}
+
+<!-- Services -->
+
+
+<div class="content services">
+
+	{{ if .title }}
+	<div class="title">{{ .title }}</div>
+	{{ end }}
+	
+	
+	<div class="row service-items border-line-v">
+		{{ range .items }}
+		
+		
+		
+		
+		
+
+  <div class="cardd col col-d-4 col-t-4 {{ if eq .h_line 1 }} border-line-h{{ end }}" style = "background-image: linear-gradient(53deg, {{ .col1 }}, {{ .col2 }});">
+    
+    <div class="imgBx" style = "background-image: url({{ .service_icon | absURL }});">
+      <div class = "img-responsive" src="url({{ .service_icon | absURL }})"></div>
+      </div>
+    
+    <div class="contentBx">
+      
+      <h2>{{ .name }}</h2>
+      
+      <div class="service-item">
+				<div class="color icon">
+				  <span class="ion {{ .icon }}"></span>
+				  </div>
+				<div class="color">
+				<p>{{ .text | safeHTML }}</p>
+				</div>
+			</div>
+    
+      <a href="#">Buy Now</a>
+    </div>
+    
+    
+</div>
+
+
+
+
+		
+
+		
+		
+		
+	<!--	
+		<div class="col col-d-6 col-t-6 {{ if eq .h_line 1 }} border-line-h{{ end }}">
+  <div class="hovereffect">
+    <div class="img-responsive" style = "background-image: url({{ .service_icon | absURL }}), linear-gradient(53deg, {{ .col1 }}, {{ .col2 }});"></div>
+    
+    <div class="overlay">
+      
+      <div class="service-item">
+				<div class="icon"><span class="ion {{ .icon }}"></span></div>
+				<div class="name">{{ .name }}</div>
+				<p>
+					{{ .text | safeHTML }}
+				</p>
+			</div>
+
+      </div>
+      
+    </div>
+</div>
+		
+		-->
+		
+		{{ end }}
+
+		
+		
+		
+		<div class="clear"></div>
+	</div>
+
+</div>
+
+{{ end }}

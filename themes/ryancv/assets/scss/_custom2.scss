@@ -1,0 +1,121 @@
+@property --eb-progress-value {
+	syntax: "<integer>";
+	inherits: false;
+	initial-value: 0;
+}
+
+@keyframes eb-progress {
+	to {
+		--eb-progress-value: var(--value);
+	}
+}
+
+
+.eb-progress-bar {
+	--size: 4.125rem;
+	--inner-bg: #f2f2f2;
+	--inner-bg: #272822;
+	--primary-color: var(--col);
+	--primary-color: #f2f2f2;
+	--secondary-color: #dae9f7;
+	--secondary-color: #272822;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0px 2px #00000066, inset 0 0px 1px #0000004d, 0 1px 2px #00000099, 0 4px 2px #00000033, 0 9px 4px #0000001a, inset 0 2px 1px #ffffff8c;
+	width: var(--size);
+	height: var(--size);
+	font-size: calc(var(--size) / 5);
+	color: var(--primary-color);
+	background: radial-gradient(
+			closest-side,
+			var(--inner-bg) 65%,
+			transparent 66% 100%
+		),
+		conic-gradient(
+			var(--primary-color) calc(var(--eb-progress-value) * 1%),
+			var(--secondary-color) 0
+		);
+	border-radius: 50%;
+
+	&-wrapper {
+		display: grid;
+		place-items: center;
+		gap: 5px;
+    padding: 0px;
+    transform: scale(1.15);
+	}
+
+	&,
+	&::before {
+		animation: eb-progress 2s 1 forwards;
+	}
+
+	&::before {
+		counter-reset: percentage var(--eb-progress-value);
+		content: counter(percentage) "%";
+		font-weight: 400;
+		color: #13242f;
+		font-family: Roboto;
+		font-size: 15px;
+		color: #9e9e9e;
+		box-shadow: 1px 1px 3px #00000026;
+		/*border: 1px solid #d0d0d0;
+		padding: 19px 13px;
+		border-radius: 50%;
+		z-index: 0;
+		position: relative;
+		background: #f5f6f7;
+		background-image: -webkit-gradient(
+			linear,
+			right top,
+			right bottom,
+			color-stop(0%, #ffffff),
+			color-stop(100%, #d3d1cb)
+		);
+		*/
+		
+	}
+
+	&-title h2 {
+		text-align: center;
+		letter-spacing: 2px;
+		line-height: 1.2;
+		text-transform: uppercase;
+		font-size: 12px;
+		font-weight: 400;
+		font-family: 'Inter';
+		text-shadow: 0.25pt 0.3pt 1pt #fafafa;
+    color: #212529;
+	}
+
+	progress {
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+}
+
+
+
+
+@property --eb-progress-value {
+  syntax: "<integer>";
+  inherits: false;
+  initial-value: 0;
+}
+
+@keyframes eb-progress {
+  to {
+    --eb-progress-value: var(--value);
+  }
+}
+
+
+
+
+
+
+
+

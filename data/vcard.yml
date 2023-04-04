@@ -1,0 +1,42 @@
+# Vcard configuration file
+##
+### param "bgimage" - Background Image or Background Photo
+### param "photo" - Small circle photo
+### param "name" - Your Name
+### param "typed" - Typed text under Name
+### param "social" - Social Links, icon class name you can find here https://fontawesome.com/icons?d=gallery&s=brands&m=free
+### param "buttons" - Buttons, icon class you can find here https://ionicons.com/v4/
+
+main:
+  bgimage: "images/new/final/shadow.png"
+  photo: "images/bgs/icon1.png"
+  vcardblob1: "images/new/final/cut13.png"
+  vcardblob2: "images/new/final/shapes10.png"
+  name: "Hannah Luebbering"
+  about: "Data Science and Applied Mathematics"
+  typed:
+    - text: "Web Designer"
+    - text: "Blogger"
+    - text: "Freelancer"
+    - text: "Photographer"
+  social:
+    - title: "Codepen"
+      icon: "fab fa-codepen"
+      url: "https://codepen.io/hluebbering/"
+    - title: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/hluebbering"
+    - title: "Linkedin"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/hannah-luebbering-99609818a/"
+    - title: "Spotify"
+      icon: "fab fa-spotify"
+      url: "https://open.spotify.com/user/hannahluebbering?si=a83c170b49064aab"
+    - title: "Stackoverflow"
+      icon: "fab fa-pinterest"
+      url: "https://www.pinterest.com/hannahluebbering/_saved/"
+  buttons:
+    - title: "Download CV"
+      icon: "fas fa-download mr-2"
+      url: "/images/luebbering_resume.pdf"
+    

@@ -1,0 +1,59 @@
+{{ with .Site.Data.home.resume }}
+
+{{ "<!-- Resume -->" | safeHTML }}
+<div class="content resume">
+
+	{{ if .title }}
+	<div class="title">{{ .title }}</div>
+	{{ end }}
+
+	<div class="row">
+
+    {{ "<!-- experience -->" | safeHTML }}
+    {{ $exp := .experience }}
+		<div class="col col-d-6 col-t-6 border-line-v">
+			<div class="resume-title border-line-h">
+				<div class="icon"><i class="ion {{ $exp.icon }}"></i></div>
+				<div class="name">{{ $exp.title }}</div>
+			</div>
+			<div class="resume-items">
+				{{ range $exp.items }}
+				<div class="resume-item{{ if eq .h_line 1 }} border-line-h{{ end }}{{ if eq .active 1 }} active{{ end }}">
+					<div class="date">{{ .year }}</div>
+					<div class="name">{{ .role }}</div>
+					<div class="company">{{ .company }}</div>
+					<p>
+						{{ .text | safeHTML }}
+					</p>
+				</div>
+				{{ end }}
+			</div>
+		</div>
+
+    {{ "<!-- education -->" | safeHTML }}
+    {{ $edu := .education }}
+		<div class="col col-d-6 col-t-6 border-line-v">
+			<div class="resume-title border-line-h">
+				<div class="icon"><i class="ion {{ $edu.icon }}"></i></div>
+				<div class="name">{{ $edu.title }}</div>
+			</div>
+			<div class="resume-items">
+				{{ range $edu.items }}
+				<div class="resume-item{{ if eq .h_line 1 }} border-line-h{{ end }}">
+					<div class="date">{{ .year }}</div>
+					<div class="name">{{ .institution }}</div>
+					<div class="company">{{ .city }}</div>
+					<p>
+						{{ .text | safeHTML }}
+					</p>
+				</div>
+				{{ end }}
+			</div>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+
+</div>
+
+{{ end }}

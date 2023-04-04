@@ -1,6 +1,6 @@
 baseurl: 'https://hluebbering.github.io/' # Website URL
 languageCode: en-us
-theme: "academia-hugo-master"
+theme: "ryancv"
 title: Hannah Luebbering # Website name
 publishDir: "docs"
 permalinks:

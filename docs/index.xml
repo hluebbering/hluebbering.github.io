@@ -1,50 +1,117 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hannah Luebbering</title>
+    <title>Home on Hannah Luebbering</title>
     <link>https://hluebbering.github.io/</link>
-    <description>Recent content on Hannah Luebbering</description>
-    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <description>Recent content in Home on Hannah Luebbering</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Fri, 20 May 2022 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="https://hluebbering.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 10 Jan 2023 12:49:27 +0600</lastBuildDate><atom:link href="https://hluebbering.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Projects</title>
-      <link>https://hluebbering.github.io/project/</link>
-      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      <title>Clustering Spotify Playlist Songs</title>
+      <link>https://hluebbering.github.io/portfolio/playlist-report/</link>
+      <pubDate>Tue, 10 Jan 2023 12:49:27 +0600</pubDate>
       
-      <guid>https://hluebbering.github.io/project/</guid>
+      <guid>https://hluebbering.github.io/portfolio/playlist-report/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Posts</title>
-      <link>https://hluebbering.github.io/post/</link>
-      <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
+      <title>Twitter API Data Queries</title>
+      <link>https://hluebbering.github.io/portfolio/twitter-api/</link>
+      <pubDate>Wed, 10 Aug 2022 12:49:27 +0600</pubDate>
       
-      <guid>https://hluebbering.github.io/post/</guid>
+      <guid>https://hluebbering.github.io/portfolio/twitter-api/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Courses</title>
-      <link>https://hluebbering.github.io/courses/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Test</title>
+      <link>https://hluebbering.github.io/test/</link>
+      <pubDate>Sat, 02 Jul 2022 17:02:58 +0300</pubDate>
       
-      <guid>https://hluebbering.github.io/courses/</guid>
+      <guid>https://hluebbering.github.io/test/</guid>
+      <description>Test Simple Page</description>
+    </item>
+    
+    <item>
+      <title>Digital Sound and Music in Matlab</title>
+      <link>https://hluebbering.github.io/portfolio/digital-music/</link>
+      <pubDate>Tue, 10 May 2022 12:49:27 +0600</pubDate>
+      
+      <guid>https://hluebbering.github.io/portfolio/digital-music/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Publications</title>
-      <link>https://hluebbering.github.io/publication/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Space Exploration Data Analysis</title>
+      <link>https://hluebbering.github.io/blog/space-exploration-data/</link>
+      <pubDate>Mon, 10 Jan 2022 12:49:27 +0600</pubDate>
       
-      <guid>https://hluebbering.github.io/publication/</guid>
+      <guid>https://hluebbering.github.io/blog/space-exploration-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spotify Data Analysis</title>
+      <link>https://hluebbering.github.io/portfolio/spotify-data-analysis/</link>
+      <pubDate>Mon, 10 Jan 2022 12:49:27 +0600</pubDate>
+      
+      <guid>https://hluebbering.github.io/portfolio/spotify-data-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multimodal Neurons in Neural Networks</title>
+      <link>https://hluebbering.github.io/blog/multimodal-neurons/</link>
+      <pubDate>Sun, 12 Dec 2021 12:49:27 +0600</pubDate>
+      
+      <guid>https://hluebbering.github.io/blog/multimodal-neurons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploratory Visual Analysis of CO2 Emissions</title>
+      <link>https://hluebbering.github.io/portfolio/exploratory-analysis/</link>
+      <pubDate>Wed, 10 Nov 2021 12:49:27 +0600</pubDate>
+      
+      <guid>https://hluebbering.github.io/portfolio/exploratory-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google&#39;s PageRank</title>
+      <link>https://hluebbering.github.io/blog/google-page-rank/</link>
+      <pubDate>Mon, 19 Apr 2021 13:06:26 +0600</pubDate>
+      
+      <guid>https://hluebbering.github.io/blog/google-page-rank/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mathematical Dynamics of Model Neurons</title>
+      <link>https://hluebbering.github.io/portfolio/model-neurons/</link>
+      <pubDate>Thu, 10 Dec 2020 12:49:27 +0600</pubDate>
+      
+      <guid>https://hluebbering.github.io/portfolio/model-neurons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regression Models for Stock Forecasting</title>
+      <link>https://hluebbering.github.io/portfolio/statistical-machine-learning/</link>
+      <pubDate>Fri, 10 Jul 2020 12:49:27 +0600</pubDate>
+      
+      <guid>https://hluebbering.github.io/portfolio/statistical-machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny and Learnr in Randomized Trials</title>
+      <link>https://hluebbering.github.io/portfolio/shiny-learnr/</link>
+      <pubDate>Wed, 10 Jun 2020 12:49:27 +0600</pubDate>
+      
+      <guid>https://hluebbering.github.io/portfolio/shiny-learnr/</guid>
       <description></description>
     </item>
     
