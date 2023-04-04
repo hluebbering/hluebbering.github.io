@@ -319,7 +319,7 @@ resume:
 ### Skills [ skills ]
 skills:
   title: ""
-  skillsblob3: "images/new/final/VintageRose_26.png"
+  skillsblob3: "images/new/final/brush9.png"
   skillsblob4: "images/new/final/brush8.png" # Artistic/shapes (12).png
   
   columns:
@@ -380,7 +380,7 @@ portfolio:
 ### Blog [ blog ]
 blog:
   title: "Recent Posts"
-  blogico: "images/bgs/live-001.png"
+  blogico: "images/new/final/brush9.png"
   blogblob1: "images/new/disco.png"
 
 
@@ -391,6 +391,6 @@ contacts:
   contactico: "images/bgs/live-001.png"
   rightimg: "images/bgs/live-001.png"
   contactblob1: "images/new/final/myclip1.png"
-  contactblob2: "images/new/final/abstractBlack1.png"
+  contactblob2: "images/new/final/VintageRose_26.png"
   
   

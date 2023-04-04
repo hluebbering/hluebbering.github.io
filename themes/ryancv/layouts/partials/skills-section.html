@@ -56,16 +56,24 @@
               </li>
             </div>
             {{ end }} {{ end }} {{ if eq .type "circles" }} {{ range .items }}
+            
+              
+   
+    
+    
             <li>
-              <!--
-					  <div class="education__item" style = "margin-bottom: 1%;">
-						<div class="name">{{ .label }}</div>
-						<div class="progress p{{ .value }}">
-							<span>{{ .value }}%</span>
-						</div>
-						</div>
-						-->
-
+              
+              
+						<div class="startMenuRecommended">
+        <div class="startMenuRecommended-Icon">
+          <img src="https://static2.sharepointonline.com/files/fabric/assets/brand-icons/product/svg/excel_48x1.svg" width="35" height="35" class="taskbarItem" alt="Word product icon">
+        </div>
+        <div class="startMenuRecommended-Text">
+          {{ .label }} <br> <span class="lightText">{{ .value }}</span>
+        </div>
+      </div>
+      
+      <!--
               <div class="eb-progress-bar-wrapper">
                 <div class="eb-progress-bar {{ .label }}" style="--value: {{ .value }}; --col: #272822">
                   <progress id="{{ .label }}" min="0" max="100" value="{{ .value }}"></progress>
@@ -74,6 +82,8 @@
                   <h2>{{ .label }}</h2>
                 </label>
               </div>
+              -->
+              
             </li>
 
             {{ end }} {{ end }} {{ if eq .type "list" }} {{ range .items }}
@@ -91,16 +101,16 @@
 
     <!-- Background Wrap Object -->
 
-    <div class="blob-skills2" style="position: absolute; left: -8%; top: -15%; z-index: -20">
+    <!--<div class="blob-skills2" style="position: absolute; left: -5%; top: -15%; z-index: -20">
       <div
         class="obj-skills2"
-        style="content: url({{ .skillsblob3 | absURL }});width: 150px;opacity: 1 !important;"></div>
-    </div>
+        style="content: url({{ .skillsblob3 | absURL }});width: 125px;opacity: 1 !important;"></div>
+    </div>-->
 
     <div class="blob-skills1" style="position: absolute; left: auto; right: -7.92%; top: auto; bottom: -23%;">
       <div
         class="obj-skills1"
-        style="content: url({{ .skillsblob4 | absURL }});transform: scaleX(-1);width: 320px;"></div>
+        style="content: url({{ .skillsblob4 | absURL }});transform: scaleX(-1);width: 300px;"></div>
     </div>
   </div>
 </div>

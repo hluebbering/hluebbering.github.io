@@ -172,13 +172,12 @@ h2.head__title.title {
   filter: drop-shadow(0.25px 0.25px 0.25px #333333d9);
   font-weight: 900 !important;
   font-style: normal;
-  font-size: 50px !important;
+  font-size: 40px !important;
   letter-spacing: 2px !important;
   z-index: 8;
   color: #ff3636 !important;
   font-family: integral cf !important;
   margin-bottom: -15px !important;
-  line-height: 60px !important;
   text-align: left !important;
   margin-top: 15px !important;
 }
@@ -252,7 +251,7 @@ h2.head__title.title {
 
 .cases {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .cases__head {
@@ -340,17 +339,13 @@ h4.cases__title.h4 {
 .cases__text p,
 .cases__text {
   line-height: 1.577778;
-  color: #606060;
-  font-size: 15px !important;
-  font-family: Inter;
-  font-family: Source Sans Pro;
-  font-weight: 400;
-  letter-spacing: -0.25px;
-  /*
-      font-family: 'Very Vogue Display' !important;
-    font-size: 20px;
-    letter-spacing: 1.25px;
-    word-spacing: -1px;*/
+    color: #606060;
+    font-size: 14px!important;
+    font-family: Inter;
+    font-family: Source Sans Pro;
+    letter-spacing: -.25px;
+    text-shadow: 0.25px 0.25px 0.25px #3f4046d9, 0.35px 0.35px 0.35px #3f4046d9, 0 -1.1px 0 #0c0d1214, 0 1.2px 0 #fff;
+    font-weight: 300;
 }
 
 .cases .line {
@@ -562,7 +557,7 @@ h4.cases__title.h4 {
   z-index: 3;
   padding: 25px;
   border-radius: 40px;
-  background: #ebecf040;
+  /*background: #ebecf040;*/
   margin: 0 auto !important;
 }
 
@@ -698,20 +693,7 @@ h4.cases__title.h4 {
   width: auto;
 }
 
-/*.advantages__inner {
-    display: flex;
-    flex-direction: column;
-    height: auto !important;
-}
 
-.skills__box.row.aos-init.aos-animate {
-    display: flex;
-}
-    --bg-overlay-color: rgb(255, 183, 175);
-    fill: #e3c7c2;
-    background: #fcf0ec;
-    color: #000;
-*/
 
 .lightCyan {
   background-color: #944b94;
@@ -2397,7 +2379,7 @@ body[data-aos-delay="3000"] [data-aos].aos-animate {
   }
 
   .cases {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 }
 
@@ -3250,9 +3232,7 @@ body[data-aos-delay="3000"] [data-aos].aos-animate {
     left: 0;
   }
 
-  .cases {
-    margin-bottom: 30px;
-  }
+  
 
   .cases__head {
     margin-bottom: 64px;
@@ -4581,9 +4561,7 @@ svg#Layer_1 {
     left: 100px;
   }
 
-  .cases {
-    margin-bottom: 30px;
-  }
+  
 
   .cases__head {
     margin-bottom: 40px;

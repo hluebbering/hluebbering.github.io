@@ -4,59 +4,36 @@
 <!-- Contact Form -->
 <div class="content contacts">
 
-	{{ if .title }}
-	<div class="title">
-	  <div class = "contact-logo" style="content: url({{ .contactico | absURL }});"></div>
-	  <h2 class="advantages__title title" data-aos="animation-scale-y" data-aos-delay="50">{{ .title }}</h2>
-	  </div>
-	{{ end }}
+	
 
 	<!-- content -->
-	<div class="skills__box row"> <!-- data-aos="animation-translate-up" -->
-		<div class="col col-d-12 col-t-12 col-m-12 border-line-v advantages__inner">
-			<div class="contact_form advantages__list">
-				<form id="cform" action="{{ $action }}" method="POST">
-					<div class="row">
-						<div class="col col-d-6 col-t-6 col-m-12">
-							<div class="group-val">
-								<input type="text" name="name" placeholder="{{ i18n "fullName" }}" id="name" />
-							</div>
-						</div>
-						<div class="col col-d-6 col-t-6 col-m-12">
-							<div class="group-val">
-								<input type="text" name="email" placeholder="{{ i18n "emailAddress" }}" id="email" />
-							</div>
-						</div>
-						<div class="col col-d-12 col-t-12 col-m-12">
-							<div class="group-val">
-								<textarea name="message" placeholder="{{ i18n "yourMessage" }}" id="message"></textarea>
-							</div>
-						</div>
-					</div>
-					<div class="align-left">
-						<a href="#" class="button" onclick="$('#cform').submit(); return false;">
-							<span class="text">{{ i18n "sendMessage" }}</span>
-							<span class="arrow"></span>
-						</a>
-					</div>
-				</form>
-			</div>
-			<div class="alert-success" id="formAlertSuccess" style="display: none;">
-				<p>{{ i18n "successMessage" }}</p>
-			</div>
-		</div>
-		<div class="clear"></div>
-		
-		
-		
-		
-              
-              
-              
-              
-	</div>
 	
 	
+	
+	
+	<div class = "cover-moodboard jsCover">
+	<div class="keywords for--4">
+	  
+	  <p>send me an email or get in touch on socials</p>
+        <ul class="inner">
+                                    <li>
+                <p class="type" _msttexthash="82134" _msthash="26">socials</p>
+                <p class="value" style="color:#f0949e" _msttexthash="613522" _msthash="27">linkedin github and codepen</p>
+            </li>
+                                    <li>
+                <p class="type" _msttexthash="80886" _msthash="28">code</p>
+                <p class="value" style="color:#f0949e" _msttexthash="437996" _msthash="29">codepen and github</p>
+            </li>
+                                    <li>
+                <p class="type" _msttexthash="161187" _msthash="30">email</p>
+                <p class="value" style="color:#f0949e" _msttexthash="99411" _msthash="31">luebhr@gmail.com</p>
+            </li>
+                                    
+                    </ul>
+    </div>
+    </div>
+    
+    
 	
 	<!-- Background Wrap Object -->
             <div class = "blob-skills1" style = "right: .08%; top: -2%; transform: rotate(13deg); filter: saturate(1.25);">

@@ -2797,9 +2797,7 @@
 }
 /* Services */
  .service-items.border-line-v:after {
-     background: -moz-radial-gradient(top, ellipse cover, #dddddd 0%, rgba(255, 255, 255, 0) 70%);
-     background: -webkit-radial-gradient(top, ellipse cover, #dddddd 0%, rgba(255, 255, 255, 0) 70%);
-     background: radial-gradient(ellipse at top, #dddddd 0%, rgba(255, 255, 255, 0) 70%);
+     background: none;
 }
  .service-items .service-item {
      text-align: center;
@@ -2879,9 +2877,13 @@
      opacity: 0.8;
 }
 /* Resume */
- .resume-title, .skill-title {
+ .resume-title {
      padding: 0 0 30px 0;
 }
+.skill-title {
+     padding: 0 0 5px 0;
+}
+
  .resume-title:after, .skill-title:after {
      left: 0;
 }
@@ -3044,7 +3046,7 @@
      font-family: 'PPHatton' !important;
      line-height: 1.65;
      font-family: 'Very Vogue Display' !important;
-     font-size: 20px;
+     font-size: 16px;
      letter-spacing: 1.25px;
      word-spacing: -1px;
 }
