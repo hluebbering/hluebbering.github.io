@@ -1284,6 +1284,10 @@
          height: 140px;
          right: 2%;
     }
+    
+    .container.opened {
+        min-width: 560px;
+}
 }
  .content.clients {
      margin: -30px !important;
