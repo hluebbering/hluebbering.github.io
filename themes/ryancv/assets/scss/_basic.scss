@@ -35,7 +35,7 @@ body {
 	font-family: $default-font;
 	font-size: $default-size;
 	color: $default-color;
-	background: $white-color;
+	background: linear-gradient(to bottom right,#eee 0%,#dee1e7 100%)!important;
 	letter-spacing: $default-letter-spacing;
 	font-weight: 400;
 	-webkit-font-smoothing: antialiased;

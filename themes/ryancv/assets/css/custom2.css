@@ -126,10 +126,6 @@ img.cases__pic:hover {
   filter: saturate(2) drop-shadow(1px 1px 1px black);
 }
 
-img.cases__pic.flourish {
-  padding: 2% !important;
-}
-
 .arrow {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -292,7 +288,6 @@ h2.head__title.title {
 .cases__preview {
   position: relative;
   font-size: 0;
-  width: 130px;
   height: 130px;
   padding: 30px;
   margin: auto;
@@ -302,7 +297,6 @@ h2.head__title.title {
 }
 
 .cases__pic {
-  height: 100%;
   margin: auto;
 }
 
@@ -569,7 +563,6 @@ h4.cases__title.h4 {
   padding: 25px;
   border-radius: 40px;
   background: #ebecf040;
-  backdrop-filter: blur(1px);
   margin: 0 auto !important;
 }
 
@@ -2593,7 +2586,7 @@ body[data-aos-delay="3000"] [data-aos].aos-animate {
   }
 
   .head {
-    padding-left: 140px;
+    padding-left: 120px;
   }
 
   .head__arrows {
@@ -3274,7 +3267,7 @@ body[data-aos-delay="3000"] [data-aos].aos-animate {
   }
 
   .cases__container {
-    padding-left: 140px;
+    padding-left: 120px;
   }
 
   .cases__item {
@@ -3360,9 +3353,7 @@ body[data-aos-delay="3000"] [data-aos].aos-animate {
     font-size: 110px;
   }
 
-  .head {
-    padding: 0;
-  }
+  
 
   .details {
     padding: 100px 0;
@@ -3582,9 +3573,7 @@ body[data-aos-delay="3000"] [data-aos].aos-animate {
     margin-right: 24px;
   }
 
-  .cases__container {
-    padding: 0;
-  }
+  
 }
 
 @media only screen and (max-width: 860px) {
@@ -3594,9 +3583,35 @@ body[data-aos-delay="3000"] [data-aos].aos-animate {
   }
 }
 
+svg#Layer_1 {
+    display: flex;
+}
+
 @media only screen and (max-width: 750px) {
+  
+  .eb-progress-bar-wrapper {
+    transform: scale(1);
+  }
+  
+  .eb-progress-bar-title h2 {
+    font-size: 11px;
+  }
+  
+  
   .talent__container {
     height: 330px !important;
+  }
+  
+  svg#Layer_1 {
+    display: none;
+}
+  
+  .head {
+    padding: 0;
+  }
+  
+  .cases__container {
+    padding: 0;
   }
 
   .blob-skills1.b2 {
@@ -3608,7 +3623,7 @@ body[data-aos-delay="3000"] [data-aos].aos-animate {
   }
 
   .obj-skills1 {
-    width: 370px !important;
+    width: 310px !important;
   }
 
   h2.title.sub {

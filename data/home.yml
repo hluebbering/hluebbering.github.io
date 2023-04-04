@@ -344,15 +344,6 @@ skills:
           value: "80"
           tooltip: "Supervised ML, Unsupervised ML, Deep learning"
 
-#    - type: "dotted"
-#      title: "Languages"
-#      icon: "ion-flag"
-#      items:
-#        - label: "English"
-#          value: "90"
-#        - label: "German"
-#          value: "60"
-
     - type: "circles"
       title: "Programming"
       skillsico: "images/icons and logos/arrow1.png"
@@ -364,7 +355,7 @@ skills:
           value: "85"
         - label: "SQL"
           value: "65"
-        - label: "HTML5/CSS"
+        - label: "HTML5/ CSS"
           value: "70"
         - label: "JavaScript"
           value: "50"
@@ -390,7 +381,7 @@ portfolio:
 blog:
   title: "Recent Posts"
   blogico: "images/bgs/live-001.png"
-  blogblob1: "images/new/final/brush2.png"
+  blogblob1: "images/new/disco.png"
 
 
 

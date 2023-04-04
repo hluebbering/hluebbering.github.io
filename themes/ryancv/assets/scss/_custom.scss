@@ -325,7 +325,6 @@
      width: auto;
      margin-left: auto !important;
      margin-right: 2%;
-     gap: 6px;
 }
  .header .top-menu, .header .top-menu ul li a {
      background: #f3f5f6 !important;
@@ -597,13 +596,10 @@
      -webkit-line-clamp: 2 !important;
      -webkit-box-orient: vertical;
      margin: 5px 0;
-     font-size: 15px;
-     font-family: "Inter";
      font-weight: 600;
-     font-size: 17px;
      font-family: 'PPHatton';
      font-family: 'Very Vogue Display';
-     font-size: 22px;
+     font-size: 16px;
      letter-spacing: 1px;
      word-spacing: -1px;
 }
@@ -853,7 +849,7 @@
      background-color: #ebecf0;
      text-shadow: 0.25px 0.25px 0.25px #3f4046d9, 0.35px 0.35px 0.35px #3f4046d9, 0 -1.1px 0 #0c0d1214, 0 1.2px 0 #fff !important;
      color: #3f4046 !important;
-     font-weight: 200;
+     font-weight: 300;
      font-family: roboto condensed, sans-serif;
      margin-bottom: 0 !important;
      padding: 9px 10px !important;
@@ -866,7 +862,6 @@
      display: block;
      font-size: 17px;
      color: #323232;
-     font-weight: 500;
      text-transform: none;
      word-break: break-word;
      transition: all 0.3s ease 0s;
@@ -924,7 +919,7 @@
      font-family: "Source Sans Pro";
      font-weight: 400 !important;
      line-height: 1.3;
-     font-size: 12px;
+     font-size: 11px;
      letter-spacing: 1.65px;
 }
  .background.gradient {
@@ -1124,9 +1119,7 @@
      height: auto;
      position: relative;
      display: flex;
-     content: url(https://static.vecteezy.com/system/resources/previews/011/888/312/large_2x/hand-drawn-abstract-dot-shape-free-png.png);
      left: 0;
-     color: red;
      z-index: -2;
 }
  .blob-skills2, .blob-vcard2 {
@@ -1201,8 +1194,42 @@
      .obj-vcard2 {
          width: 210px !important;
     }
+    
+}
+
+
+@media (max-width: 760px) {
+    .skill__inner-bar.skill__inner-bar::after {
+         margin-right: -35px !important;
+         padding: 1px 5px !important;
+    font-size: 11px;
+    border-radius: 4px 4px 4px 0 !important;
+     }
+     
+     .skill__inner-bar.skill__inner-bar::before {
+             margin-right: -10px!important;
+    transform: scaleX(-1);
+         
+     }
 }
  @media (max-width: 700px) {
+     
+     
+     .row .col.col-d-6 {
+         width: 49.99% !important;
+     }
+     h3.skill__type {
+    font-size: 11px;
+    margin-left: -5px;
+    line-height: 2;
+}
+
+     .skill {
+         width: 100%;
+     
+         
+     }
+     
      .blob-vcard1 {
          right: -1.92% !important;
          bottom: -5% !important;
@@ -1267,28 +1294,11 @@
          right: 3%;
     }
 }
- @media (max-width: 560px) {
-     iframe, object {
-         height: 175px;
-    }
-     .card-started .profile {
-         margin-top: 110px !important;
-         height: 250px !important;
-    }
-     .card-started .profile .title {
-         font-size: 35px !important;
-         line-height: 40px !important;
-    }
-     .avatar-frame {
-         width: 140px;
-         height: 140px;
-         right: 2%;
-    }
-    
-    .container.opened {
-        min-width: 560px;
-}
-}
+ 
+
+
+
+
  .content.clients {
      margin: -30px !important;
      padding: 20px 20px;
@@ -1685,6 +1695,13 @@
      background-blend-mode: overlay;
      background-blend-mode: luminosity;
 }
+
+
+.content.blog .title {
+    padding: 0 0 10px;
+}
+
+
 /* ******************************* */
  .cardd.col.col-d-4 {
      width: 23.332% !important;
@@ -2165,5 +2182,80 @@
      margin: 4px;
      padding: 0;
      box-shadow: 0 1px 3px #0000001f, 0 1px 2px #0000003d !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ******************************* */
+
+
+
+
+
+.container.opened {
+    min-width: 600px;
+}
+
+
+@media (max-width: 560px) {
+     iframe, object {
+         height: 175px;
+    }
+     .card-started .profile {
+         margin-top: 110px !important;
+         height: 250px !important;
+    }
+     .card-started .profile .title {
+         font-size: 35px !important;
+         line-height: 40px !important;
+    }
+     .avatar-frame {
+         width: 140px;
+         height: 140px;
+         right: 2%;
+    }
+    
+    .container.opened {
+    min-width: 600px;
+}
+
+.cards-container {
+    grid-template-columns: 1fr 1fr;
+}
+
+.content.works .title {
+    padding: 0 0 10px;
+}
+
+.content.works .filter-menu .f_btn {
+    margin-right: 5px !important;
+        line-height: 10px;
+
+}
+
+a.projtitle h2 {
+    font-size: 17px;
+}
+
+.box-item-card .about-project {
+    font-size: 12px;
+}
+
+
+h2.head__title.title.aos-init.aos-animate {
+    font-size: 40px !important;
+}
+
+
+
 }
  

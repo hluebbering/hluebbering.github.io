@@ -44,15 +44,11 @@
 		  
 		  <div href="{{ .Params.external_link }}" target="_blank" class="box-item-card">
 				
-				
-				<!--
-				<a href="{{ .Params.external_link }}" target="_blank" class="thumb" style = "background-image: url({{ .Params.image | absURL }});">
-				  </a>
-				  -->
+		
 				  
 				  <a href="{{ .Params.external_link }}" target="_blank">
 				  <div class="cases__preview" style="background-image: linear-gradient(53deg, {{ .Params.col1 }}, {{ .Params.col2 }}); background-image: {{ .Params.grad | safeCSS }}; width: 100%;height: 120px;padding: 0%;margin: auto;display: inline-flex;flex-wrap: wrap;align-content: center;">
-                            <img class="cases__pic {{ .Params.label }}" src="{{ .Params.image | absURL }}" style="display: inline-flex !important;height: 100%;width: auto; padding: 4%; max-width: 100%; {{ .Params.styles | safeCSS }}" alt="">
+                            <img class="cases__pic {{ .Params.label }}" src="{{ .Params.image | absURL }}" style="display: inline-flex !important;max-height: 100%; padding: 4%; max-width: 100%; {{ .Params.styles | safeCSS }}" alt="">
                             </div>
                         
                         </a>
