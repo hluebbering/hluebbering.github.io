@@ -596,13 +596,15 @@
      display: -webkit-box;
      -webkit-line-clamp: 2 !important;
      -webkit-box-orient: vertical;
-     margin: 5px 0;
+     margin: 5px -3px;
      font-weight: 600;
      font-family: 'PPHatton';
      font-family: 'Very Vogue Display';
      font-size: 16px;
      letter-spacing: 1px;
      word-spacing: -1px;
+     font-family: 'Integral CF' !important;
+     font-size: 14px;
 }
  .box-item.blog {
      margin-top: 10px !important;

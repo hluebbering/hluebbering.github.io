@@ -170,7 +170,7 @@ services:
 
     - icon: "ion-ios-game-controller-b"
       name: "A/B Testing"
-      text: "Conducted experimentation & evaluation tests on interactive web applications via randomized controlled trials."
+      text: "Conducted experimentation tests on interactive web tutorials via randomized controlled trials."
       service_icon: "images/icons and logos/youtube1.png"
       col1: "#fcba7c"
       col2: "#ffef9b"
@@ -351,16 +351,22 @@ skills:
       items:
         - label: "Python"
           value: "75"
+          icon: "images/icons and logos/python.png"
         - label: "R"
           value: "85"
+          icon: "images/icons and logos/r-project.svg"
         - label: "SQL"
           value: "65"
+          icon: "images/icons and logos/sql-server.svg"
         - label: "HTML5/ CSS"
           value: "70"
+          icon: "images/icons and logos/html.png"
         - label: "JavaScript"
           value: "50"
+          icon: "images/icons and logos/javascript.png"
         - label: "Matlab"
           value: "60"
+          icon: "images/icons and logos/matlab.svg"
         
 
 #    - type: "list" #skills progress type - default, dotted, circles, list

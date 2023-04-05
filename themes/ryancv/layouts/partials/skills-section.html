@@ -66,10 +66,10 @@
               
 						<div class="startMenuRecommended">
         <div class="startMenuRecommended-Icon">
-          <img src="https://static2.sharepointonline.com/files/fabric/assets/brand-icons/product/svg/excel_48x1.svg" width="35" height="35" class="taskbarItem" alt="Word product icon">
+          <img src="{{ .icon | absURL }}" width="35" height="35" class="taskbarItem" alt="Word product icon">
         </div>
         <div class="startMenuRecommended-Text">
-          {{ .label }} <br> <span class="lightText">{{ .value }}</span>
+          {{ .label }} <br> <span class="lightText">{{ .value }}%</span>
         </div>
       </div>
       
