@@ -10,8 +10,8 @@
 main:
   bgimage: "images/new/final/shadow.png"
   photo: "images/bgs/icon1.png"
-  vcardblob1: "images/new/final/cut13.png"
-  vcardblob2: "images/new/final/shapes10.png"
+  vcardblob1: "images/new/final/cut13-min.png"
+  vcardblob2: "images/new/final/shapes10-min.png"
   name: "Hannah Luebbering"
   about: "Data Science and Applied Mathematics"
   typed:
