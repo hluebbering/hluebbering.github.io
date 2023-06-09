@@ -35,11 +35,20 @@
     </item>
     
     <item>
-      <title>Digital Sound and Music in Matlab</title>
-      <link>https://hluebbering.github.io/portfolio/digital-music/</link>
+      <title>Spotify Data Analysis</title>
+      <link>https://hluebbering.github.io/portfolio/spotify-data-analysis/</link>
+      <pubDate>Fri, 10 Jun 2022 12:49:27 +0600</pubDate>
+      
+      <guid>https://hluebbering.github.io/portfolio/spotify-data-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploratory Visual Analysis of CO2 Emissions</title>
+      <link>https://hluebbering.github.io/portfolio/exploratory-analysis/</link>
       <pubDate>Tue, 10 May 2022 12:49:27 +0600</pubDate>
       
-      <guid>https://hluebbering.github.io/portfolio/digital-music/</guid>
+      <guid>https://hluebbering.github.io/portfolio/exploratory-analysis/</guid>
       <description></description>
     </item>
     
@@ -53,15 +62,6 @@
     </item>
     
     <item>
-      <title>Spotify Data Analysis</title>
-      <link>https://hluebbering.github.io/portfolio/spotify-data-analysis/</link>
-      <pubDate>Mon, 10 Jan 2022 12:49:27 +0600</pubDate>
-      
-      <guid>https://hluebbering.github.io/portfolio/spotify-data-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Multimodal Neurons in Neural Networks</title>
       <link>https://hluebbering.github.io/blog/multimodal-neurons/</link>
       <pubDate>Sun, 12 Dec 2021 12:49:27 +0600</pubDate>
@@ -71,11 +71,11 @@
     </item>
     
     <item>
-      <title>Exploratory Visual Analysis of CO2 Emissions</title>
-      <link>https://hluebbering.github.io/portfolio/exploratory-analysis/</link>
-      <pubDate>Wed, 10 Nov 2021 12:49:27 +0600</pubDate>
+      <title>Digital Sound and Music in Matlab</title>
+      <link>https://hluebbering.github.io/portfolio/digital-music/</link>
+      <pubDate>Mon, 10 May 2021 12:49:27 +0600</pubDate>
       
-      <guid>https://hluebbering.github.io/portfolio/exploratory-analysis/</guid>
+      <guid>https://hluebbering.github.io/portfolio/digital-music/</guid>
       <description></description>
     </item>
     

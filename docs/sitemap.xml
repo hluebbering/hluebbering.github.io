@@ -27,7 +27,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hluebbering.github.io/portfolio/digital-music/</loc>
+    <loc>https://hluebbering.github.io/portfolio/spotify-data-analysis/</loc>
+    <lastmod>2022-06-10T12:49:27+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hluebbering.github.io/portfolio/exploratory-analysis/</loc>
     <lastmod>2022-05-10T12:49:27+06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -48,11 +53,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://hluebbering.github.io/blog/space-exploration-data/</loc>
-    <lastmod>2022-01-10T12:49:27+06:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://hluebbering.github.io/portfolio/spotify-data-analysis/</loc>
     <lastmod>2022-01-10T12:49:27+06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -82,8 +82,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hluebbering.github.io/portfolio/exploratory-analysis/</loc>
-    <lastmod>2021-11-10T12:49:27+06:00</lastmod>
+    <loc>https://hluebbering.github.io/portfolio/digital-music/</loc>
+    <lastmod>2021-05-10T12:49:27+06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

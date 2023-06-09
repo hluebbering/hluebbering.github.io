@@ -2,6 +2,7 @@
 title: Shiny and Learnr in Randomized Trials
 date: 2020-06-10T12:49:27+06:00
 category: Web Development
+category_color: "#2b5162"
 category_slug: web_development
 source: content
 image: images/works/shiny_learnr.jpg

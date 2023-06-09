@@ -1,7 +1,8 @@
 ---
 title: Digital Sound and Music in Matlab
-date: 2022-05-10T12:49:27+06:00
+date: 2021-05-10T12:49:27+06:00
 category: Mathematics
+category_color: "#eb2139"
 category_slug: mathematics
 source: content
 image: images/works/waveform3.png

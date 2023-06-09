@@ -2,6 +2,7 @@
 title: Regression Models for Stock Forecasting
 date: 2020-07-10T12:49:27+06:00
 category: Machine Learning
+category_color: "#f583f2"
 category_slug: machine_learning
 source: content
 image: images/works/stat_ml.jpeg

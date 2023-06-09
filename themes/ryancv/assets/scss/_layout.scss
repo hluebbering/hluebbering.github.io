@@ -693,19 +693,7 @@
          font-weight: 600;
          min-height: 51px;
          z-index: 2;
-         &:before {
-             content: '';
-             position: absolute;
-             left: -12px;
-             top: 0;
-             width: 30px;
-             height: 30px;
-             background: -moz-linear-gradient(-45deg, rgba($active-color, 0.15) 0%, rgba($active-color, 0.01) 100%);
-             background: -webkit-linear-gradient(-45deg, rgba($active-color, 0.15) 0%, rgba($active-color, 0.01) 100%);
-             background: linear-gradient(135deg, rgba($active-color, 0.15) 0%, rgba($active-color, 0.01) 100%);
-             z-index: -1;
-             @include border-radius(30px);
-        }
+         
          &:after {
              content: '';
              position: absolute;
@@ -3038,18 +3026,18 @@
      -o-transition: all 0.3s ease 0s;
 }
  .content.blog .box-item .desc .name {
-     padding-bottom: 0 !important;
-     font-size: 17px;
-     font-weight: 600;
-     text-transform: none;
-     color: #323232;
-     opacity: 0.9 !important;
-     font-family: 'PPHatton' !important;
-     line-height: 1.65;
-     font-family: 'Very Vogue Display' !important;
-     font-size: 16px;
-     letter-spacing: 1.25px;
-     word-spacing: -1px;
+         padding-bottom: 0!important;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: none;
+    color: #323232;
+    opacity: .9!important;
+    line-height: 1.75;
+    font-family: very vogue display!important;
+    font-size: 12px;
+    letter-spacing: 1.25px;
+    word-spacing: -1px;
+    font-family: 'Integral CF' !important;
 }
  .box-item .desc .category {
      margin: 0;

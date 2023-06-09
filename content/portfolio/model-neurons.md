@@ -2,6 +2,7 @@
 title: Mathematical Dynamics of Model Neurons
 date: 2020-12-10T12:49:27+06:00
 category: Mathematics
+category_color: "#fda184"
 category_slug: mathematics
 source: content
 image: images/works/model_neurons.png

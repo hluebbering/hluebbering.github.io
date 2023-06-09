@@ -11,13 +11,11 @@ testimonials:
   rightimg: "images/new/final/brush1-min.png"
   #rightimg2: "images/new/final/collage1.png"
   text: "
-        Data science master's student
-        with an applied mathematics degree, 
-        particularly interested in the 
-        intersection of 
-        applied mathematics,
-        programming, 
-        and user interface design.
+        I am a <strong>data scientist</strong> particularly interested in the intersection of 
+        <strong>mathematical modeling</strong>, computing, and user interface design.
+        I specialize in synthesizing insights from data using various 
+        <strong>programming</strong> languages and developing cutting-edge, user-centric 
+        platforms.
         "
   subtitle1: "Education"
   items:
@@ -84,14 +82,12 @@ about:
   aboutblob1: "images/new/final/abstractLines1.png"
   text: "
         <p>
-        Data science master's student
-        with an applied mathematics degree, 
-        particularly interested in the 
-        intersection of 
-        <a class='underlineit2' href='#' target='_blank'>
-        applied mathematics,</a>
-        programming, 
-        and user interface design.
+        I am a data scientist particularly interested in the intersection of 
+        mathematical modeling, computing, and user interface design. My 
+        experience includes synthesizing insights from data using various 
+        tools and programming languages, developing dashboards, and applying 
+        rigorous mathematical analysis and modeling to understand and document 
+        complex workflows and scientific phenomena.
         </p>
         "
   list:
@@ -122,10 +118,12 @@ iconcase:
   external_link: "Hello! I’m Hannah Luebbering."
   leftimg: "images/new/final/abstractLines1.png"
   text: "
-        Data science master's student
-        with an applied mathematics degree, 
-        particularly interested in the 
-        intersection of
+        I am a data scientist particularly interested in the intersection of 
+        mathematical modeling, computing, and user interface design. My 
+        experience includes synthesizing insights from data using various 
+        tools and programming languages, developing dashboards, and applying 
+        rigorous mathematical analysis and modeling to understand and document 
+        complex workflows and scientific phenomena.
         "
   items:
     - imgcon: "images/new/final/collage1.png"
@@ -387,7 +385,9 @@ portfolio:
 blog:
   title: "Recent Posts"
   blogico: "images/new/final/brush9.png"
-  blogblob1: "images/new/disco.png"
+  blogico: "images/bgs/new-006.png"
+  blogblob1: "images/new/final/cut (12).png"
+  blogblob2: "images/new/final/cut (20).png"
 
 
 

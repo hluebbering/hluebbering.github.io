@@ -1,7 +1,8 @@
 ---
 title: Spotify Data Analysis
-date: 2022-01-10T12:49:27+06:00
+date: 2022-06-10T12:49:27+06:00
 category: Statistics
+category_color: "#cd5b9f"
 category_slug: machine_learning
 source: content
 image: images/works/spotify_analysis.jpeg

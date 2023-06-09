@@ -2,6 +2,7 @@
 title: Twitter API Data Queries
 date: 2022-08-10T12:49:27+06:00
 category: Data Science
+category_color: "#5e76bf"
 category_slug: data_science
 source: content
 image: images/works/twitter_api2.jpeg
