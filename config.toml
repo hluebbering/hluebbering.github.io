@@ -1,6 +1,6 @@
 # General Settings
 title = "Hannah Luebbering"
-baseURL = "https://hluebbering.github.io/" #YOUR SITE URL
+baseURL = "https://hluebbering.github.io" #YOUR SITE URL
 languageCode = "en-us"
 theme = "ryancv"
 resourceDir = "resources"
