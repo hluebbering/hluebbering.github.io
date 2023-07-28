@@ -1,4 +1,4 @@
-baseurl: 'https://hluebbering.github.io/' # Website URL
+baseurl: 'https://hluebbering.github.io' # Website URL
 languageCode: en-us
 theme: "ryancv"
 title: Hannah Luebbering # Website name
