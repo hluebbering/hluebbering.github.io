@@ -44,7 +44,7 @@
 
   {{ "<!-- Main Stylesheets -->" | safeHTML }}
   {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}" />
+  <link rel="stylesheet" href="{{ $style.Permalink }}" media="print" onload="this.media='all'"/>
   
   {{ "<!-- CSS Stylesheets (static) -->" | safeHTML }}
   {{ $style2 := resources.Get "css/custom2.css" | resources.Minify }}
