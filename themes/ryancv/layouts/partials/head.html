@@ -48,7 +48,7 @@
   
   {{ "<!-- CSS Stylesheets (static) -->" | safeHTML }}
   {{ $style2 := resources.Get "css/custom2.css" | resources.Minify }}
-  <link rel="stylesheet" href="{{ $style2.Permalink }}" />
+  <link rel="stylesheet" href="{{ $style2.Permalink }}" media="print" onload="this.media='all'"/>
  
 
   <script>
@@ -74,7 +74,10 @@
   
   {{ "<!-- Plugins Stylesheets -->" | safeHTML }}
   
-  <link rel="stylesheet" href="{{ "plugins/owl-carousel/owl.carousel.css" | absURL }}" />
+  <link rel="stylesheet" href="{{ "plugins/owl-carousel/owl.carousel.css" | absURL }}" media="print" onload="this.media='all'">
+  
+  
+  
   <link rel="preload" as="style" onload="this.rel = 'stylesheet'" href="{{ "plugins/animate/animate.css" | absURL }}">
   <noscript><link rel="stylesheet" href="{{ "plugins/animate/animate.css" | absURL }}"></noscript>
   <!--
