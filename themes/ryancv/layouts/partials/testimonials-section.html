@@ -41,8 +41,10 @@
                 <h2 class="title sub">
                     {{ .subtitle1 }}</h2>
 				
-				<ul>
+				
 				  <div class="education__item" data-aos="animation-scale-y" style = "margin-bottom: 1%;">
+				    
+				    <ul>
 					  
 					  {{ range .items }}
 					  <!-- Degree Item -->
@@ -56,8 +58,10 @@
 					   {{ end }}
 					  </li>
 					{{ end }}
+					
+					</ul>
 					</div>
-				</ul>
+				
 				
 			</div>
 			
@@ -98,7 +102,7 @@
         
         <!-- Background Wrap Object -->
             <div class="about__figure" style = "position: absolute; top: -10%; left: -2%; width: 44%; font-size: 0; z-index: -2;">
-                <img class="talent__pic js-parallax" data-scale="0.85" data-orientation="right" src="{{ .rightimg | absURL }}" alt="" style = "top: -10%; left: -2%; width: 74%;">
+                <img class="talent__pic js-parallax" data-scale="0.85" data-orientation="right" src="{{ .rightimg | absURL }}" alt="" style = "top: -10%; left: -2%; width: 74%; height: auto;">
             </div>
             
             
