@@ -11,12 +11,10 @@
 
   {{ "<!-- Google Fonts -->" | safeHTML }}
   <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com" rel="preconnect" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="dns-prefetch" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   
-
-
   <link rel="preload" as="style" onload="this.rel = 'stylesheet'" href='https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lora:wght@400;600&family=Poppins:wght@300;400;600&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@300;400;600;700&display=swap'>
   <noscript><link rel="stylesheet" href='https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lora:wght@400;600&family=Poppins:wght@300;400;600&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@300;400;600;700&display=swap'></noscript>
 
@@ -27,16 +25,14 @@
   <noscript><link rel="stylesheet" href='https://use.typekit.net/ita3jpl.css'></noscript>
   
   
-  
-  
   {{ "<!-- Preload Fonts -->" | safeHTML }}
-  <link rel="preload" href='{{ "fonts/PPHatton/PPHatton-Regular.woff2" | absURL }}' as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href='{{ "fonts/VeryVogue/VeryVogueDisplay.woff2" | absURL }}' as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href='{{ "fonts/IntegralCF/IntegralCF-Regular.woff2" | absURL }}' as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ "fonts/PPHatton/PPHatton-Regular.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ "fonts/VeryVogue/VeryVogueDisplay.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ "fonts/IntegralCF/IntegralCF-Regular.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>
 
   
-  <link rel="preload" as="style" onload="this.rel = 'stylesheet'" href='{{ "fonts/fonts.css" | absURL }}'>
-  <noscript><link rel="stylesheet" href='{{ "fonts/fonts.css" | absURL }}'></noscript>
+  <link rel="preload" as="style" onload="this.rel = 'stylesheet'" href="{{ "fonts/fonts.css" | absURL }}">
+  <noscript><link rel="stylesheet" href="{{ "fonts/fonts.css" | absURL }}"></noscript>
   
   
   
@@ -48,11 +44,11 @@
 
   {{ "<!-- Main Stylesheets -->" | safeHTML }}
   {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}" media="print" onload="this.media='all'"/>
+  <link rel="stylesheet" href="{{ $style.Permalink }}" />
   
   {{ "<!-- CSS Stylesheets (static) -->" | safeHTML }}
   {{ $style2 := resources.Get "css/custom2.css" | resources.Minify }}
-  <link rel="stylesheet" href="{{ $style2.Permalink }}" media="print" onload="this.media='all'"/>
+  <link rel="stylesheet" href="{{ $style2.Permalink }}" />
  
 
   <script>
@@ -78,7 +74,7 @@
   
   {{ "<!-- Plugins Stylesheets -->" | safeHTML }}
   
-  <link rel="stylesheet" href="{{ "plugins/owl-carousel/owl.carousel.css" | absURL }}" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="{{ "plugins/owl-carousel/owl.carousel.css" | absURL }}" media="print" onload="this.media='all'"/>
   
   
   
