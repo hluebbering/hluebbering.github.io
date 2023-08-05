@@ -48,8 +48,11 @@
   
   {{ "<!-- CSS Stylesheets (static) -->" | safeHTML }}
   {{ $style2 := resources.Get "css/custom2.css" | resources.Minify }}
-  <link rel="stylesheet" href="{{ $style2.Permalink }}" />
- 
+  <!--<link rel="stylesheet" href="{{ $style2.Permalink }}" />-->
+  
+  <link rel="preload" as="style" onload="this.rel = 'stylesheet'" href="{{ $style2.Permalink }}">
+  <noscript><link rel="stylesheet" href="{{ $style2.Permalink }}"></noscript>
+  
 
   <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');

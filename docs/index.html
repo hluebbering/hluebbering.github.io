@@ -51,8 +51,11 @@
   
   <!-- CSS Stylesheets (static) -->
   
-  <link rel="stylesheet" href="https://hluebbering.github.io/css/custom2.min.css" />
- 
+  
+  
+  <link rel="preload" as="style" onload="this.rel = 'stylesheet'" href="https://hluebbering.github.io/css/custom2.min.css">
+  <noscript><link rel="stylesheet" href="https://hluebbering.github.io/css/custom2.min.css"></noscript>
+  
 
   <script>
       var viewportmeta = document.querySelector('meta[name="viewport"]');
@@ -1877,9 +1880,9 @@
 
 
 <script src="https://hluebbering.github.io/plugins/validate/jquery.validate.min.js"></script>
-<script src="https://hluebbering.github.io/plugins/slimscroll/jquery.slimscroll.js"></script>
+<script src="https://hluebbering.github.io/plugins/slimscroll/jquery.slimscroll.js" defer></script>
 <script src="https://hluebbering.github.io/plugins/imagesloaded/imagesloaded.pkgd.min.js"></script>
-<script src="https://hluebbering.github.io/plugins/isotope/isotope.pkgd.js"></script>
+<script src="https://hluebbering.github.io/plugins/isotope/isotope.pkgd.js" defer></script>
 <script src="https://hluebbering.github.io/plugins/rrssb/rrssb.js"></script>
 
 <script type="module">
