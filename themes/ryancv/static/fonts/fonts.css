@@ -17,12 +17,12 @@
 
 @font-face {
   font-family: 'PPHatton';
-    src: url('PPHatton-Regular.eot'); /* IE9 Compat Modes */
-    src: url('PPHatton-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('PPHatton-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-        url('PPHatton-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-        url('PPHatton-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-        url('PPHatton-Regular.svg#PPHatton-Regular') format('svg'); /* Legacy iOS */
+    src: url('PPHatton/PPHatton-Regular.eot'); /* IE9 Compat Modes */
+    src: url('PPHatton/PPHatton-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('PPHatton/PPHatton-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('PPHatton/PPHatton-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+        url('PPHatton/PPHatton-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('PPHatton/PPHatton-Regular.svg#PPHatton-Regular') format('svg'); /* Legacy iOS */
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -30,12 +30,12 @@
 
 @font-face {
   font-family: 'PPHatton';
-    src: url('PPHatton-Light.eot'); /* IE9 Compat Modes */
-    src: url('PPHatton-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('PPHatton-Light.woff2') format('woff2'), /* Super Modern Browsers */
-        url('PPHatton-Light.woff') format('woff'), /* Pretty Modern Browsers */
-        url('PPHatton-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
-        url('PPHatton-Light.svg#PPHatton-Light') format('svg'); /* Legacy iOS */
+    src: url('PPHatton/PPHatton-Light.eot'); /* IE9 Compat Modes */
+    src: url('PPHatton/PPHatton-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('PPHatton/PPHatton-Light.woff2') format('woff2'), /* Super Modern Browsers */
+        url('PPHatton/PPHatton-Light.woff') format('woff'), /* Pretty Modern Browsers */
+        url('PPHatton/PPHatton-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('PPHatton/PPHatton-Light.svg#PPHatton-Light') format('svg'); /* Legacy iOS */
     font-weight: 300;
     font-style: normal;
     font-display: swap;
