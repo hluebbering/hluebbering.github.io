@@ -1,4 +1,4 @@
-<script src="{{ "plugins/jQuery/jquery.min.js" | absURL }}"></script>
+<script src="{{ "plugins/jQuery/jquery.min.js" | absURL }}" defer></script>
 
 {{ if .Site.Params.sidebar.search }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -6,11 +6,11 @@
 <script src="{{ "plugins/search/simple-search.js" | absURL }}"></script>
 {{ end }}
 
-<script src="{{ "plugins/validate/jquery.validate.min.js" | absURL }}"></script>
+<script src="{{ "plugins/validate/jquery.validate.min.js" | absURL }}" defer></script>
 <script src="{{ "plugins/slimscroll/jquery.slimscroll.js" | absURL }}" defer></script>
-<script src="{{ "plugins/imagesloaded/imagesloaded.pkgd.min.js" | absURL }}"></script>
+<script src="{{ "plugins/imagesloaded/imagesloaded.pkgd.min.js" | absURL }}" defer></script>
 <script src="{{ "plugins/isotope/isotope.pkgd.js" | absURL }}" defer></script>
-<script src="{{ "plugins/rrssb/rrssb.js" | absURL }}"></script>
+<script src="{{ "plugins/rrssb/rrssb.js" | absURL }}" defer></script>
 
 <script type="module">
 requestIdleCallback(() => {
@@ -20,14 +20,14 @@ requestIdleCallback(() => {
 
 
 
-<script src="{{ "js/common.js" | absURL }}"></script>
-<script src="{{ "js/app.js" | absURL }}"></script>
+<script src="{{ "js/common.js" | absURL }}" defer></script>
+<script src="{{ "js/app.js" | absURL }}" defer></script>
 
 
 
 
 {{ $formhandler := resources.Get "js/form-handler.js" | minify }}
-<script src="{{ $formhandler.Permalink }}"></script>
+<script src="{{ $formhandler.Permalink }}" defer></script>
 
 {{ $script := resources.Get "js/common.js" | minify }}
-<script src="{{ $script.Permalink }}"></script>
+<script src="{{ $script.Permalink }}" defer></script>
