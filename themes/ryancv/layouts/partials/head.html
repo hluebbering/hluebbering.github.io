@@ -35,12 +35,11 @@
   <noscript><link rel="stylesheet" href="{{ "fonts/fonts.css" | absURL }}"></noscript>
   
   
-  
   {{ "<!-- Icons -->" | safeHTML }}
   <link rel="preload" as="style" onload="this.rel = 'stylesheet'" href='https://use.fontawesome.com/releases/v5.8.0/css/all.css'>
   <noscript><link rel="stylesheet" href='https://use.fontawesome.com/releases/v5.8.0/css/all.css'></noscript>
-
-
+  
+  <link rel="stylesheet" href="{{ "plugins/font-awesome/css/all.css" | absURL }}" />
 
   {{ "<!-- Main Stylesheets -->" | safeHTML }}
   {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify }}
@@ -119,7 +118,8 @@
   <link rel="icon" href="{{ "images/favicon/favicon.ico" | absURL }}" type="image/x-icon" />
   
 
-  <script src="https://kit.fontawesome.com/a2b3fc39a2.js" crossorigin="anonymous" defer></script>
+  <!--<script src="https://kit.fontawesome.com/a2b3fc39a2.js" crossorigin="anonymous" defer></script>-->
+  
   
 
 
