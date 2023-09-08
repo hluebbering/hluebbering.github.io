@@ -1899,6 +1899,14 @@ div#about3-card {
      position: absolute;
      z-index: 10;
 }
+
+.skill.aos-init.aos-animate:first-child span.tooltiptext {
+    top: -50px;
+    width: 190px;
+    right: 30%;
+}
+
+
  .skill-bar:hover .tooltiptext, .skill:hover .tooltiptext {
      visibility: visible !important;
 }

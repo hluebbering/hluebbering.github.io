@@ -14,6 +14,6 @@ grad2: "linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%)"
 grad: "linear-gradient(135deg, #fd3ae3 0%, #530306 100%)"
 lang: r-project
 external_link: https://hluebbering.github.io/spotify-data-analysis/
-about: Applied statistical methods to Spotify API data to explore factors influencing a song’s popularity.
+about: Applied statistical methods to Spotify API data to explore factors influencing popularity of a song.
 ---
 

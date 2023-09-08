@@ -138,15 +138,10 @@ services:
   title: "My Services"
   servicesblob1: "images/new/final/dots1.png" # flower1.png
   servicesblob3: "images/new/final/VintageRose_26.png"
-#  about: "
-#          Data science master's with a degree in applied mathematics and 3+ years of 
-#          experience working in a variety of project-based environments.
-#         "
   items:
     - icon: "ion-code"
       name: "Mathematical Modeling"
       text: "Built interactive models exploiting contextual information & complex scientific phenomena."
-      # personalized and interactive models exploiting contextual information, historical interactions.
       service_icon: "images/icons and logos/calculator1.png"
       col1: "#c7e3e9"
       col2: "#ecf4ec"
@@ -328,19 +323,19 @@ skills:
       items:
         - label: "Mathematical Modeling"
           value: "90"
-          tooltip: "Supervised ML, Unsupervised ML, Deep learning"
+          tooltip: "Nonlinear Diff. Equations, Logistic Pop. Dynamics, Phase Plane Analysis, Steady-State Solutions, & Limit Cycles"
         - label: "Machine Learning"
           value: "65"
           tooltip: "Supervised ML, Unsupervised ML, Deep learning"
         - label: "Data Analytics & Visualizations"
           value: "75"
-          tooltip: "Supervised ML, Unsupervised ML, Deep learning"
+          tooltip: "Collaborative filtering, natural language processing, Tableau"
         - label: "Statistical Analysis"
           value: "85"
-          tooltip: "Supervised ML, Unsupervised ML, Deep learning"
+          tooltip: "Experimentation, A/B testing, Randomized controlled trials via interactive web tutorials"
         - label: "UX/UI Web Design"
           value: "80"
-          tooltip: "Supervised ML, Unsupervised ML, Deep learning"
+          tooltip: "CSS, HTML, JavaScript"
 
     - type: "circles"
       title: "Programming"
