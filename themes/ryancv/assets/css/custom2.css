@@ -605,6 +605,7 @@ h4.cases__title.h4 {
     opacity: 0.9 !important;
     margin-left: -34px;
     backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
 }
 
 .advantages__info strong {
