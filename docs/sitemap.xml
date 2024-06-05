@@ -17,6 +17,36 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://hluebbering.github.io/blog/</loc>
+    <lastmod>2022-12-12T12:49:27+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hluebbering.github.io/categories/</loc>
+    <lastmod>2022-12-12T12:49:27+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hluebbering.github.io/categories/machine-learning/</loc>
+    <lastmod>2022-12-12T12:49:27+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hluebbering.github.io/tags/mobile/</loc>
+    <lastmod>2022-12-12T12:49:27+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hluebbering.github.io/blog/multimodal-neurons/</loc>
+    <lastmod>2022-12-12T12:49:27+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hluebbering.github.io/tags/</loc>
+    <lastmod>2022-12-12T12:49:27+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://hluebbering.github.io/portfolio/twitter-api/</loc>
     <lastmod>2022-08-10T12:49:27+06:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -37,16 +67,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hluebbering.github.io/blog/</loc>
-    <lastmod>2022-01-10T12:49:27+06:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://hluebbering.github.io/categories/</loc>
-    <lastmod>2022-01-10T12:49:27+06:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://hluebbering.github.io/categories/data-science/</loc>
     <lastmod>2022-01-10T12:49:27+06:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -57,28 +77,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hluebbering.github.io/tags/</loc>
-    <lastmod>2022-01-10T12:49:27+06:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://hluebbering.github.io/tags/website/</loc>
     <lastmod>2022-01-10T12:49:27+06:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://hluebbering.github.io/categories/machine-learning/</loc>
-    <lastmod>2021-12-12T12:49:27+06:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://hluebbering.github.io/tags/mobile/</loc>
-    <lastmod>2021-12-12T12:49:27+06:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://hluebbering.github.io/blog/multimodal-neurons/</loc>
-    <lastmod>2021-12-12T12:49:27+06:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

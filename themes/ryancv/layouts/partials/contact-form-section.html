@@ -15,14 +15,62 @@
 	<div class="keywords for--4">
 	  
         <ul class="inner">
+          
+          <!-- SOCIAL LIST ITEMS -->
                                     <li>
                 <p class="type" _msttexthash="82134" _msthash="26">socials</p>
-                <p class="value" style="color:#f0949e" _msttexthash="613522" _msthash="27">linkedin github and codepen</p>
+                
+                {{ range .list }}
+              
+              <!-- Social List Item 1 -->
+             
+                
+                <a href = "{{ .list_icon | absURL }}" target="_blank">
+              <p class="value" style="color:#f0949e" _msttexthash="613522" _msthash="27">
+                
+
+                {{ .label }}
+                
+                </p>
+              </a>
+              
+              {{ end }}
+                
+                
+                
             </li>
-                                    <li>
+            
+            
+            
+            
+            
+             <!-- CODE LIST ITEMS -->
+            
+            <li>
                 <p class="type" _msttexthash="80886" _msthash="28">code</p>
-                <p class="value" style="color:#f0949e" _msttexthash="437996" _msthash="29">codepen and github</p>
+                
+                {{ range .list2 }}
+              
+              <!-- Social List Item 1 -->
+             
+                
+                <a href = "{{ .list_icon | absURL }}" target="_blank">
+              <p class="value" style="color:#f0949e" _msttexthash="613522" _msthash="27">
+                
+
+                {{ .label }}
+                
+                </p>
+              </a>
+              
+              {{ end }}
+                
+                
+                
             </li>
+                                    
+                                    
+                                   
                                     <li>
                 <p class="type" _msttexthash="161187" _msthash="30">email</p>
                 <p class="value" style="color:#f0949e" _msttexthash="99411" _msthash="31">luebhr@gmail.com</p>

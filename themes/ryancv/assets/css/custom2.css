@@ -482,6 +482,13 @@ h4.cases__title.h4 {
   border: 1px solid #fbfbff;
   border-radius: 10px;
   box-shadow: 0 4px 20px #c2c2c24d;
+  
+      background-image: linear-gradient(45deg, #f7f7f8bf, transparent) !important;
+    background-image: radial-gradient(73% 147%, #eadfdf 59%, #ece2df 100%), radial-gradient(91% 146%, rgba(255, 255, 255, .5) 47%, rgba(0, 0, 0, .5) 100%) !important;
+    background-image: linear-gradient(90deg, #fcecfe, #fbf6e7, #e6fcf5) !important;
+    background-blend-mode: overlay;
+    background-blend-mode: luminosity;
+    background-color: rgba(255, 242, 242, 0.5);
 }
 
 .advantages__text.h6 {
@@ -514,6 +521,7 @@ h4.cases__title.h4 {
   display: -ms-flexbox;
   display: flex;
   display: grid;
+  overflow: hidden;
   grid-template-columns: 2fr 2fr;
 }
 

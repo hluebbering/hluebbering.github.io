@@ -70,14 +70,18 @@
      margin-bottom: 60px;
 }
  .box-item .desc .category {
-     opacity: 0.75;
-     font-size: 10px !important;
-     text-transform: uppercase !important;
-     letter-spacing: 0.125em !important;
-     font-family: Roboto, sans-serif !important;
-     text-shadow: 0.25px 0.25px 0.25px #3f4046d9, 0.35px 0.35px 0.35px #3f4046d9, 0 -1.1px 0 #0c0d1214, 0 1.2px 0 #fff;
-     color: #3f4046 !important;
-     font-weight: 300;
+    opacity: .75;
+    font-size: 10px !important;
+    text-transform: uppercase !important;
+    letter-spacing: .125em !important;
+    font-family: Roboto, sans-serif !important;
+    text-shadow: .25px .25px .25px #3f4046d9, .35px .35px .35px #3f4046d9, 0 -1.1px 0 #0c0d1214, 0 1.2px 0 #fff;
+    color: #3f4046 !important;
+    font-weight: 300;
+    font-family: open sans, sans-serif !important;
+    line-height: 1.6753;
+    letter-spacing: .16666667em !important;
+    /* text-shadow: .25pt .3pt 1pt #fafafa; */
 }
  .resume-items .resume-item .company, li .school {
      opacity: .85;
@@ -147,7 +151,7 @@
 a.logo-btn {
     content: url(/images/name1.svg) !important;
     object-fit: cover;
-    width: 150px;
+    width: 120px;
     height: auto;
     padding: 0;
     border-radius: 0;
@@ -841,7 +845,7 @@ a.logo-btn {
  .skills-list.circles ul li .name {
      top: 80%;
 }
- li.about, li.about3, li.banner {
+ li.about3, li.banner {
      display: none !important;
 }
  div#about-card .card-wrap {
@@ -1142,6 +1146,13 @@ a.logo-btn {
      left: -5.92%;
      top: -5%;
 }
+
+.content.contacts .blob-skills2 .obj-skills2, 
+.content.contacts .blob-skills2 {
+    width: 160px;
+    top: -31%;
+}
+
  .obj-skills2, .obj-vcard2 {
      width: 246px;
      height: auto;
@@ -1488,6 +1499,10 @@ a.logo-btn {
      text-transform: uppercase !important;
      display: flex;
      opacity: 1;
+     
+     font-family: 'Integral CF' !important;
+    text-shadow: 0 1px 1px #fff, 0 -1px 1px #ccc !important;
+    color: #323232 !important;
 }
 /* ******************************* */
  .content.clients .title {
@@ -2106,7 +2121,7 @@ div#about3-card {
      content: "65%";
 }
 /* ******************************* */
- .resume-title .icon, .skill-title .icon {
+ .resume-title .icon, .skill-title .icon, .title .icon {
      top: -5px;
      background-size: 75%;
      padding: 28px 15px;
@@ -2291,13 +2306,17 @@ span.lightText {
 }
 
 
+
+
 .cover-moodboard .keywords ul li .value {
-    color: #fff;
-    font-size: 20px;
-    font-size: 1.25rem;
+    font-size: 14px;
     letter-spacing: 1px;
     width: 70%;
     color: #f0949e;
+    line-height: 1.1;
+    font-family: 'Source Sans Pro';
+    font-weight: 500;
+    margin: 0 0 12px;
 }
 
 
@@ -2310,7 +2329,11 @@ span.lightText {
 }
 
 
-
+a:hover p.value {
+    color: #d84139 !important;
+    font-weight: 600 !important;
+    transform: scale(1.025);
+}
 
 /* ******************************* */
 

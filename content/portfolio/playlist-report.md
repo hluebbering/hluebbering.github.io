@@ -8,7 +8,7 @@ source: content
 image: images/works/flourish.png
 label: flourish
 button_url: #
-external_link: https://hluebbering.github.io/playlist_report/
+external_link: https://hluebbering.github.io/music-clustering/
 dateit: Jan 2023
 col1: "#c7e3e9"
 col2: "#ecf4ec"

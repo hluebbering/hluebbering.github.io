@@ -689,7 +689,7 @@ AOS.init();
 })();
 //var body = document.getElementsByTagName('advantages')[0];
 const advantages = document.querySelector('.advantages');
-advantages.style.backgroundColor = '#f2f2f2';
+//advantages.style.backgroundColor = '#f2f2f2';
 const profile = document.querySelector('.profile');
 profile.style.backgroundColor = '#f2f2f2';
 const skillSection = document.querySelector('div#about2-card');
@@ -702,31 +702,32 @@ window.onscroll = function(event) {
 		skillSection.style.backgroundColor = "#eacfcf80";
 	} else if (scroll >= 300 && scroll < 600) {
 		profile.style.backgroundColor = "#eacfcf";
-		advantages.style.backgroundColor = "#f2f2f2"; // About 1
+		advantages.style.backgroundColor = "#fff2f280"; // About 1
 		skillSection.style.backgroundColor = "#efe2e280";
 	} else if (scroll >= 600 && scroll < 1200) {
 		profile.style.backgroundColor = "#efe2e2";
-		advantages.style.backgroundColor = "#f2f2f2"; // About 2
+		//advantages.style.backgroundColor = "#f2f2f2"; // About 2
 		skillSection.style.backgroundColor = "#fff2f280";
 	} else if (scroll >= 1200 && scroll < 1800) {
 		profile.style.backgroundColor = "white";
-		advantages.style.backgroundColor = "#eaeaec"; // About 3
+		//advantages.style.backgroundColor = "#eaeaec"; // About 3
 		skillSection.style.backgroundColor = "#fff2f280";
 	} else if (scroll >= 1800 && scroll < 2500) {
 		profile.style.backgroundColor = "white";
-		advantages.style.backgroundColor = "#eaeaec"; // About 4
+		//advantages.style.backgroundColor = "#eaeaec"; // About 4
 		skillSection.style.backgroundColor = "#ffb7af80";
 	} else if (scroll >= 2500 && scroll < 3100) {
 		profile.style.backgroundColor = "white";
-		advantages.style.backgroundColor = "#eaeaec"; // About 5
+		//advantages.style.backgroundColor = "#eaeaec"; // About 5
 		skillSection.style.backgroundColor = "#ffb7af80";
 	} else if (scroll >= 3100 && scroll < 3700) {
 		profile.style.backgroundColor = "white";
-		advantages.style.backgroundColor = "#f2f2f2"; // About
+		//advantages.style.backgroundColor = "#f2f2f2"; // About
 		skillSection.style.backgroundColor = "#ffbedf80";
 	} else {
 		profile.style.backgroundColor = "white";
-		advantages.style.backgroundColor = "#f2f2f2";
+		//advantages.style.backgroundColor = "#f2f2f2";
+		advantages.style.backgroundColor = "#fff2f280";
 		skillSection.style.backgroundColor = "#f5655480";
 	}
 };

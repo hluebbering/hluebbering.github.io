@@ -28,7 +28,7 @@ DefaultContentLanguage = "en"
     builder = [
     "testimonials"
     ]
-    
+
 [[menu.main]]
   identifier = "banner"
   name = "Banner"
@@ -39,34 +39,25 @@ DefaultContentLanguage = "en"
     builder = [
       "banner"
     ]
-    
+
 #[[menu.main]]
-#  identifier = "about3"
+#  identifier = "about2"
 #  name = "About"
 #  pre = "fa-duotone fa-user"
 #  url = "#about-card"
 #  weight = 3
 #  [menu.main.params]
 #    builder = [
-#     "services"
+#      "skills"
+##      "facts",
 #    ]
-[[menu.main]]
-  identifier = "about2"
-  name = "About"
-  pre = "fa-duotone fa-user"
-  url = "#about-card"
-  weight = 3
-  [menu.main.params]
-    builder = [
-      "skills"
-#      "facts",
-    ]
+
 [[menu.main]]
   identifier = "works"
   name = "Projects"
   pre = "fa-duotone fa-window"
   url = "#works-card"
-  weight = 4
+  weight = 3
   [menu.main.params]
     builder = [
       "portfolio"
@@ -76,7 +67,7 @@ DefaultContentLanguage = "en"
   name = "Posts"
   pre = "fa-duotone fa-pencil"
   url = "#blog-card"
-  weight = 5
+  weight = 4
   [menu.main.params]
     builder = [
       "blog"
@@ -86,19 +77,19 @@ DefaultContentLanguage = "en"
   name = "Contact"
   pre = "fa-duotone fa-paper-plane"
   url = "#contacts-card"
-  weight = 6
+  weight = 5
   [menu.main.params]
     builder = [
       "contact-form"
     ]
 
 
-# [[menu.main]]
+#[[menu.main]]
 #  identifier = "gallery"
 #  name = "Gallery"
 #  pre = "fa-duotone fa-paper-plane"
 #  url = "#gallery-card"
-#  weight = 8
+#  weight = 6
 #  [menu.main.params]
 #    builder = [
 #      "gallery"

@@ -11,13 +11,13 @@ testimonials:
   rightimg: "images/new/final/brush1-min.png"
   #rightimg2: "images/new/final/collage1.png"
   text: "
-        I am a <strong>data scientist</strong> particularly interested in the intersection of 
-        <strong>mathematical modeling</strong>, computing, and user interface design.
-        I specialize in synthesizing insights from data using various 
-        <strong>programming</strong> languages and developing cutting-edge, user-centric 
-        platforms.
+        Data scientist with a creative flair and mathematical edge. <br>
+        I turn data into insights, code into solutions, and designs into sleek interfaces. 
+        Love making the complex simple and fun. Explore my work!
         "
+        
   subtitle1: "Education"
+  skillsico: "images/icons and logos/find1.png"
   items:
     - label: "2021 - 2023"
       degree: "MS, Data Science"
@@ -32,13 +32,13 @@ testimonials:
       extra: "Association for Women in Mathematics, Executive"
   subtitle2: "Interests"
   list:
-    - label: "Mathematics & Physics"
+    - label: "Mathematical Modeling"
       list_icon: "images/icons and logos/calculator1.png"
-    - label: "Artificial Intelligence"
+    - label: "Machine Learning"
       list_icon: "images/icons and logos/ml2A.png"
-    - label: "Quantum Technology"
+    - label: "Data Engineering"
       list_icon: "images/icons and logos/physics1.png"
-    - label: "Space Exploration"
+    - label: "UX/UI Web Design"
       list_icon: "images/icons and logos/rocketship1.png"
 
 
@@ -393,5 +393,23 @@ contacts:
   rightimg: "images/bgs/live-001.png"
   contactblob1: "images/new/final/myclip1.png"
   contactblob2: "images/new/final/VintageRose_26.png"
+  list:
+    - label: "LinkedIn"
+      list_icon: "https://www.linkedin.com/in/hannahluebbering/"
+    - label: "ResearchGate"
+      list_icon: "https://www.researchgate.net/profile/Hannah-Luebbering"
+    - label: "Spotify"
+      list_icon: "https://open.spotify.com/user/hannahluebbering?si=a49b62425e0a45c6"
+    - label: "Pinterest"
+      list_icon: "https://pin.it/57csg5cek"
+    - label: "Instagram"
+      list_icon: "https://www.instagram.com/hannahluebbering/"
+  list2:
+    - label: "Github"
+      list_icon: "https://github.com/hluebbering"
+    - label: "CodePen"
+      list_icon: "https://codepen.io/hluebbering"
+    - label: "CodeWars"
+      list_icon: "https://www.codewars.com/users/hluebbering/stats"
   
   
