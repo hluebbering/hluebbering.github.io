@@ -5,7 +5,7 @@ category: Mathematics
 category_color: "#eb2139"
 category_slug: mathematics
 source: content
-image: images/works/waveform3.png
+image: images/works/waveform3.webp
 col1: "#e58ac5"
 col2: "#d7d2ef"
 grad3: "linear-gradient(to right, #ee9ca7, #ffdde1)"

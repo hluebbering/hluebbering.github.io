@@ -5,7 +5,7 @@ category: Statistics
 category_color: "#cd5b9f"
 category_slug: machine_learning
 source: content
-image: images/works/spotify_analysis.jpeg
+image: images/works/spotify_analysis.webp
 button_url: #
 dateit: Jan 2022
 col1: "#c7e3e9"

@@ -5,7 +5,7 @@ category: Data Science
 category_color: "#ffaebc"
 category_slug: data_science
 source: content
-image: images/works/exploratory_analysis.jpeg
+image: images/works/exploratory_analysis.webp
 button_url: #
 external_link: https://hluebbering.github.io/exploratory-analysis/
 dateit: Nov 2021

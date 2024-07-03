@@ -7,8 +7,8 @@
 testimonials:
   title: "About Me"
   aboutico: "images/bgs/info-001.png"
-  leftimg: "images/new/final/abstractLines1.png"
-  rightimg: "images/new/final/brush1-min.png"
+  leftimg: "images/new/final/abstractLines1.webp" 
+  rightimg: "images/new/final/brush1-min.webp" # "images/new/final/brush1-min.png"
   #rightimg2: "images/new/final/collage1.png"
   text: "
         Data scientist with a creative flair and mathematical edge. <br>
@@ -33,13 +33,13 @@ testimonials:
   subtitle2: "Interests"
   list:
     - label: "Mathematical Modeling"
-      list_icon: "images/icons and logos/calculator1.png"
+      list_icon: "images/icons and logos/calculator1.webp"
     - label: "Machine Learning"
-      list_icon: "images/icons and logos/ml2A.png"
+      list_icon: "images/icons and logos/ml2A.webp"
     - label: "Data Engineering"
-      list_icon: "images/icons and logos/physics1.png"
+      list_icon: "images/icons and logos/physics1.webp"
     - label: "UX/UI Web Design"
-      list_icon: "images/icons and logos/rocketship1.png"
+      list_icon: "images/icons and logos/rocketship1.webp"
 
 
 ### Testimonials [ testimonials ]
@@ -79,7 +79,7 @@ about:
   title: "About Me"
   aboutbg: "images/new/final/brush1.png"
   aboutico: "images/bgs/info-001.png"
-  aboutblob1: "images/new/final/abstractLines1.png"
+  aboutblob1: "images/new/final/abstractLines1.webp"
   text: "
         <p>
         I am a data scientist particularly interested in the intersection of 
@@ -106,7 +106,7 @@ about:
 banner:
   external_link: "images/luebbering_resume.pdf"
   bannerimg: "images/new/final/019.webp"
-  imgbtn: "images/new/final/brush6.png"
+  imgbtn: "images/new/final/brush6.webp"
   items:
     - imgcon: "images/new/final/collage1.png"
     
@@ -116,7 +116,7 @@ banner:
 iconcase:
   title: "About Me"
   external_link: "Hello! I am Hannah Luebbering."
-  leftimg: "images/new/final/abstractLines1.png"
+  leftimg: "images/new/final/abstractLines1.webp" # images/new/final/abstractLines1.png
   text: "
         I am a data scientist particularly interested in the intersection of 
         mathematical modeling, computing, and user interface design. My 
@@ -128,7 +128,7 @@ iconcase:
   items:
     - imgcon: "images/new/final/collage1.png"
     - imgcon: "images/icons and logos/retro_heart4.png"
-    - imgcon: "images/icons and logos/rocketship1.png"
+    - imgcon: "images/icons and logos/rocketship1.webp"
     - imgcon: "images/icons and logos/retro_heart5.png"
     - imgcon: "images/icons and logos/radio1.png"
     - imgcon: "images/icons and logos/planet2.png"
@@ -137,12 +137,12 @@ iconcase:
 services:
   title: "My Services"
   servicesblob1: "images/new/final/dots1.png" # flower1.png
-  servicesblob3: "images/new/final/VintageRose_26.png"
+  servicesblob3: "images/new/final/VintageRose_26.webp"
   items:
     - icon: "ion-code"
       name: "Mathematical Modeling"
       text: "Built interactive models exploiting contextual information & complex scientific phenomena."
-      service_icon: "images/icons and logos/calculator1.png"
+      service_icon: "images/icons and logos/calculator1.webp"
       col1: "#c7e3e9"
       col2: "#ecf4ec"
 
@@ -380,9 +380,9 @@ portfolio:
 blog:
   title: "Recent Posts"
   blogico: "images/new/final/brush9.png"
-  blogico: "images/bgs/new-006.png"
-  blogblob1: "images/new/final/cut12.png"
-  blogblob2: "images/new/final/cut20.png"
+  blogico: "images/bgs/new-006.webp"
+  blogblob1: "images/new/final/cut12.webp"
+  blogblob2: "images/new/final/cut20.webp"
 
 
 
@@ -391,8 +391,8 @@ contacts:
   title: "Contact Form"
   contactico: "images/bgs/live-001.png"
   rightimg: "images/bgs/live-001.png"
-  contactblob1: "images/new/final/myclip1.png"
-  contactblob2: "images/new/final/VintageRose_26.png"
+  contactblob1: "images/new/final/myclip1.webp"
+  contactblob2: "images/new/final/VintageRose_26.webp"
   list:
     - label: "LinkedIn"
       list_icon: "https://www.linkedin.com/in/hannahluebbering/"
