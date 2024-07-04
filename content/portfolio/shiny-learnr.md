@@ -5,7 +5,7 @@ category: Web Development
 category_color: "#2b5162"
 category_slug: web_development
 source: content
-image: images/works/shiny_learnr.jpg
+image: images/works/shiny_learnr.webp
 button_url: #
 external_link: https://hluebbering.github.io/shiny-learnr-study/
 dateit: June 2020

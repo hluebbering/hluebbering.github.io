@@ -6,7 +6,7 @@
 ### Testimonials [ testimonials ]
 testimonials:
   title: "About Me"
-  aboutico: "images/bgs/info-001.png"
+  aboutico: "images/bgs/info-001.webp"
   leftimg: "images/new/final/abstractLines1.webp" 
   rightimg: "images/new/final/brush1-min.webp" # "images/new/final/brush1-min.png"
   #rightimg2: "images/new/final/collage1.png"
@@ -17,7 +17,7 @@ testimonials:
         "
         
   subtitle1: "Education"
-  skillsico: "images/icons and logos/find1.png"
+  skillsico: "images/icons and logos/find1.webp"
   items:
     - label: "2021 - 2023"
       degree: "MS, Data Science"
@@ -78,7 +78,7 @@ gallery:
 about:
   title: "About Me"
   aboutbg: "images/new/final/brush1.png"
-  aboutico: "images/bgs/info-001.png"
+  aboutico: "images/bgs/info-001.webp" # info-001.png
   aboutblob1: "images/new/final/abstractLines1.webp"
   text: "
         <p>
@@ -318,7 +318,7 @@ skills:
   columns:
     - type: "default" 
       title: "Skills"
-      skillsico: "images/icons and logos/find1.png"
+      skillsico: "images/icons and logos/find1.webp" # find1.png
       icon: "ion-easel"
       items:
         - label: "Mathematical Modeling"

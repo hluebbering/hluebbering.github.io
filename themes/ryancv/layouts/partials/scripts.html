@@ -16,7 +16,6 @@
 <script src="{{ "plugins/isotope/isotope.pkgd.js" | absURL }}" defer></script>
 
 <script src="{{ "plugins/rrssb/rrssb.js" | absURL }}" defer></script>
--->
 
 
 <script type="module">
@@ -24,17 +23,18 @@ requestIdleCallback(() => {
 	import("{{ "plugins/owl-carousel/owl.carousel.js" | absURL }}");
 });
 </script>
+-->
 
 
+<!--<script src="{{ "js/common.js" | absURL }}" defer></script>
+<script src="{{ "js/app.js" | absURL }}" defer></script>-->
+{{ $script1 := resources.Get "js/app.js" | minify }}
+<script src="{{ $script1.Permalink }}" defer></script>
 
-<!--<script src="{{ "js/common.js" | absURL }}" defer></script>-->
-<script src="{{ "js/app.js" | absURL }}" defer></script>
 
-
-
-
+<!--
 {{ $formhandler := resources.Get "js/form-handler.js" | minify }}
-<script src="{{ $formhandler.Permalink }}" defer></script>
+<script src="{{ $formhandler.Permalink }}" defer></script>-->
 
 {{ $script := resources.Get "js/common.js" | minify }}
 <script src="{{ $script.Permalink }}" defer></script>

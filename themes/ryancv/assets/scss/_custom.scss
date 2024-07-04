@@ -122,10 +122,10 @@
      justify-content: center;
      align-items: center;
 }
- a.logo-btn::before {
+/*a.logo-btn::before {
      content: "HL";
      padding: 5px;
-     background: url(/images/new/final/7.png) !important;
+     background: url(/images/new/final/7.webp) !important;
      background-size: 140% !important;
      background-position: 50% !important;
      border-radius: 50% !important;
@@ -146,10 +146,10 @@
      line-height: 2;
      font-family: "Source Sans Pro";
 }
-
+*/
 
 a.logo-btn {
-    content: url(/images/name1.svg) !important;
+    content: url(/images/my_name_pink.webp) !important; 
     object-fit: cover;
     width: 120px;
     height: auto;
