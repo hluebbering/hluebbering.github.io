@@ -374,7 +374,7 @@ skills:
 ### Portfolio [ portfolio ]
 portfolio:
   title: "Projects"
-  projectico: "images/bgs/live-001.png"
+  projectico: "images/bgs/live-001.webp"
 
 ### Blog [ blog ]
 blog:
@@ -389,8 +389,8 @@ blog:
 ### Contact Form [ contacts-form ]
 contacts:
   title: "Contact Form"
-  contactico: "images/bgs/live-001.png"
-  rightimg: "images/bgs/live-001.png"
+  contactico: "images/bgs/live-001.webp"
+  rightimg: "images/bgs/live-001.webp"
   contactblob1: "images/new/final/myclip1.webp"
   contactblob2: "images/new/final/VintageRose_26.webp"
   list:

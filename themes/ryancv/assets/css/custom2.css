@@ -4,12 +4,21 @@
   padding: 0 107px;
 }
 
+
 .about__figure {
   position: absolute;
   top: -18%;
   left: -6%;
   width: 50%;
   font-size: 0;
+}
+
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 /* Slider */
