@@ -34,7 +34,7 @@
 	    
 	    <!-- PRELOAD LARGE IMAGE -->
 	    <!-- PRELOAD LARGE IMAGE -->
-	    <link rel="preload" href="{{ .bgimage | absURL }}" as="image" fetchpriority="high">
+	    
 	    <link rel="preload" fetchpriority="high" as="image" href="{{ "images/new/final/shadow.webp" | absURL }}" type="image/webp" />
 
 
@@ -45,6 +45,7 @@
     {{ "<!-- profile photo -->" | safeHTML }}
     {{ if .photo }}
     <div class = "ava">
+      <link rel="preload" href="{{ .bgimage | absURL }}" as="image" fetchpriority="high">
     <div class = "avatar-img" fetchpriority="high" style="background-image: url({{ .bgimage | absURL }});"></div>
     <div class="avatar-frame" style = "background-image: url({{ .photo | absURL }}) !important;"></div>
     
