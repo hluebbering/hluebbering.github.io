@@ -3,6 +3,11 @@
 
 {{ "<!-- Banner -->" | safeHTML }}
 
+<!-- PRELOAD LARGE IMAGE -->
+<!-- PRELOAD LARGE IMAGE -->
+<link rel="preload" href="{{ .bannerimg | absURL }}" as="image" fetchpriority="high">
+<link rel="preload" fetchpriority="high" as="image" href="{{ "images/new/final/019.webp" | absURL }}" type="image/webp" />
+
 <div class="talent talent_case" style = "margin-bottom: 30px;">
     <div class="talent__center center">
         <div class="talent__container" style = "background-image: url({{ .bannerimg | absURL }}); background-size: cover; background-position: 50% 50%; height: 420px;">

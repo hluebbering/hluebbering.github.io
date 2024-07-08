@@ -6,6 +6,8 @@ category_color: "#fda184"
 category_slug: mathematics
 source: content
 image: images/works/model_neurons.webp
+width: 240
+height: 110
 button_url: #
 external_link: https://hluebbering.github.io/model-neurons/
 dateit: Dec 2020

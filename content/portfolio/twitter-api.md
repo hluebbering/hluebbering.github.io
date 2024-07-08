@@ -6,6 +6,8 @@ category_color: "#5e76bf"
 category_slug: data_science
 source: content
 image: images/works/twitter_api2.webp
+width: 256
+height: 221
 dateit: Aug 2022
 col1: "#c7e3e9"
 col2: "#ecf4ec"

@@ -6,6 +6,10 @@ category_color: "#dcdcd9"
 category_slug: machine_learning
 source: content
 image: images/works/flourish.webp
+image_set1: images/works/flourish.webp?w=256&h=139
+image_set2: images/works/flourish.webp?w=720&h=391
+width: 256
+height: 139
 label: flourish
 button_url: #
 external_link: https://hluebbering.github.io/music-clustering/

@@ -5,7 +5,9 @@ category: Machine Learning
 category_color: "#f583f2"
 category_slug: machine_learning
 source: content
-image: images/works/stat_ml.jpeg
+image: images/works/stat_ml.webp
+width: 240
+height: 109
 button_url: #
 external_link: https://hluebbering.github.io/statistical-machine-learning/
 dateit: May 2022

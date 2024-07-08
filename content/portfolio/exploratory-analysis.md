@@ -6,6 +6,8 @@ category_color: "#ffaebc"
 category_slug: data_science
 source: content
 image: images/works/exploratory_analysis.webp
+width: 235
+height: 110
 button_url: #
 external_link: https://hluebbering.github.io/exploratory-analysis/
 dateit: Nov 2021

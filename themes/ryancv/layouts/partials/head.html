@@ -33,7 +33,9 @@
   
   <link rel="preload" as="style" onload="this.rel = 'stylesheet'" href='{{ "fonts/fonts.css" | absURL }}'>
   <noscript><link rel="stylesheet" href="{{ "fonts/fonts.css" | absURL }}"></noscript>
-  
+
+
+
   
   {{ "<!-- Icons -->" | safeHTML }}
   <!--<link rel="preload" as="style" onload="this.rel = 'stylesheet'" href='https://use.fontawesome.com/releases/v5.8.0/css/all.css'>
@@ -135,6 +137,13 @@
   <link rel="shortcut icon" href="{{ "images/favicon/favicon.ico" | absURL }}" type="image/x-icon" />
   <link rel="icon" href="{{ "images/favicon/favicon.ico" | absURL }}" type="image/x-icon" />
   
+  
+
+<!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
+<link rel="preload" fetchpriority="high" as="image" href="{{ "images/new/final/shadow.webp" | absURL }}" type="image/webp" />
+
+
+
 
   <!--<script src="https://kit.fontawesome.com/a2b3fc39a2.js" crossorigin="anonymous" defer></script>-->
   

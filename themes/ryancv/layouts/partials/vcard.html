@@ -32,8 +32,12 @@
 	    <div class = "obj-vcard2" style="content: url({{ .vcardblob2 | absURL }}); width: 200px;"></div>
 	    </div>
 	    
-	    
-	    
+	    <!-- PRELOAD LARGE IMAGE -->
+	    <!-- PRELOAD LARGE IMAGE -->
+	    <link rel="preload" href="{{ .bgimage | absURL }}" as="image" fetchpriority="high">
+	    <link rel="preload" fetchpriority="high" as="image" href="{{ "images/new/final/shadow.webp" | absURL }}" type="image/webp" />
+
+
 	    
     {{ "<!-- profile image -->" | safeHTML }}
     <div class="slidee" style="background-image: url({{ .bgimage | absURL }});"></div>
@@ -41,7 +45,7 @@
     {{ "<!-- profile photo -->" | safeHTML }}
     {{ if .photo }}
     <div class = "ava">
-    <div class = "avatar-img" style="background-image: url({{ .bgimage | absURL }});"></div>
+    <div class = "avatar-img" fetchpriority="high" style="background-image: url({{ .bgimage | absURL }});"></div>
     <div class="avatar-frame" style = "background-image: url({{ .photo | absURL }}) !important;"></div>
     
     {{ "<!-- profile buttons -->" | safeHTML }}
