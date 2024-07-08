@@ -139,8 +139,10 @@
   
   
 
-<!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
-<link rel="preload" fetchpriority="high" as="image" href="{{ "images/new/final/shadow.webp" | absURL }}" type="image/webp" />
+<!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. 
+<link rel="preload" fetchpriority="high" as="image" href="{{ "images/new/final/shadow.webp" | absURL }}" type="image/webp" /> -->
+
+<link rel="preload" as="image" href='{{ "images/new/final/shadow.webp" | absURL }}'>
 
 
 
