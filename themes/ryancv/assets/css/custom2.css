@@ -375,7 +375,7 @@ h4.cases__title.h4 {
     color: #606060;
     font-size: 14px!important;
     font-family: Inter;
-    font-family: Source Sans Pro;
+    font-family: source-sans-pro, sans-serif;
     letter-spacing: -.25px;
     text-shadow: 0.25px 0.25px 0.25px #3f4046d9, 0.35px 0.35px 0.35px #3f4046d9, 0 -1.1px 0 #0c0d1214, 0 1.2px 0 #fff;
     font-weight: 300;
@@ -659,7 +659,7 @@ h4.cases__title.h4 {
     letter-spacing: -.01em;
     line-height: 1.32;
     color: #222;
-    font-family: source sans pro,sans-serif !important;
+    font-family: source-sans-pro,sans-serif !important;
 }*/
 
 
@@ -713,7 +713,7 @@ h4.cases__title.h4 {
 }
 
 .advantages__preview .advantages__pic {
-      width: 30px;
+    /*width: 30px;*/
     filter: drop-shadow(0.5px 0.75px 0.75px black) saturate(1.25) contrast(1.05);
     height: 30px;
     display: flex;
@@ -3318,10 +3318,9 @@ body[data-aos-delay="3000"] [data-aos].aos-animate {
     margin-bottom: 48px;
   }*/
 
-  .advantages__preview .advantages__pic {
+  /*.advantages__preview .advantages__pic {
     width: 32px;
-    
-  }
+  }*/
 
   .advantages .line {
     top: -50px;
@@ -3829,7 +3828,7 @@ span.ion.fas.fa-download.mr-2 {
   }
 
   .advantages__preview .advantages__pic {
-    width: 25px;
+    /*width: 25px;*/
     height: 25px;
   }
 
